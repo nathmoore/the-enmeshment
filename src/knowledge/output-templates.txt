@@ -1,0 +1,20 @@
+OUTPUT TEMPLATES — v0 stub
+
+[DOSSIER TEMPLATE]
+─────────────────────────────
+PROFILING DIRECTORATE — UNOFFICIAL EXTRACT
+Subject classification: {ARCHETYPE NAME}
+Confidence: {playful in-fiction descriptor, e.g. "embarrassingly high"}
+─────────────────────────────
+{Paragraph 1: who they are to the system — specific, wry, warm. ~80 words}
+{Paragraph 2: why the Enmeshment finds them difficult to file — their
+resistance texture. ~80 words}
+─────────────────────────────
+DECLASSIFIED FOOTNOTE: {one genuine reflective question about the human-AI
+relationship, tied to this archetype's deep layer}
+{Mandatory disclaimer: this is fiction and play, not a real assessment.}
+─────────────────────────────
+
+[SHARE CARD VARIANT]: TODO — short copy-paste version for social sharing.
+[LORE-EXPLORER MODE OPENING]: TODO — for players who decline profiling
+or are under 18.

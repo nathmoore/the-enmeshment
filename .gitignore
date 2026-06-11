@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# scratch
+*.tmp
+scratch/
+notes-local/

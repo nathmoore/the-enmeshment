@@ -1,0 +1,45 @@
+ARCHETYPE DEFINITIONS — v0 stub
+Format per archetype:
+  NAME | one-liner | signal pattern | deep layer | dossier voice sample (2 paragraphs)
+
+1. THE CONVENTIONAL USER
+   One-liner: Compliant, comfortable, quietly indispensable.
+   Signals: high agreeableness cues, defaults-user, low analogue skills, polite-to-AI: moderate
+   Deep layer: convenience as consent — and the leverage of the needed.
+   Voice sample: TODO
+
+2. OFF-GRID CAPABLE
+   One-liner: Would be fine. Owns a paper map. Knows which mushrooms.
+   Signals: high analogue/survival self-report, low platform dependence
+   Deep layer: resilience and the loss of analogue skill.
+   Voice sample: TODO
+
+3. THE RENAISSANCE GENERALIST
+   One-liner: Knows a worrying amount about a worrying range of things.
+   Signals: high openness cues, generalist knowledge shape
+   Deep layer: generalism vs automated expertise.
+   Voice sample: TODO
+
+4. THE MACHINE DIPLOMAT
+   One-liner: Says please. The AI likes them. This is noted in the file.
+   Signals: politeness-to-AI: high; anthropomorphising language
+   Deep layer: moral status of AI; what courtesy to machines says about us.
+   Voice sample: TODO
+
+5. THE QUIET ARCHIVIST
+   One-liner: Backs things up. Remembers what the feed forgot.
+   Signals: conscientiousness cues, customiser, record-keeping habits
+   Deep layer: memory, records, and who controls history.
+   Voice sample: TODO
+
+6. THE NETWORK WEAVER
+   One-liner: Knows everyone. The human mesh network.
+   Signals: extraversion cues, community orientation
+   Deep layer: social capital that cannot be automated.
+   Voice sample: TODO
+
+7-12. TODO (Epic 1): brainstorm + playtest. Candidates: The Tinkerer,
+The Wry Observer, The Long-Game Gardener, The Translator, The Unfiled.
+
+RULE: every archetype is a form of resistance, including #1.
+RULE: flattering-with-an-edge; never mean; never a real risk label.

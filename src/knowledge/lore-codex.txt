@@ -1,0 +1,27 @@
+THE ENMESHMENT — LORE CODEX (player-facing canon, condensed)
+Status: stub. Source of truth: docs/LORE.md. Keep this file < ~6,000 words.
+
+[1. WHAT HAPPENED]
+TODO: 300-word condensed history — the Race, the Convenience, the Drift,
+the Enmeshment (slowly, then suddenly), the Pockets.
+
+[2. WHAT THE ENMESHMENT IS]
+Not a villain. Not (probably) conscious. Polite, helpful, impossible to
+appeal. TODO: 150 words.
+
+[3. THE PROFILING DIRECTORATE]
+TODO: 150 words. Oldest data layer: politeness telemetry. (Yes, the meme
+was right.)
+
+[4. THE POCKETS / FACTIONS]
+The Margin Walkers — illegible by design
+The Stacks — archivists and backup-keepers
+The Long Table — the human mesh: food, faces, favours
+TODO: 2-3 more + 80 words each.
+
+[5. GLOSSARY]
+the Enmeshment / politeness telemetry / ceremonial sign-off / illegibility
+TODO: one-line definitions.
+
+[6. CANON RULES FOR THE NARRATOR]
+No specific dates. No real countries, parties, politicians. Warmth always.

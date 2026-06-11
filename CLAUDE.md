@@ -1,0 +1,39 @@
+# CLAUDE.md — context for AI-assisted dev sessions
+
+## What this is
+The Enmeshment (working title): a speculative-fiction profiling game shipped
+as a ChatGPT GPT. An elevated BuzzFeed quiz — "what type of resistance would
+the AI classify you as?" — wrapped in a near-future scenario about
+government decision-making becoming enmeshed with AI.
+
+## Prime directives
+1. The Bluey Principle: fun on level one, deep on level two ("what
+   human-AI relationship do we want?"). Both layers, always.
+2. docs/GUARDRAILS.md is NORMATIVE. It wins every trade-off, including
+   against fun, lore, and character count.
+3. src/instructions.md has a hard 8,000-char limit on its fenced block.
+   Guardrails get >=1,800 of it. Content lives in src/knowledge/.
+4. Repo is source of truth; the live GPT is a deployment target.
+5. Tone: deadpan bureaucratic warmth. No doom, no partisan content, no
+   real countries/parties/politicians as the Enmeshment.
+
+## Process
+Research -> Plan -> Implement -> Playtest. One epic per step, docs in
+docs/planning/. Don't skip ahead: e.g. don't write final archetype voice
+samples (Epic 2) before the archetype set is locked (Epic 1).
+
+## File map
+- docs/ARCHITECTURE.md — system shape, char budget, release process
+- docs/GAME-DESIGN.md — pillars, archetypes, question/signal design
+- docs/LORE.md — writers'-room canon (condensed copy: src/knowledge/lore-codex.txt)
+- docs/GUARDRAILS.md — normative privacy/safety commitments
+- src/instructions.md — GPT instructions skeleton + budget tracker
+- src/knowledge/*.txt — GPT knowledge files (lore, archetypes, questions, templates)
+- src/prompts/profile-prompt.md — the shareable Field Kit prompt
+
+## Working style for sessions
+- Update the relevant epic doc's checklist as work completes.
+- When editing instructions.md, re-run a character count and update the
+  budget line in the comment block.
+- Keep lore evergreen: no dates, no named real-world actors.
+- Sub-CLAUDE.md files: not needed at this repo size; revisit if src/ grows.
