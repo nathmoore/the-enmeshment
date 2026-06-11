@@ -1,8 +1,14 @@
 # Epic 1 — Plan
-Status: BLOCKED (awaits Epic 0 exit) | Exit gate: all specs locked & reviewed
+Status: READY (Epic 0 core complete; awaits synthesis sign-off) | Exit gate: all specs locked & reviewed
 
 ## Goal
 Lock every design decision so Epic 2 is pure execution.
+
+> **Research readiness:** [RESEARCH-SYNTHESIS.md](../RESEARCH-SYNTHESIS.md) §"What Epic 1
+> can now lock" confirms the research supports every deliverable below. Design seeds
+> (archetype axes, "what the Enmeshment sees" notes) live in MECHANICS-RESEARCH §II.
+> Carry-ins from Epic 0: privacy posture + store listing (with GUARDRAILS v1.0),
+> Red Carbon story cross-reference.
 
 ## Deliverables checklist
 - [ ] Name decision (working title "The Enmeshment" — confirm or replace)
@@ -18,7 +24,7 @@ Lock every design decision so Epic 2 is pure execution.
 - [ ] GUARDRAILS.md v1.0: open questions resolved
 - [ ] Licence split confirmed (MIT code / CC BY-SA lore)
 - [ ] Release checklist + version tagging convention (ARCHITECTURE.md)
-- [ ] Decision log started (see NOTES.md)
+- [ ] Decision log maintained (see DECISIONS.md — started in Epic 0)
 
 ## Decisions to make (carry-ins)
 - One GPT or two? Faction second axis in v1? Combined Mode A+B scoring?

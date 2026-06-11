@@ -27,6 +27,11 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/GAME-DESIGN.md — pillars, archetypes, question/signal design
 - docs/LORE.md — writers'-room canon (condensed copy: src/knowledge/lore-codex.txt)
 - docs/GUARDRAILS.md — normative privacy/safety commitments
+- docs/WORLD-RESEARCH.md — world/scenario grounding (surveillance, profiling, theory, resistance dynamics)
+- docs/MECHANICS-RESEARCH.md — how the game is built (GPT format, virality, archetype design seeds)
+- docs/STORY-RESEARCH.md — narrative/genre scaffolding
+- docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
+- docs/planning/*.md — epic plans + DECISIONS.md (decision log)
 - src/instructions.md — GPT instructions skeleton + budget tracker
 - src/knowledge/*.txt — GPT knowledge files (lore, archetypes, questions, templates)
 - src/prompts/profile-prompt.md — the shareable Field Kit prompt
