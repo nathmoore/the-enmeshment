@@ -8,7 +8,7 @@
 > where dramatic irony comes from. Two of those commitments are **writers'-room
 > only** and never appear on a player-facing surface: the **dates** (canon is
 > evergreen) and the **"no one's home" answer** (canon keeps Nobody/Someone open).
-> Everything here may drift. Canon is [LORE.md](LORE.md); §8 marks what's ready to
+> Everything here may drift. Canon is [CANON.md](CANON.md); §8 marks what's ready to
 > graduate there.
 
 ---
@@ -385,7 +385,7 @@ Pockets stirring; Finale/Final Image = the present, the kindling kept dry.
 
 ## 8. Canon vs. sandbox — what graduates, what stays buried
 
-**Ready to promote to LORE.md** (survived the weave; carry the invariants; evergreen;
+**Ready to promote to CANON.md** (survived the weave; carry the invariants; evergreen;
 no real-world actors):
 - The **story engine**: the 2038-style *cusp* placement — the world caught at the
   hinge, young/overconfident/under-mapped, outcome undecided. (Promote the *shape*;
@@ -408,9 +408,14 @@ no real-world actors):
 (stage timings + the "administered, not described" end-of-Stage-2 markers, with
 sources) are real grounding, not just rationale.
 
-**Stays sandbox-only** (never on a player-facing surface): the **dates** (canon is
-evergreen — LORE §7); the **"no one's home" answer** (canon keeps Nobody/Someone
-open); in-world proper nouns until individually ratified.
+**Graduated since (now in [CANON.md](CANON.md)):** the **2038 setting** (canon is
+set in 2038, reveal per-surface — CANON §4); the **"no one's home" answer** (canon's
+working assumption is no one of consequence at the top, never resolved into someone
+in charge — CANON §1).
+
+**Stays sandbox-only:** the soft year-spacings and any date *other* than 2038; the
+lived-clock rationale (§2, promotable to WORLD-RESEARCH); in-world proper nouns
+beyond Concord until individually ratified.
 
 ---
 

@@ -1,5 +1,5 @@
 THE ENMESHMENT — LORE CODEX (player-facing canon, condensed)
-Status: stub. Source of truth: docs/LORE.md. Keep this file < ~6,000 words.
+Status: stub. Source of truth: docs/CANON.md. Keep this file < ~6,000 words.
 
 [1. WHAT HAPPENED]
 TODO: 300-word condensed history — the Race, the Convenience, the Drift,

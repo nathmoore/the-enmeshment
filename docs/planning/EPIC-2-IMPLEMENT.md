@@ -5,7 +5,7 @@ Status: BLOCKED (awaits Epic 1 exit) | Exit gate: GPT deployed privately, all co
 Write everything, build the GPT, deploy privately for playtest.
 
 ## Checklist
-- [ ] **Canon lore LEADS this epic:** complete **LORE.md** as authoritative,
+- [ ] **Canon lore LEADS this epic:** complete **CANON.md** as authoritative,
       player-safe canon (distilled from STORY-SANDBOX.md); condense + sync
       **lore-codex.txt**. Voice + scenario are upstream of dossiers, the
       instructions persona, and templates — write this first.

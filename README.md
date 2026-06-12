@@ -29,7 +29,7 @@ This repo follows a **Research → Plan → Implement → Playtest** model. One 
 |---|---|
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | How the GPT, knowledge files, and (later) GitHub Pages site fit together |
 | [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) | Design pillars, philosophy, archetype & question design |
-| [`docs/LORE.md`](docs/LORE.md) | The in-game scenario: the Enmeshment, the drift, the resistance |
+| [`docs/CANON.md`](docs/CANON.md) | The in-game scenario: the Enmeshment, the drift, the resistance |
 | [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) | Privacy & safety commitments — what we will and won't ask or output |
 | [`docs/planning/`](docs/planning/) | Epic-by-epic planning docs and running notes |
 | [`src/instructions.md`](src/instructions.md) | The GPT instructions (8,000 character budget) |

@@ -69,7 +69,7 @@ Snyder gives the genre three required ingredients:
 ## II. "Persist illegibly" — a vector, not a fourth ending
 
 The current stub docs gesture at a *worldbuilding posture* — *"resistance isn't
-war,"* *resistance = illegibility* ([LORE.md](LORE.md) §3 is a stub;
+war,"* *resistance = illegibility* ([CANON.md](CANON.md) §3 is a stub;
 [WORLD-RESEARCH.md](WORLD-RESEARCH.md) §IV). That's a stance about how the pockets exist; it
 is **not** a stated ending, and nobody has written a "stay illegible" climax.
 
@@ -134,7 +134,7 @@ and may be *right*:
 - **Surveillance-classification fiction** — *Gattaca* (illegibility as resistance),
   *Minority Report* (predictive policing), *Black Mirror: Nosedive* (social score),
   *The Lives of Others* (the Stasi watcher who grows fond — basically our defected
-  Profiling Directorate frame from LORE.md §4).
+  Profiling Directorate frame from CANON.md §4).
 
 > **What the inheritance offers (observation, not verdict):** Lineage B is the
 > richer source for a *comfortable*-AI story — courteous, helpful, possibly correct,

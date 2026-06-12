@@ -27,8 +27,8 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/GAME-DESIGN.md — pillars, archetypes, question/signal design
 - docs/STORY-SANDBOX.md — NON-CANON sandbox: the whole scenario woven specifically
   to test coherence (tentative, may drift; not authoritative)
-- docs/LORE.md — the **authoritative canon** (distilled from STORY-SANDBOX;
-  condensed copy: src/knowledge/lore-codex.txt)
+- docs/CANON.md — the **authoritative truth-set** (distilled from STORY-SANDBOX;
+  what's *true*, not all of it player-facing; condensed copy: src/knowledge/lore-codex.txt)
 - docs/GUARDRAILS.md — normative privacy/safety commitments
 - docs/WORLD-RESEARCH.md — world/scenario grounding (surveillance, profiling, theory, resistance dynamics)
 - docs/MECHANICS-RESEARCH.md — how the game is built (GPT format, virality, archetype design seeds)
@@ -42,5 +42,7 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - Update the relevant epic doc's checklist as work completes.
 - When editing instructions.md, re-run a character count and update the
   budget line in the comment block.
-- Keep lore evergreen: no dates, no named real-world actors.
+- Canon is set in 2038 (CANON.md). Keep other player-facing surfaces free of
+  *other* hard dates and named real-world actors — unless deliberately decided
+  and logged in DECISIONS.md.
 - Sub-CLAUDE.md files: not needed at this repo size; revisit if src/ grows.

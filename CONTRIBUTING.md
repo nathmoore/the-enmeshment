@@ -10,7 +10,7 @@ open — here's how to help.
 - **Archetype proposals**: open an issue using the format in
   src/knowledge/archetypes.txt. Remember: every archetype is a form of
   resistance, flattering-with-an-edge, never mean.
-- **Lore PRs**: edit docs/LORE.md. Canon rules apply (no dates, no real
+- **Lore PRs**: edit docs/CANON.md. Canon rules apply (no dates, no real
   countries/parties/politicians, warmth always).
 - **Question bank**: add questions to src/knowledge/question-bank.txt with
   signal tags. Must comply with docs/GUARDRAILS.md §1.

@@ -58,7 +58,7 @@ The Enmeshment is a **credible extrapolation, not a contrivance.** It takes the 
 - Privacy posture + store-listing detail → **Epic 1**, alongside GUARDRAILS v1.0.
 - Red Carbon (`redcarbon-game`) story cross-reference → **Epic 1** carry-in (needs the other repo).
 - Watch/read queue (STORY §VI) → ongoing; can overlap Epic 1.
-- **Note:** final LORE.md prose is intentionally an **Epic 2** deliverable — the research grounds it, but it isn't written until the scenario and archetypes are locked in Epic 1.
+- **Note:** final CANON.md prose is intentionally an **Epic 2** deliverable — the research grounds it, but it isn't written until the scenario and archetypes are locked in Epic 1.
 
 ---
 

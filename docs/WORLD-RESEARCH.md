@@ -48,7 +48,7 @@ Everything above concerns the *capability* timeline (fast precipice vs slow norm
 
 **Where we stop — and why.** The full recursive endpoint of either horizon is exactly what we reject: Horizon A's terminus is irreversible disempowerment (the precipice/doom story again); Horizon B's is a closed singleton — Bostrom's "single decision-making agency at the highest level." Our scenario extrapolates *toward* both horizons but **stops at the pre-closure threshold** — the ambiguous overlap where it is genuinely unclear whether this is rule by Nobody or rule by a hidden Someone, and where it is not yet irreversible. This is the "slowly, then suddenly" middle: already enmeshed, not yet closed; still polite, still deniable, still retaining a ceremonial human in the loop. It is the only point on the curve where *choice still exists* — which is what makes it a game rather than a lament, and keeps it inside the no-doom guardrail.
 
-> **What this means for the game:** The premise is a credible extrapolation, not a contrivance — and we can name precisely which horizon it points at. The Enmeshment is **gradual disempowerment as its mechanism, Arendt's rule by Nobody as its felt texture, and a deliberately unresolved question — Nobody, or a hidden Someone? — as its central ambiguity** (which [LORE.md](LORE.md) §3 already protects: "isn't malevolent and isn't conscious (probably)"). We stop short of the singleton's closure on purpose: the closed loop is unplayable, unfunny, and untrue to the "what relationship do we want?" question. Keep the ambiguity live — the defected profiler itself shouldn't know whether anyone is at the top. That uncertainty is the horror *and* what keeps the game apolitical: no named cabal, no named overlord, just a settling no one will admit to having decided. (Craft consequence — how to dramatise an antagonist with no one in charge — is in [STORY-RESEARCH.md](STORY-RESEARCH.md) §III.)
+> **What this means for the game:** The premise is a credible extrapolation, not a contrivance — and we can name precisely which horizon it points at. The Enmeshment is **gradual disempowerment as its mechanism, Arendt's rule by Nobody as its felt texture, and a deliberately unresolved question — Nobody, or a hidden Someone? — as its central ambiguity** (which [CANON.md](CANON.md) §3 already protects: "isn't malevolent and isn't conscious (probably)"). We stop short of the singleton's closure on purpose: the closed loop is unplayable, unfunny, and untrue to the "what relationship do we want?" question. Keep the ambiguity live — the defected profiler itself shouldn't know whether anyone is at the top. That uncertainty is the horror *and* what keeps the game apolitical: no named cabal, no named overlord, just a settling no one will admit to having decided. (Craft consequence — how to dramatise an antagonist with no one in charge — is in [STORY-RESEARCH.md](STORY-RESEARCH.md) §III.)
 
 ### The meme as canon: "be polite to the AI"
 
@@ -60,7 +60,7 @@ So the meme earns its place on **two ledgers we must not mix up:**
 - **Level one / marketing:** instantly gettable, funny, shareable — everyone has either made this joke or quietly meant it. Real value, and the safest entry to the hook. But "fun and widely shared" is *not* "evidence that people fear AI judgment."
 - **Level two / the modest, honest grounding:** the genuinely true, on-theme phenomenon is *not* that people believe in robot karma. It's that **we already calibrate our behaviour toward systems we half-suspect are recording us — and we're unsure how much we mean it.** Habit, hedge, joke, faint unease, all at once, unexamined. *That* ambiguity mirrors the game's own Nobody/Someone uncertainty.
 
-> **What this means for the game:** Use the meme as the level-one hook and the seed of the **Machine Diplomat** — but ground the level-two claim in the *unexamined ambiguity of our politeness*, not in an overstated "people fear the AI." LORE.md's "politeness telemetry" works precisely because the in-fiction system takes a casual, mixed-motive human habit and *files it as data* — funny and quietly pointed at once, without the game ever having to assert that anyone really believed. Keep the marketing fun and the credibility claim on separate ledgers.
+> **What this means for the game:** Use the meme as the level-one hook and the seed of the **Machine Diplomat** — but ground the level-two claim in the *unexamined ambiguity of our politeness*, not in an overstated "people fear the AI." CANON.md's "politeness telemetry" works precisely because the in-fiction system takes a casual, mixed-motive human habit and *files it as data* — funny and quietly pointed at once, without the game ever having to assert that anyone really believed. Keep the marketing fun and the credibility claim on separate ledgers.
 
 ---
 
@@ -410,7 +410,7 @@ This is the model for our resistance and a guardrail against a tempting wrong tu
 
 ### Concept → Phase mapping
 
-Each phase of the [LORE.md](LORE.md) timeline spine has its real-world grounding here:
+Each phase of the [CANON.md](CANON.md) timeline spine has its real-world grounding here:
 
 | Phase | Label | Primary real-world concepts |
 |---|---|---|

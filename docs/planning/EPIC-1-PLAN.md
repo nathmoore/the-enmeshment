@@ -30,13 +30,14 @@ Lock every design decision so Epic 2 is pure execution.
       containment = actuarial bet on your threshold). Pacing benchmarked against real
       generational upheavals (Industrial Rev / railways / US frontier / Meiji Japan)
       + the AI-theory bracket → mid-2030s. Adds a Save-the-Cat session beat-sheet with
-      **mask-slip timing (~75%)**. Sandbox-only: the dates + the "no one's at the top"
-      answer. Promotion candidates in §8; open tensions in §9 (privacy-flex-vs-
-      surveillance read is the live design risk).
-- [ ] **LORE.md (canon spine):** promote what survives the brainstorming into the
-      authoritative reference downstream work cites. Full prose + lore-codex.txt
-      condense = Epic 2; but the load-bearing scenario decisions Name/Output/voice
-      depend on get ratified here as they lock.
+      **mask-slip timing (~75%)**. Now graduated to canon: the 2038 setting + "no
+      one's at the top" as working assumption (CANON §1). Promotion candidates in §8;
+      open tensions in §9 (privacy-flex-vs-surveillance read is the live design risk).
+- [x] **CANON.md (canon spine):** done 2026-06-12 — [CANON.md](../CANON.md) promotes
+      the surviving facts as a *truth-set* (canon = what's true, not what's shown):
+      2038 setting, Concord-as-intake-pilot, the actuarial verdict, "no one's home"
+      as working assumption. Renamed from LORE.md; stale factions + defected-profiler
+      frame deleted. Full prose + lore-codex.txt condense = Epic 2.
 - [ ] Elicitation *spec* (Plan-level decisions only — the full playbook is an
       Epic 2 knowledge file; MECHANICS §IV already did the design thinking): lock
       the **anchor questions** (fixed backbone, incl. politeness meme), the

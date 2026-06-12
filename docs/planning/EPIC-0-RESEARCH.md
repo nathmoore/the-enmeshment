@@ -14,7 +14,7 @@ reality, not assumption.
       techno-authoritarianism, surveillance capitalism (Zuboff),
       automation bias & "moral crumple zones", Atlas of AI (Crawford),
       legibility/illegibility (Scott, Seeing Like a State) — see docs/WORLD-RESEARCH.md
-- [x] Map each concept to a phase of the LORE.md timeline spine — see WORLD-RESEARCH.md §VI table
+- [x] Map each concept to a phase of the CANON.md timeline spine — see WORLD-RESEARCH.md §VI table
 - [x] One page: "what makes our pathway different from the standard
       AI-vs-humans story" (the drift thesis; incl. AI-as-normal-technology
       triangulation) — see WORLD-RESEARCH.md §I + §VI
