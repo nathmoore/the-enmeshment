@@ -25,9 +25,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 ## File map
 - docs/ARCHITECTURE.md — system shape, char budget, release process
 - docs/GAME-DESIGN.md — pillars, archetypes, question/signal design
-- docs/STORY-TEST.md — NON-CANON sandbox: the whole scenario woven specifically
+- docs/STORY-SANDBOX.md — NON-CANON sandbox: the whole scenario woven specifically
   to test coherence (tentative, may drift; not authoritative)
-- docs/LORE.md — the **authoritative canon** (distilled from STORY-TEST;
+- docs/LORE.md — the **authoritative canon** (distilled from STORY-SANDBOX;
   condensed copy: src/knowledge/lore-codex.txt)
 - docs/GUARDRAILS.md — normative privacy/safety commitments
 - docs/WORLD-RESEARCH.md — world/scenario grounding (surveillance, profiling, theory, resistance dynamics)

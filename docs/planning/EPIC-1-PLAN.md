@@ -15,11 +15,24 @@ Lock every design decision so Epic 2 is pure execution.
 - [x] Archetype set locked: **11 types** (2026-06-12) — signal pattern + deep
       layer per type in archetypes.txt; voice samples drafted in Epic 2.
       Routability of adjacent pairs to be pressure-tested in Epic 2.
-- [ ] **STORY-TEST.md (NON-CANON sandbox — GATES Name + Output spec + voice):**
+- [x] **STORY-SANDBOX.md (NON-CANON sandbox — GATES Name + Output spec + voice):**
       weave the whole scenario together *specifically* — timeline, AI trajectory,
       the intake agent, phases, the Nobody/Someone invariant, the privacy flex —
       and stress it for contradictions. Going specific IS the coherence test (a
       thin spine hides them). Tentative + driftable; **not authoritative.**
+      **Full weave done 2026-06-12 (rewritten around a stronger story engine).**
+      Set at the **2038 cusp** — the world caught at the hinge as the state/AI line
+      finishes vanishing, *young / overconfident / under-mapped / outcome undecided*
+      (replaces the earlier static "settled plateau"). Intake agent *Concord* reframed
+      as a **pilot** riding the civic **re-allocation (jobs) stream** — "the apparatus
+      growing its first eyes." Keystone: "the system profiling you for an event it
+      can't see and you aren't planning" (trajectory = role in the unseen cascade;
+      containment = actuarial bet on your threshold). Pacing benchmarked against real
+      generational upheavals (Industrial Rev / railways / US frontier / Meiji Japan)
+      + the AI-theory bracket → mid-2030s. Adds a Save-the-Cat session beat-sheet with
+      **mask-slip timing (~75%)**. Sandbox-only: the dates + the "no one's at the top"
+      answer. Promotion candidates in §8; open tensions in §9 (privacy-flex-vs-
+      surveillance read is the live design risk).
 - [ ] **LORE.md (canon spine):** promote what survives the brainstorming into the
       authoritative reference downstream work cites. Full prose + lore-codex.txt
       condense = Epic 2; but the load-bearing scenario decisions Name/Output/voice

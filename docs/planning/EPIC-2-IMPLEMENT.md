@@ -6,7 +6,7 @@ Write everything, build the GPT, deploy privately for playtest.
 
 ## Checklist
 - [ ] **Canon lore LEADS this epic:** complete **LORE.md** as authoritative,
-      player-safe canon (distilled from STORY-TEST.md); condense + sync
+      player-safe canon (distilled from STORY-SANDBOX.md); condense + sync
       **lore-codex.txt**. Voice + scenario are upstream of dossiers, the
       instructions persona, and templates — write this first.
 - [ ] archetypes.txt: all voice samples written (2 paragraphs each)
