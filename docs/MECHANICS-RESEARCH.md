@@ -71,6 +71,8 @@ The result output is the product. Based on what makes AI personality results spr
 ## II. Design Seeds (Provisional — Epic 1 input)
 
 > **Status: PROVISIONAL — input material for Epic 1 archetype design. Nothing here is a decision. Do not write archetype voice samples or dossiers until the archetype set is locked in Epic 1. Cross-reference [GAME-DESIGN.md](GAME-DESIGN.md) §3–4, [WORLD-RESEARCH.md](WORLD-RESEARCH.md) §II–III, and [STORY-RESEARCH.md](STORY-RESEARCH.md) §IV.**
+>
+> **⚠️ Archetype names in §§A–E are SUPERSEDED (updated 2026-06-12).** They predate the Epic-1 re-cut and are NOT the live roster — they illustrate the *research mapping*, not the set. **Live set (11) + selection criteria + per-type rationale: [`../src/knowledge/archetypes.txt`](../src/knowledge/archetypes.txt)** (the source of truth). Rough crosswalk: Conventional User → Model Citizen · Machine Diplomat → Machine Companion · Network Weaver → Social Linchpin / Organiser · Quiet Archivist → Bookworm · Knowing Participant → Skeptic · Off-Grid Capable → *(no card; Tinkerer partial, "Off-Gridder" on the Epic-2 watchlist)* · Renaissance Generalist / Margin Walker → *dissolved (no direct successor)*.
 
 ---
 

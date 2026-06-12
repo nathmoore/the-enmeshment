@@ -45,7 +45,7 @@ The Enmeshment is a **credible extrapolation, not a contrivance.** It takes the 
 
 ## What Epic 1 can now lock (research is sufficient)
 
-- **Archetype set** — provisional axes, KUBARK/Big-Five mapping, and "what the Enmeshment sees" dossier notes are ready as input (MECHANICS §II). The *Knowing Participant* (ironic-but-legible) is a strong candidate addition.
+- **Archetype set** — **LOCKED 2026-06-12 at 11 types** (see [archetypes.txt](../src/knowledge/archetypes.txt) — the source of truth; the archetype *names* in MECHANICS §II are superseded). Provisional axes + KUBARK/Big-Five mapping + "what the Enmeshment sees" notes were the input (MECHANICS §II); the *Knowing Participant* (ironic-but-legible) shipped as the **Skeptic**.
 - **Question bank** — design principle and example questions are set; Epic 1 writes the full tagged bank.
 - **Classification logic** — confidence-threshold mechanic is specified; Epic 1 defines the signal→archetype rules.
 - **Output / dossier spec** — the shareable-artefact requirements (name as identity claim, the "they got me" line, footnote as share hook) are set.

@@ -12,8 +12,9 @@ Lock every design decision so Epic 2 is pure execution.
 
 ## Deliverables checklist
 - [ ] Name decision (working title "The Enmeshment" — confirm or replace)
-- [ ] Archetype set locked: 8-12, each with signal pattern + deep layer
-      (voice samples drafted in Epic 2)
+- [x] Archetype set locked: **11 types** (2026-06-12) — signal pattern + deep
+      layer per type in archetypes.txt; voice samples drafted in Epic 2.
+      Routability of adjacent pairs to be pressure-tested in Epic 2.
 - [ ] Elicitation playbook (replaces the fixed question bank — see DECISIONS
       2026-06-12): oblique open-ended question *types* + interview techniques +
       the signal each reveals; a few reliable anchor questions (incl. politeness
