@@ -7,7 +7,7 @@
 
 **What type of resistance would the Enmeshment classify *you* as?**
 
-Players paste a profiling prompt into their own AI tools (or answer questions in-game), and receive a two-paragraph dossier-style classification: *Conventional User*, *Off-Grid Capable*, *Renaissance Generalist*, and more.
+Players answer a handful of oblique, in-character questions and receive a two-paragraph, dossier-style classification — a wry "leaked file" on who the Enmeshment predicts they'd be. (The archetype set is being re-cut in Epic 1.)
 
 ## The Bluey Principle
 
@@ -34,7 +34,6 @@ This repo follows a **Research → Plan → Implement → Playtest** model. One 
 | [`docs/planning/`](docs/planning/) | Epic-by-epic planning docs and running notes |
 | [`src/instructions.md`](src/instructions.md) | The GPT instructions (8,000 character budget) |
 | [`src/knowledge/`](src/knowledge/) | Knowledge files uploaded to the GPT (lore codex, archetypes, question bank, output templates) |
-| [`src/prompts/`](src/prompts/) | The shareable "paste this into your AI" profiling prompt |
 | [`CLAUDE.md`](CLAUDE.md) | Context file for AI-assisted development sessions |
 
 ## How people will experience it

@@ -34,7 +34,6 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/planning/*.md — epic plans + DECISIONS.md (decision log)
 - src/instructions.md — GPT instructions skeleton + budget tracker
 - src/knowledge/*.txt — GPT knowledge files (lore, archetypes, questions, templates)
-- src/prompts/profile-prompt.md — the shareable Field Kit prompt
 
 ## Working style for sessions
 - Update the relevant epic doc's checklist as work completes.

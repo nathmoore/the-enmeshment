@@ -16,9 +16,6 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 │       ├── question-bank.txt                         │
 │       └── output-templates.txt                      │
 ├─────────────────────────────────────────────────────┤
-│  Shareable paste-prompt (works in ANY AI tool)      │
-│  └── src/prompts/profile-prompt.md                  │
-├─────────────────────────────────────────────────────┤
 │  GitHub repo + Pages (the open kitchen)             │
 │  └── docs, lore, guardrails, conversation           │
 └─────────────────────────────────────────────────────┘
@@ -30,19 +27,21 @@ The GPT instructions field is capped at **8,000 characters**. Therefore:
 - **Knowledge files** hold all content: lore, archetype definitions, question bank, example outputs.
 - TODO (Epic 1): test how reliably the GPT retrieves from knowledge files vs. instructions, and decide what *must* live in instructions (guardrails certainly do).
 
-## 2. The two play modes
+## 2. The play mode
 
-| Mode | Flow | Why it exists |
-|---|---|---|
-| **A. Paste-prompt mode** | GPT gives player a self-profiling prompt → player runs it in their own AI tool(s) → pastes result back → GPT classifies | The meme made playable: "your AI already has a file on you" |
-| **B. In-game interview mode** | GPT asks ~6–10 in-fiction questions directly | Zero-friction path for players who don't want to leave the chat |
+Single mode: the **adaptive in-game interview**. The agent — a charming intake
+screener (see [DECISIONS](planning/DECISIONS.md) 2026-06-11) — improvises ~3–6
+oblique, in-fiction questions, diverging on the player's answers, then classifies
+at a confidence threshold (DECISIONS 2026-06-12). No questionnaire, no forms.
 
-TODO (Epic 1): decide whether Mode A result + Mode B answers can be combined into one classification.
+The former paste-prompt / "Field Kit" mode (run a prompt in your own AI, paste
+the result back) was **cut**: it invited data extraction from other tools — the
+oversharing risk we most want to avoid (MECHANICS §III). See DECISIONS 2026-06-12.
 
 ## 3. Data flow & privacy posture
 
 - No memory, no storage, no accounts. Each session is ephemeral by design.
-- The paste-prompt is engineered to elicit **persona-level signals** (Big 5 tendencies, AI-politeness habits, generalist/specialist knowledge, analogue-skills self-assessment, digital footprint *style*) — never identifying data.
+- The interview elicits only **persona-level signals** (Big 5 tendencies, AI-politeness habits, generalist/specialist knowledge, analogue-skills self-assessment, digital footprint *style*) — never identifying data.
 - See [`GUARDRAILS.md`](GUARDRAILS.md) — guardrails are enforced *in the instructions layer*, not just documented.
 
 ## 4. Source of truth & sync

@@ -14,7 +14,7 @@
 
 ```
 Hook (lore cold-open, ~3 sentences)
-  → Choose mode: paste-prompt OR in-game interview
+  → In-game interview: oblique, adaptive questions (the agent improvises)
   → Gather signals (never identity)
   → Classification reveal: archetype name + 2-paragraph dossier
   → "Declassified footnote": one genuine reflective question about AI & society
@@ -53,7 +53,7 @@ Signals we profile (persona-level only — see GUARDRAILS.md):
 - Digital usage *style* (not history): customiser vs. defaults-user, lurker vs. poster
 - Relationship-to-institutions disposition (rule-follower ↔ workaround-finder), kept apolitical
 
-TODO (Epic 1): write the question bank — in-fiction phrasing, 2–4 options each, signals tagged per option.
+TODO (Epic 1): build the elicitation playbook — oblique, open-ended question *types* (not fixed multiple-choice), interview techniques, and the signal each answer reveals. The agent improvises within it; see DECISIONS 2026-06-12.
 
 ## 5. Tone references & anti-references
 

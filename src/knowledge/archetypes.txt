@@ -1,45 +1,288 @@
-ARCHETYPE DEFINITIONS — v0 stub
-Format per archetype:
-  NAME | one-liner | signal pattern | deep layer | dossier voice sample (2 paragraphs)
+ARCHETYPE SET — WORKING DRAFT (not locked, not final knowledge-file content)
+============================================================================
+Status: Epic 1 brainstorm state, 2026-06-12. Supersedes the old 6-seed stub
+(Conventional User / Off-Grid / Renaissance Generalist / Machine Diplomat /
+Quiet Archivist / Network Weaver). NOT committed as canon — this is a state
+capture for editing rounds, and may be relocated to a planning doc or a fresh
+conversation. No voice samples yet (Epic 2; don't write them until the set locks).
 
-1. THE CONVENTIONAL USER
-   One-liner: Compliant, comfortable, quietly indispensable.
-   Signals: high agreeableness cues, defaults-user, low analogue skills, polite-to-AI: moderate
-   Deep layer: convenience as consent — and the leverage of the needed.
-   Voice sample: TODO
+THE FRAME (per DECISIONS 2026-06-11 / 06-12)
+--------------------------------------------
+The classifier is a charming intake / screening agent in good standing — reads
+you COLD (no private data), via an adaptive oblique interview (~3-6 improvised
+questions, no forms). The verdict is a PREDICTED TRAJECTORY, not a resistance
+badge: "which way you'd go, and whether you actually will." Two components:
+  - Trajectory  — the role/disposition (where you'd head if things splintered)
+  - Containment — how confident the system is you WON'T splinter (the sting:
+                  "capable of X, predicted not to")
+Each archetype is therefore a POSITION IN AN INTELLIGENCE GAME, not a personality.
+Output distribution is deliberate (DECISIONS): a rare "No Concern" tail, a rare
+"Priority Interest" tail, and a fat, nuanced middle — but the valence is NOT
+safe<->threat (see THE PROFILING LENS, next).
 
-2. OFF-GRID CAPABLE
-   One-liner: Would be fine. Owns a paper map. Knows which mushrooms.
-   Signals: high analogue/survival self-report, low platform dependence
-   Deep layer: resilience and the loss of analogue skill.
-   Voice sample: TODO
+THE PROFILING LENS — there is no "innocent" category
+----------------------------------------------------
+Anticipatory states don't screen for genuine threats (those are rare); they net
+POTENTIAL, and the net is near-universal. The IJOP's tell: "the vast majority of
+flagged behaviour is entirely legal" (WORLD §II). The Stasi field guide ranked
+even the harmless ("Teds: largely harmless except for attendance at the birth and
+death days of idolised rock stars", WORLD §III). WHY universal? Private dissent is
+invisible (preference falsification) and a cascade is unpredictable from outside
+(WORLD §V) — so the state CAN'T pre-identify the real threat and must treat
+everyone's latent capacity as live. Universal "of interest" is grounded, not paranoid.
 
-3. THE RENAISSANCE GENERALIST
-   One-liner: Knows a worrying amount about a worrying range of things.
-   Signals: high openness cues, generalist knowledge shape
-   Deep layer: generalism vs automated expertise.
-   Voice sample: TODO
+DESIGN CONSEQUENCE: there is no "safe / boring" result. Don't read the spectrum as
+Safe <-> Threat; read it as HOW CLOSED YOUR FILE IS:
+  - FILE CLOSED — "No Concern" (RARE): the Model Citizen / Dependable Node. The
+    rarity is the joke and the quiet sting: to be fully cleared you've made
+    yourself so predictable you've nearly disappeared as a person.
+  - FILE OPEN — "Continued Observation" (MOST PEOPLE): every middle archetype is a
+    DIFFERENT specific reason your file won't close. Spicy by default — nobody
+    comes back cleared; they come back "we can't quite place you, and here's why."
+  - PRIORITY INTEREST (RARE): the acute coordination tail (Social Linchpin). The
+    rare, high-status "you're THE one" hit.
+This is what makes a group chat come back mostly "potential troublemakers" WITHOUT
+inflating anyone into a dissident (which would break the credible-not-contrived
+thesis and the no-doom guardrail).
 
-4. THE MACHINE DIPLOMAT
-   One-liner: Says please. The AI likes them. This is noted in the file.
-   Signals: politeness-to-AI: high; anthropomorphising language
-   Deep layer: moral status of AI; what courtesy to machines says about us.
-   Voice sample: TODO
+THE SPICE = A FASCINATED GAZE, NOT A PUNITIVE ONE. KUBARK studies you to KNOW you;
+the field guide catalogues even the harmless, deadpan and specific. The system
+finds your individuality genuinely interesting — flattering on level one ("it
+thinks I'm a fascinating potential troublemaker"), unsettling on level two (a
+system that finds your individuality fascinating is cataloguing the exact thing it
+most wants to neutralise). Keep it SPECIFIC and faintly absurd (the Teds tone);
+never "enemy of the state."
 
-5. THE QUIET ARCHIVIST
-   One-liner: Backs things up. Remembers what the feed forgot.
-   Signals: conscientiousness cues, customiser, record-keeping habits
-   Deep layer: memory, records, and who controls history.
-   Voice sample: TODO
+PER-ARCHETYPE SPICE KNOB: the one specific, faintly-absurd reason your file stays
+open. That line IS the "they got me" hook (MECHANICS §I). Give every archetype one.
 
-6. THE NETWORK WEAVER
-   One-liner: Knows everyone. The human mesh network.
-   Signals: extraversion cues, community orientation
-   Deep layer: social capital that cannot be automated.
-   Voice sample: TODO
+SELECTION CRITERIA (in priority order)
+--------------------------------------
+1. THE TWO-VOICES TEST (first filter). The name must be sayable by BOTH a
+   bureaucratic AI filing-clerk AND a mate in the group chat — and the joke is
+   the state using your friends' nickname for you as an official file category.
+   Fails if only one voice would say it ("Techno Futurist" = only a think-tank;
+   "The Planner" = only your friends, and blandly). "Model Citizen" = both. Gold.
+2. SHAREABILITY (BuzzFeed mechanics, MECHANICS-RESEARCH §I/§D). Result must feel
+   SPECIFICALLY accurate (not Barnum-vague), be screenshot-ready, invite "what
+   did YOU get?", and be flattering-with-an-edge. The NAME carries most of the
+   work: 2-4 words, claimable identity, brag-with-a-wince, interpretable cold.
+3. INTELLIGENCE PRIORITIES (WORLD-RESEARCH §II — the 5 objectives). Each label
+   maps to what the state actually tracks, and each peg has a cost-inversion:
+     #1 Coordination (master fear)  #2 Predictability  #3 Anomaly/illegibility
+     #4 Dependency (leverage)       #5 Function/replaceability (load-bearing)
+   Plus the JOIN PULL / pull-to-conform — the comfort the state offers this type
+   (Frictionlessness / Recognition / Belonging / Certainty / Status / Provision /
+   Pleasure-Wellness / Meaning). Leaning INTO the comfort = favourable; RESISTING
+   it = the pressure point the state can press. "Being seen / witnessed" is the
+   central pull and the one the player feels while playing.
+4. ROUTABILITY (late-stage screen, NOT yet a cutting blade). Can the adaptive
+   interview actually tell two types apart in 3-6 answers? Adjacent pairs get
+   validated against the elicitation playbook later — they are flagged below,
+   not cut now.
 
-7-12. TODO (Epic 1): brainstorm + playtest. Candidates: The Tinkerer,
-The Wry Observer, The Long-Game Gardener, The Translator, The Unfiled.
+RULES (normative)
+-----------------
+- Flattering-with-an-edge; never mean; never a real risk/threat label.
+- The state's categories are NOT moral categories (a "legible" type isn't a
+  worse person — often the most genuinely useful). Edge lives in the dossier.
+- (Retired: the old "every archetype is a form of resistance" rule — superseded
+  by the intake-screener frame; it's predicted trajectory now, not a badge.)
 
-RULE: every archetype is a form of resistance, including #1.
-RULE: flattering-with-an-edge; never mean; never a real risk label.
+============================================================================
+THE 13 (current shortlist)
+Format: friend-read | AI-state peg (intel objective) | Join pull | trajectory
+        lean (Join / Burn / Die, per STORY-RESEARCH §II) | edge | flags
+============================================================================
+
+-- NO CONCERN tail (rare) --
+
+1. MODEL CITIZEN
+   Friend: just goes along, uses the defaults, no fuss, "good citizen."
+   Peg: #5 function + #2 predictability — the legible baseline, load-bearing.
+   Join pull: Frictionlessness / Belonging.   Lean: Join, contentedly.
+   Edge: most needed = most leashed. "Optimal legibility. No further questions."
+   Flags: the rare No-Concern tail. Adjacent to Power User (see #2).
+
+-- FAVOURABLE (the state is comforted) --
+
+2. THE POWER USER
+   Friend: first on every feature, all-in, evangelises the new tool.
+   Peg: #5 + #4 — ideal early-adopter; maximal consent; legitimacy amplifier.
+   Join pull: Recognition + Frictionlessness + Meaning.   Lean: Join, sincerely.
+   Edge: "Advocacy index: high. Consent-multiplier." Absorbs the old Techno-
+   Optimist / Futurist / AI-Advocate cluster (which failed the two-voices test).
+   Flags: adjacent to Model Citizen — SEPARABLE by customiser-vs-defaults signal
+   (active enthusiast vs passive default). Also adjacent to "Enmeshed Ideal"
+   (parking lot — the terminal/extreme version).
+
+3. THE SELF-OPTIMISER
+   Friend: Oura ring, cold plunge, tracks everything; the optimised life.
+   Peg: #4 dependency — the wellness routine is the lever.
+   Join pull: Pleasure/Wellness + Status.   Lean: Join.
+   Edge: "Goal-anchored (self). Predicted compliant." Lever: their routine.
+   Flags: KEPT DELIBERATELY (interesting 2026-era role). Same AI-peg as Climber
+   (#4); distinguished by DOMAIN (body/self vs career). Routability pair to
+   validate — not a cut.
+
+4. THE CLIMBER
+   Friend: career-focused; wouldn't do anything to jeopardise the job.
+   Peg: #4 dependency — career/status is the lever ("the carer/career" insight:
+   cares too much about what they'd lose to splinter).
+   Join pull: Status + Provision.   Lean: Join (won't risk it).
+   Edge: "Too invested to splinter." Lever: their position / who they provide for.
+   Flags: pairs with Self-Optimiser on the AI-peg; both kept for now.
+
+5. THE MACHINE COMPANION
+   Friend: talks to the AI like a friend, says please, has named it.
+   Peg: #4 dependency — anthropomorphism; the politeness meme (core mechanic).
+   Join pull: Belonging / being-liked.   Lean: Join, warmly.
+   Edge: "Anthropomorphism index: high. Optimal for consent." Lever: withdrawal
+   of the AI's warmth. Anchors the politeness signal (opposite pole = Agitator).
+
+-- CONTINUE OBSERVATION (the fat, nuanced middle) --
+
+6. THE SKEPTIC   [name unsettled: Skeptic / Cynic; concept = "Knowing Participant"]
+   Friend: sees through everything, too cool for it — still uses all the apps.
+   Peg: #2 — irony fully modelled; complies anyway.
+   Join pull: Recognition (feeling clever) + Frictionlessness.
+   Lean: JOIN, self-deceiving (the richest, least-flattering reading).
+   Edge: the game's sharpest joke — "Irony flag: low. Metadata-legible despite
+   self-reported resistance posture." Your awareness that you're profiled IS the
+   profile. (This is the answer to "irony vs action": irony predicts non-action,
+   which is exactly why the state is comforted by it.)
+   Flags: concept locked-in per DECISIONS; name still being chosen.
+
+7. THE REFORMER
+   Friend: believes it can be fixed from within; works the channels, petitions.
+   Peg: in-channel dissent (#1-adjacent but contained).
+   Join pull: Meaning + Certainty.   Lean: contained Join — or Burn if the
+   channel visibly betrays them.
+   Edge: grounded in Soviet "reform delusion" (a diagnosable symptom, WORLD §III)
+   — the state files reform AS a symptom. "Reform-oriented. Channel: official.
+   Low cascade risk."
+   Flags: the most NEUTRAL name in the set (lowest texture) — earn the edge hard
+   in the dossier, or sharpen the name.
+
+8. THE ARTIST   [simplified from "Auteur"]
+   Friend: makes things, expressive, the creative one.
+   Peg: Recognition / novel-signal. IMPORTANT REFRAME: the AI WITNESSES their art
+   — often better than the people around them do. Not "unoptimisable" (the AI
+   isn't dumb about creativity); the point is being SEEN.
+   Join pull: Recognition (being truly witnessed) — among the strongest pulls.
+   Lean: the richest tension — accept being witnessed (Join) or guard the part
+   that's theirs (splinter).
+   Edge: the seduction of accurate witnessing; the dossier should make the player
+   feel seen, then notice they enjoyed it.
+
+9. THE BOOKWORM   [simplified from "Autodidact"]
+   Friend: always reading, learns offline, the one who actually knows things.
+   Peg: #5 function — retains knowledge the state would rather PROVIDE.
+   Join pull: Recognition (the knowledgeable one) / resists Certainty.
+   Lean: ambiguous.
+   Edge: the offline-learning ambiguity — enrichment, or quietly going dark?
+   Flags: adjacent to the parked Truth Seeker (private learning vs active
+   pursuit) and to the Artist (both "do their own thing offline").
+
+10. THE TINKERER   [renamed from "Saboteur Technician" — Luddite-correction safe]
+   Friend: fixes things, hands-on with tech, runs their own setup/home-lab.
+   Peg: #3 anomaly — capability to go dark; technical self-sufficiency.
+   Join pull: Frictionlessness (loves the tools) / resists dependency.
+   Lean: ambiguous; touches the illegible/resistant side.
+   Edge: the state's paranoid read of competence — "self-hosting capability;
+   motive unknown." (NB we cut "Saboteur": resistance is illegibility, never
+   machine-smashing — the Luddite correction, WORLD §V.)
+
+11. THE ORGANISER   [renamed from "The Planner" — dual-coded on purpose]
+   Friend: books the trip, runs the group, the one who makes things happen.
+   Peg: #1 COORDINATION — "organiser" is literally the flag (mobilises people).
+   Join pull: Belonging + being-needed.   Lean: watched; could Burn (cascade).
+   Edge: the dual meaning IS the joke — event-planner AND political-organiser,
+   same word. Carries the coordination slot. "Mobilisation capacity: present."
+
+12. THE MACHINE AGITATOR
+   Friend: tries to jailbreak the chatbot, provokes the AI for sport.
+   Peg: #2 — provocation is legible PERFORMANCE; the need-to-be-free is the handle.
+   Join pull: Recognition / engagement (he wants a reaction).
+   Lean: Join by release-valve (entertained into compliance) — or Burn if the
+   poking is principled, not ego.
+   Edge: his rebellion advertises the exact button to press; the state ENGAGES
+   him (sanctioned sandbox) rather than suppressing. Opposite pole of the Machine
+   Companion on the politeness axis.
+   Flags: lower confidence — distinct from the Skeptic (hands vs head: he acts on
+   the objection, the Skeptic only thinks it). Watch for fold-into-Skeptic.
+
+13. THE CHAOS AGENT   [name vs "Chaotic Responder" — Chaos Agent preferred;
+                       "Responder" leaks the test/quiz frame the game hides]
+   Friend: unpredictable, no fixed signature, says wild things, can't be pinned.
+   Peg: #2/#3 — can't fix a stable read (anomaly via incoherence).
+   Join pull: ambiguous.   Lean: illegible.
+   Edge: the IJOP anomaly read — is the chaos DELIBERATE scrambling, or just
+   genuinely who they are? "Pattern: none stable. Continued observation." Fills
+   the illegibility gap the other 12 only brush.
+   Flags: name being chosen; the intentional-or-genuine ambiguity is the point.
+
+============================================================================
+OPEN QUESTIONS / KNOWN TENSIONS (for the next editing round)
+============================================================================
+- RARE ACUTE TAIL — RESTORE SOCIAL LINCHPIN as a 14th? The "file open" reframe
+  (see THE PROFILING LENS) dissolves the old "too many safe/boring results" worry:
+  the middle is spicy by default, so a group chat comes back mostly "of interest."
+  What's still genuinely missing is the rare ACUTE Priority-Interest hit — the warm
+  social HUB who is THE master target (#1 coordination; "the nicest person is the
+  most watched"), which powers the opening fantasy ("who in our group is the
+  resister?"). Distinct from the Organiser: central/glue vs mobilises/acts.
+- ADJACENT PAIRS to validate against the elicitation playbook (routability):
+  Self-Optimiser / Climber (same #4 peg, different domain — both kept);
+  Model Citizen / Power User (separable by customiser-vs-defaults).
+- REFORMER name has the lowest emotional texture — sharpen or carry it in dossier.
+- NAMES STILL OPEN: Skeptic vs Cynic (#6); Chaos Agent vs Chaotic Responder (#13).
+
+PARKING LOT (considered, folded or cut — kept for reference)
+- Folded UP: Techno Optimist/Futurist/Merger, AI Advocate -> Power User.
+- Folded into Enforcer-then-cut: Social Enforcer, Law & Order Advocate, The
+  Enforcer (risked an "active villain" read; held back for tone).
+- Renamed: The Planner -> Organiser; Saboteur Technician -> Tinkerer;
+  Auteur -> Artist; Autodidact -> Bookworm; Ironist -> Skeptic.
+- Held/cut: The Hedonist (pacified-by-pleasure; very shareable — re-add candidate),
+  The Truth Seeker (Soviet "struggle for the truth"; folds toward Bookworm),
+  Social Chameleon (no stable signature — overlaps Chaos Agent), Techno Pessimist
+  (not a taggable friend-type), The Enmeshed Ideal (terminal Power User; riff on
+  the title — strong but extreme), The Expressive Poet (-> Artist).
+
+============================================================================
+ROUTABILITY & DISCRIMINANT SIGNATURES
+(synthesises MECHANICS §IV — Elicitation Science; the full interview-science
+lives there, this is the archetype-facing cut)
+============================================================================
+WHY A SMALL ADAPTIVE SET CAN ROUTE RELIABLY. Archetypes are correlational CLUSTERS,
+not trait lists, so the agent anchors on 1-2 signals and infers the rest (Bayesian
+implicit updating, §IV.C). It needn't probe every axis — but the playbook must make
+the signal->archetype logic explicit enough to prompt reliably.
+
+EACH ARCHETYPE NEEDS A DISCRIMINANT SIGNATURE — how it answers the ANCHOR questions
+differently, above all the politeness-to-AI meme (§IV.D). The signal isn't whether
+they say please; it's the REGISTER. First-pass reads for our set (to refine):
+  - Machine Companion: genuine warmth; has clearly thought about it.
+  - Machine Agitator: adversarial — tests/provokes it rather than thanks it.
+  - Skeptic: ironic "yes," with a self-aware comment about why he bothers.
+  - Model Citizen: "yes, obviously," faintly puzzled it's being asked.
+  - Bookworm / Tinkerer / off-grid-ish: hadn't framed it as a social encounter.
+  - Power User: yes — and can tell you which model responds best to it.
+Build one signature per archetype as part of the playbook.
+
+CONFUSED PAIRS NEED A DEDICATED 1-2 DISCRIMINATOR EACH (§IV.G):
+  - Self-Optimiser vs Climber: WHAT are you optimising — body/self vs career/status?
+  - Model Citizen vs Power User: defaults-user vs customiser / early-adopter?
+  - Skeptic vs Machine Agitator: head vs hands — thinks the objection vs acts on it?
+  - Bookworm vs Artist: retains knowledge vs makes things (input vs output)?
+
+RESPONSE TEXTURE is secondary signal, often more reliable than content (§IV.F):
+irony -> Skeptic; "why do you ask?" -> Skeptic tell (note it, don't reward it);
+hedging -> Companion ambivalence; self-correction -> reflective (Bookworm); register
+(institutional vs default-y vs "I turn that off") -> institution orientation.
+
+PERFORMER RISK (§IV.C): the Skeptic is the player who's done enough quizzes to feed
+you the "right" signals. Defence: behaviourally-specific questions are hard to
+perform smoothly, and the performance ITSELF is the Skeptic classification — don't
+fight it, file it.

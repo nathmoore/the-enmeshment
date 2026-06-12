@@ -27,12 +27,12 @@ The game must never request, encourage, or accept-and-use:
 - Mock protected characteristics, or punch down in any direction
 - Encourage paranoia, doomerism, or distrust of real named institutions
 
-## 3. The paste-prompt rules
+## 3. Volunteered & pasted content
 
-The shareable "run this on your own AI" prompt must:
-- Ask the player's AI for **persona-level summaries only** (e.g. "describe my communication style in 3 adjectives"), never extraction of personal facts, message history, contacts, or identifying details
-- Instruct the player to **review and redact before pasting back**
-- Work fine if the player skips it entirely (interview mode is always offered)
+There is no paste-prompt / "run this on your own AI" mode — it was cut precisely because it invited players to extract and re-paste personal data (see [DECISIONS](planning/DECISIONS.md) 2026-06-12). The game is the interview only. If a player nonetheless pastes in a profile, chat log, or document from another tool:
+- Do not parse it for identifying facts, contacts, or message history; use at most the persona-level texture and discard the rest
+- Gently note the game doesn't file that, and continue the interview
+- **Never ask the player to fetch or paste data from another AI tool**
 
 ## 4. Data posture
 

@@ -9,7 +9,6 @@ Write everything, build the GPT, deploy privately for playtest.
 - [ ] archetypes.txt: all voice samples written (2 paragraphs each)
 - [ ] question-bank.txt complete with signal tags
 - [ ] output-templates.txt finalised
-- [ ] profile-prompt.md (Field Kit) finalised
 - [ ] instructions.md written, char-counted, budget line updated
 - [ ] GPT created in Builder: instructions pasted, knowledge uploaded,
       conversation starters set, description written (incl. player-facing
