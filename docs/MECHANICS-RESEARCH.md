@@ -154,6 +154,16 @@ GAME-DESIGN.md §4 already lists Big Five tendencies as a signal source. What th
 
 Crucially: the game shouldn't measure Big Five *directly* — it should design questions that reveal behaviours that correlate with these dimensions. "Are you organised?" is a conscientiousness question. "When your favourite app changes its interface, do you: (a) adapt immediately, (b) try to find the old version, (c) decide this is a good time to try the competitor, (d) ask someone else to deal with it" is also a conscientiousness question, but it's a dossier question.
 
+> **Demotion note (2026-06-13).** The table above maps *retired* archetype names (see the §IV banner)
+> and reads as if Big Five *scores* drive classification. For the live 11, that is **not** the model.
+> OCEAN/CANOE is a **minor supporting lens** — it may *corroborate* a read, never *define* or
+> primarily *route* one. The live engine is **character-first** (next subsection): archetypes are
+> formed characters, and routing reasons from what each character *wants and protects*, with
+> trait-direction only as occasional colour. This keeps the "who they are" layer
+> ([archetypes.txt](../src/knowledge/archetypes.txt)) free of trait mechanics and the routing layer
+> ([ELICITATION-SPEC §8](planning/ELICITATION-SPEC.md)) honest about what actually distinguishes
+> neighbours. Treat §§A–C as *input*, not the routing spec.
+
 ---
 
 ### D. What quiz mechanics research says about making archetypes work as shareable objects
@@ -178,6 +188,33 @@ Example sketch for the Quiet Archivist (provisional, do not finalise):
 - *Pull-to-conform:* Being told what to remember. The relief of not having to carry it all.
 
 **The Enneagram structural lesson: organise by fear and desire, not trait list.** MBTI describes what you do. The Enneagram describes what drives you. The game's dossier format benefits from the Enneagram approach: each archetype should have a core *orientation* (what they're protecting, what they won't give up) rather than just a trait bundle. This is what STORY-RESEARCH.md §IV calls the "pull-to-conform" — it's the Enneagram's core desire in negative: the specific thing the Enmeshment can offer, and the specific reason each type keeps declining it.
+
+---
+
+### D-bis. The character-construction engine — build each archetype as a formed character *(added 2026-06-13)*
+
+This subsection closes a grounding gap: nothing in the repo recorded *how* to build an archetype as a coherent character or *how* to reason from that character to its routing. It generalises §IV.D's Enneagram lesson ("organise by fear and desire") into the working engine for both downstream layers. (Lettered "D-bis" deliberately — §§C/D/F/G are cross-referenced elsewhere, so the existing letters are not renumbered.)
+
+**Method 1 — the transformational character arc (the screenwriter's kit).** Writers don't build a person from a trait sheet; they build from an internal arc. The standard kit (K.M. Weiland / *Helping Writers Become Authors*; the screenwriting "transformational arc" literature):
+
+- **Want** — the conscious, external goal the character pursues (often the *comfort* on offer).
+- **Need** — what they actually require / the thing they protect; usually in tension with the Want.
+- **The Lie** — the false belief they live by, which makes the Want feel like the answer.
+- **The Ghost / Wound** — the formative thing the Lie grew from (use lightly; texture, not backstory).
+- **Trajectory** — for a *type* rather than one protagonist, the "arc" is latent: which way they'd break if pushed (the game's existing Join / Burn / Die lean). The verdict is already a *predicted trajectory* (archetypes.txt frame), so this maps cleanly.
+
+Mapped onto the game's existing vocabulary: the **Want** extends the "Join pull"; the **Need / thing protected** is the pull-to-conform in negative (what they won't trade for legibility); the **Lie** is what makes each archetype self-deceiving in a *specific* way (the Skeptic's "seeing through it changes something" is a Lie, not a trait). This is what turns a label into a character a player recognises.
+
+**Method 2 — BuzzFeed reverse-engineering (results-first design).** The reporting on how high-performing personality quizzes are actually built (HuffPost on BuzzFeed's process; quiz-tooling write-ups) converges on one principle: **design the results first, then build the signals backward from them.** You fix the finite set of outcomes (here: the 11), fully understand each as a character, and only then ask "what answer would reveal *this* one rather than its neighbour?" This is the native logic for routing in a free-form interview — you are not scoring axes forward into a result, you are reasoning backward from known characters to the cues that separate them.
+
+**Why these two, together.** The character arc tells you *who each archetype is*; reverse-engineering tells you *how to find them*. Crucially, the **same character understanding drives both** — you tell two archetypes apart by reasoning from what each fundamentally *wants and protects*, not from trait scores (OCEAN/CANOE is demoted to corroborating colour, §IV.C note). That single engine then feeds two separately-maintained layers:
+
+| Layer | Output | Home | Depth |
+|---|---|---|---|
+| **Who they are** | the formed character, distilled to essentials | [archetypes.txt](../src/knowledge/archetypes.txt) | essential, player-explainable; no trait/routing mechanics |
+| **How to tell them apart** | the signals that separate neighbours | [ELICITATION-SPEC §8](planning/ELICITATION-SPEC.md) | expands & speculates into mechanism |
+
+Keeping the layers in separate homes is what makes the **playtest loop debuggable**: when a result feels wrong, the question is either *"is the character definition off?"* (fix archetypes.txt) or *"is the character right but the routing guidance wrong?"* (fix the spec) — never an ambiguous tangle of both.
 
 ---
 

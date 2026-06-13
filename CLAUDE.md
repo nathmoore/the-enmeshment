@@ -42,6 +42,16 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
   (`/files/<slug>/`, the GPT's link-out targets), lore, reading room. Runbook: site/README.md
 
 ## Working style for sessions
+- **Two layers — sort feedback to the right one.** Archetype work splits across two
+  homes that share one character engine (Want/Need/Lie + reverse-engineering,
+  MECHANICS §IV.D-bis): *"who they are"* — the formed characters + in-world story
+  texture (how the AI-state reads each, the threat it poses) — lives in
+  **src/knowledge/archetypes.txt**; *"how to tell them apart"* — routing: discriminant
+  signatures, confused-pair discriminators — lives in **docs/planning/ELICITATION-SPEC.md
+  §8**. They are kept separate so a wrong-feeling result is debuggable: decide whether
+  it's *the character definition is off* (fix archetypes.txt) or *the character's right
+  but the routing misfired* (fix the spec) — don't blindly edit both. Routing sorts on
+  the character, never on the threat (threat is story texture, not a routing driver).
 - Update the relevant epic doc's checklist as work completes.
 - When editing instructions.md, re-run a character count and update the
   budget line in the comment block.

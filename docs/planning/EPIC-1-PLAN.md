@@ -38,30 +38,39 @@ Lock every design decision so Epic 2 is pure execution.
       2038 setting, Concord-as-intake-pilot, the actuarial verdict, "no one's home"
       as working assumption. Renamed from LORE.md; stale factions + defected-profiler
       frame deleted. Full prose + lore-codex.txt condense = Epic 2.
-- [~] Elicitation *spec* (Plan-level decisions only — the full playbook is an
-      Epic 2 knowledge file; MECHANICS §IV already did the design thinking):
-      STARTED 2026-06-13 → [ELICITATION-SPEC.md](ELICITATION-SPEC.md). Locks the
+- [~] Elicitation + routing spec (now the **single full-workings thinking doc** — the
+      Epic 2 playbook turns it into final knowledge-file prose; MECHANICS §IV is the
+      grounding): STARTED 2026-06-13 → [ELICITATION-SPEC.md](ELICITATION-SPEC.md). Locks the
       **two-floor length model** (story/experience floor drives the reveal, not the
       routing floor; modal **~5 exchanges**, band 3–6; unit = *exchange* = anchor +
       ≤1 follow-up), the **3-anchor backbone** (behavioural / coordination /
       politeness meme), the **stop rule** (min count + ~75% dramatic floor + signal
       sufficiency), and the **technique palette** (bracketing + BEI + complex-
-      reflection spine; KUBARK as lineage only). Open tail: the enumerated
-      **never-ask boundaries** finalise *with* GUARDRAILS v1.0 (spec states the
-      principle). Signal->archetype mapping lives in the classification-logic
-      deliverable below.
-- [ ] Classification logic: signal -> archetype mapping rules, tie-breaks
-      (must resolve from free-form answers, not fixed options)
-      - **Builds on [ELICITATION-SPEC.md](ELICITATION-SPEC.md)** (which deliberately
-        scoped the mapping *out*): the 3 anchors are the primary signal sources (esp.
-        the politeness *register* → per-archetype discriminant signatures); the stop
-        rule's "signal sufficient" condition *is* this deliverable's classification
-        threshold (shared boundary); and **session length is itself a weak signal** —
-        a fast (≈3) read leans legible (Model Citizen tail), a slow (≈6) read leans
-        illegible (Wildcard / "unusual pattern"). Discriminant signatures + confused-
-        pair discriminators are already scaffolded in
-        [archetypes.txt](../../src/knowledge/archetypes.txt) "Routability"; this
-        deliverable turns them into explicit, promptable mapping/tie-break rules.
+      reflection spine; KUBARK as lineage only). **Owns the routing principles**
+      (signal→archetype; the classification-logic deliverable folded in here
+      2026-06-13), now **developed in full** (2026-06-13 deepening pass): per-archetype
+      **discriminant signatures** for all 11 (§8.3, each with its Lie-leak tell) and
+      the **confused-pair discriminators** (§8.4 — incl. the new Bookworm↔Tinkerer,
+      Skeptic↔Wildcard, Power User↔Self-Optimiser, Companion↔Linchpin), reasoned across
+      the TAS triad. Paired with the archetypes.txt character-deepening (same engine,
+      two homes). Open tail: the enumerated **never-ask boundaries** finalise *with*
+      GUARDRAILS v1.0 (spec states the principle); Epic 2 settles final wording.
+- [x] ~~Classification logic: signal → archetype mapping rules, tie-breaks~~
+      **FOLDED into [ELICITATION-SPEC.md](ELICITATION-SPEC.md) §8 "Routing principles"
+      (2026-06-13).** The rigid-"mapping/logic" framing was **retired** — it predated
+      the move off structured questions; routing is probabilistic best-fit over
+      free-form answers (no confidence variable, MECHANICS §I). Reshaped into:
+      - a **character-first engine** (Want/Need/Lie + BuzzFeed reverse-engineering,
+        [MECHANICS §IV.D-bis](../MECHANICS-RESEARCH.md)) driving **two layers** —
+        "who they are" (the formed characters, uplifted in
+        [archetypes.txt](../../src/knowledge/archetypes.txt) CHARACTER lines) vs
+        "how to tell them apart" (the routing mechanics, ELICITATION-SPEC §8);
+      - output = **one archetype label → one dossier** (no separate containment
+        classification; **only the 11** are routes — not the Off-Gridder);
+      - **CANOE/OCEAN demoted** to a minor supporting signal, never the primary
+        discriminator; **session length is framing only**, not a routing signal;
+      - the stop rule's "signal sufficient" condition *is* the routing threshold
+        (shared boundary, ELICITATION-SPEC §4/§8.6).
 - [ ] Output spec: dossier wording, footnote disclaimer final text,
       share-card format
       - **Dossier-delivery model + link-out (DECIDED 2026-06-13):** agent paraphrases

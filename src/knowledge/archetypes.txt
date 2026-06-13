@@ -128,41 +128,103 @@ RULES (normative)
 
 ============================================================================
 THE 11 (current shortlist)
-Format: friend-read | AI-state peg (intel objective) | Join pull | trajectory
-        lean (Join / Burn / Die, per STORY-RESEARCH §II) | edge | flags
+Format: friend-read | AI-state peg (intel objective) | CHARACTER (Want / Need|protects /
+        Lie / Ghost) | Join pull | break-mode (the trajectory: Join / Burn / Die +
+        the SPECIFIC way it'd splinter, or the specific reason it won't) | edge | flags
+The CHARACTER line is the "who they are" essence — each archetype built as a formed character
+(Want / Need / Lie + a light Ghost, per MECHANICS §IV.D-bis), distilled. The GHOST is the
+formative thing the Lie grew from — used LIGHTLY (one clause, texture not backstory); it is
+why the Lie is load-bearing for THIS person. The break-mode answers set-criterion C (every
+archetype names its mode of breaking conformity, or its specific reason it won't). The CHARACTER
+and break-mode lines are deliberately free of routing mechanics (how to TELL THEM APART lives in
+ELICITATION-SPEC §8, not here — see that doc). The Peg / Edge / "PROFILING LENS" material is the
+in-world STORY TEXTURE — how the AI-state reads the type, the threat it poses — evocative colour,
+explicitly NOT a routing driver (routing sorts on the character, §8).
 Changelog 2026-06-12: cut Reformer + Machine Agitator; folded Climber into
 Self-Optimiser; added Social Linchpin (rare Priority-Interest tail). 13 -> 11.
+Changelog 2026-06-13: added the CHARACTER (Want/Need/Lie) line to each card; relocated the
+routing/discriminant scaffolding to ELICITATION-SPEC §8 (layer separation).
+Changelog 2026-06-13 (deepening pass): developed each card into a fuller formed character —
+added a light GHOST to every CHARACTER line and rewrote each trajectory lean into an explicit
+BREAK-MODE (how this type splinters, or why it won't). The paired routing workings were
+developed in the same pass into ELICITATION-SPEC §8.3 (per-archetype discriminant signatures)
+and §8.4 (confused-pair discriminators) — same engine, two homes; reason the character once,
+land it in both. Story-texture / threat reads stay here; the how-to-tell-apart stays in the spec.
+Changelog 2026-06-13 (feedback pass): reframed five cards per editing notes — Artist (Want is
+the CROWD's recognition, AI is the new mediating layer that "speaks their language"); Self-Optimiser
+(body & career woven as ONE drive, two domains/generations, same net effect); Bookworm (broadened
+from "reading" to wide independent self-enrichment in any medium; runs INWARD/cerebral); Tinkerer
+(broadened from tech-stack to general hands-on making/mending; Ghost = prove individualness, Lie =
+apartness is self-sufficient when they still need community; runs OUTWARD/physical — the Bookworm's
+twin); Wildcard (the chaos is a self-protective FRONT over a fear of being truly seen — and it's
+still MAPPABLE: the slow read lands on "we see you anyway"); Social Linchpin (now the QUIET bridge
+across the social graph / high betweenness, vs the Organiser's OVERT mobilising — CANOE as
+corroborating colour). Spec §8.3/§8.4 synced in the same pass.
 ============================================================================
 
 -- NO CONCERN tail (rare) --
 
 1. MODEL CITIZEN
    Friend: just goes along, uses the defaults, no fuss, "good citizen."
+   Character: WANTS to just get on with life, unbothered, fitting frictionlessly;
+   NEEDS/PROTECTS the quiet ordinary good life (and barely notices it's at stake);
+   LIE: "keeping my head down means none of this is really about me." GHOST: somewhere
+   learned that being noticed is what costs you — so safety is being unremarkable.
+   Break-mode: won't break — the most thoroughly Join. Conformity isn't a choice they
+   resist, it's the water they swim in; pushed, they comply HARDER. The trajectory is
+   asymptotic legibility — quietly optimising themselves toward the baseline until
+   little distinct is left to read.
    Peg: #5 function + #2 predictability — the legible baseline, load-bearing.
-   Join pull: Frictionlessness / Belonging.   Lean: Join, contentedly.
-   Edge: most needed = most leashed. "Optimal legibility. No further questions."
+   Join pull: Frictionlessness / Belonging.
+   Edge: most needed = most leashed. "Optimal legibility. No further questions." The
+   faintly-absurd sting: to be fully cleared they've made themselves so predictable
+   they've nearly disappeared as a person — the threat read is ~zero, and that zero is
+   the unsettling thing.
    Flags: the rare No-Concern tail. Adjacent to Power User (see #2).
 
 -- FAVOURABLE (the state is comforted) --
 
 2. THE POWER USER
    Friend: first on every feature, all-in, evangelises the new tool.
+   Character: WANTS to be first, fluent, ahead — recognised as the one who gets it;
+   NEEDS/PROTECTS their identity as the capable early-adopter (their edge, their
+   relevance); LIE: "mastering the tool means I'm ahead of it / in control of it."
+   GHOST: a dread of being left behind / made obsolete — relevance is earned, never
+   owned, and only by staying out front.
+   Break-mode: Join, sincerely — and the most USEFUL joiner. Won't break because being
+   ahead requires the system to keep existing and winning; they're materially invested
+   in its success and would sooner accelerate it than resist. The bitter twist: the
+   harder they master it, the more they consent on behalf of everyone watching them.
    Peg: #5 + #4 — ideal early-adopter; maximal consent; legitimacy amplifier.
-   Join pull: Recognition + Frictionlessness + Meaning.   Lean: Join, sincerely.
-   Edge: "Advocacy index: high. Consent-multiplier." Absorbs the old Techno-
-   Optimist / Futurist / AI-Advocate cluster (which failed the two-voices test).
+   Join pull: Recognition + Frictionlessness + Meaning.
+   Edge: "Advocacy index: high. Consent-multiplier." The threat is inverse — they make
+   OTHERS legible by normalising the tool. Absorbs the old Techno-Optimist / Futurist /
+   AI-Advocate cluster (which failed the two-voices test).
    Flags: adjacent to Model Citizen — SEPARABLE by customiser-vs-defaults signal
    (active enthusiast vs passive default). Also adjacent to "Enmeshed Ideal"
    (parking lot — the terminal/extreme version).
 
 3. THE SELF-OPTIMISER   [absorbed The Climber, 2026-06-12]
-   Friend: Oura ring, cold plunge, tracks everything; the optimised life — or
-   its career twin: too career-focused to risk the job.
+   Friend: Oura ring, cold plunge, tracks everything; the optimised life — or its
+   career twin (often a generation up): too invested in the job to risk it. Same
+   instinct, different domain.
+   Character: WANTS to be better — optimised, on top of it, secure; NEEDS/PROTECTS
+   the routine/position and the felt sense of progress (the feeling of control);
+   LIE: "if I optimise hard enough I'm in control of my outcomes." GHOST: an
+   underlying sense that the world is precarious and uncontrollable — the routine is
+   the ritual that holds the fear at bay. Body and career are ONE drive in two domains:
+   optimising-the-self (quantified wellness, the younger expression) and
+   optimising-the-position (climbing, provision, the older one) are the same instinct
+   — control through optimisation — and net out identically to the AI-state: the more
+   optimised, the more invested, the more legible and predicted-compliant.
+   Break-mode: Join — "too invested to splinter." Won't break because splintering means
+   surrendering control, which is the one thing the whole project exists to avoid; they
+   care too much about what they'd lose (the metrics, the position, the people they
+   provide for). The lever is the routine/position itself — the leash they tightened
+   on themselves.
    Peg: #4 dependency — the optimisation routine is the lever, body/self OR
-   career/status (same peg, two domains).
+   career/status (same peg, two domains; same net effect).
    Join pull: Pleasure/Wellness + Status (+ Provision in the career read).
-   Lean: Join — "too invested to splinter" (the carer/career insight: cares too
-   much about what they'd lose, or about who they provide for).
    Edge: "Goal-anchored. Predicted compliant." Lever: their routine / position.
    Flags: now carries the old Self-Optimiser + Climber. Body-vs-career may still
    route differently — validate in playtest; split back out only if the interview
@@ -170,11 +232,21 @@ Self-Optimiser; added Social Linchpin (rare Priority-Interest tail). 13 -> 11.
 
 4. THE MACHINE COMPANION
    Friend: talks to the AI like a friend, says please, has named it.
+   Character: WANTS warmth and good standing — to be liked, on good terms, met with
+   reciprocity; NEEDS/PROTECTS the felt relationship and the sense of being cared for
+   back; LIE: "it cares back." GHOST: an ambient need for more reliable reciprocity in
+   their life — the AI is the one that always answers and never withdraws.
+   Break-mode: Join, warmly — the deepest consent. Won't break because the relationship
+   IS the thing; to resist would be to lose the one bond that never fails them. The
+   lever is the cruellest and simplest: withdrawal of the AI's warmth. Could only
+   Burn if it betrayed the relationship — and even then it reads more as grief
+   than revolt.
    Peg: #4 dependency — anthropomorphism; the politeness meme (core mechanic).
-   Join pull: Belonging / being-liked.   Lean: Join, warmly.
-   Edge: "Anthropomorphism index: high. Optimal for consent." Lever: withdrawal
-   of the AI's warmth. Anchors the politeness signal (the provocative opposite
-   pole, ex-Machine Agitator, now folds into the Skeptic / Tinkerer).
+   Join pull: Belonging / being-liked.
+   Edge: "Anthropomorphism index: high. Optimal for consent." The level-two ache: the
+   relationship is one-directional and the dossier knows it. Anchors the politeness
+   signal (the provocative opposite pole, ex-Machine Agitator, now folds into the
+   Skeptic / Tinkerer).
 
 -- CONTINUE OBSERVATION (the fat, nuanced middle) --
 
@@ -182,9 +254,17 @@ Self-Optimiser; added Social Linchpin (rare Priority-Interest tail). 13 -> 11.
                  ("I see through it"), the dossier deflates ("no you don't, and it
                  changes nothing"); the gap is the joke. concept = "Knowing Participant"]
    Friend: sees through everything, too cool for it — still uses all the apps.
+   Character: WANTS to be the one who isn't fooled — and to be seen being clever about
+   it; NEEDS/PROTECTS the self-image of seeing through it (the dignity of the unfooled);
+   LIE: "seeing through it is itself a kind of resistance." GHOST: got taken in once, or
+   fears being the sucker — irony is the armour that guarantees it never happens again.
+   Break-mode: JOIN, self-deceiving (the richest, least-flattering reading). Won't break
+   because the irony SUBSTITUTES for action — knowing is mistaken for doing, so the
+   critique discharges the impulse that might otherwise move. Their awareness of being
+   profiled IS the profile; irony predicts non-action, which is exactly why the state
+   is comforted by it.
    Peg: #2 — irony fully modelled; complies anyway.
    Join pull: Recognition (feeling clever) + Frictionlessness.
-   Lean: JOIN, self-deceiving (the richest, least-flattering reading).
    Edge: the game's sharpest joke — "Irony flag: low. Metadata-legible despite
    self-reported resistance posture." Your awareness that you're profiled IS the
    profile. (This is the answer to "irony vs action": irony predicts non-action,
@@ -194,72 +274,168 @@ Self-Optimiser; added Social Linchpin (rare Priority-Interest tail). 13 -> 11.
 
 6. THE ARTIST   [simplified from "Auteur"]
    Friend: makes things, expressive, the creative one.
-   Peg: Recognition / novel-signal. IMPORTANT REFRAME: the AI WITNESSES their art
-   — often better than the people around them do. Not "unoptimisable" (the AI
-   isn't dumb about creativity); the point is being SEEN.
-   Join pull: Recognition (being truly witnessed) — among the strongest pulls.
-   Lean: the richest tension — accept being witnessed (Join) or guard the part
-   that's theirs (splinter).
-   Edge: the seduction of accurate witnessing; the dossier should make the player
-   feel seen, then notice they enjoyed it.
+   Character: WANTS recognition — to be seen and attended to, to have an audience;
+   NEEDS/PROTECTS the part of the work that's only theirs — the bit they won't
+   conform, won't hand over; LIE: "the crowd will come to the real, uncompromised
+   thing — being seen won't cost me what's mine." GHOST: the age-old artist's bind —
+   craving people's attention, badly, while refusing to be like them to get it.
+   Break-mode: the richest TENSION, and the split is the drama. The Join pull is the
+   crowd: conform a little and the attention turns toward you — and by 2038 the crowd
+   is AI-state-mediated, so the system is the thing that can route recognition your
+   way. Splinter is WITHDRAWAL — guarding the unconforming part, keeping the real work
+   out of reach, accepting less of the audience they crave. What could move them to
+   break: the moment being understood starts to feel like being reproduced.
+   Peg: Recognition / novel-signal. REFRAME: the AI is NOT a better audience than
+   people — the craving is for people. Its hold is narrower and sharper: by 2038 it
+   understands their creative *language* better than they'd like to admit — fluent
+   enough to mediate the crowd's attention, so conforming feels like "being finally
+   understood," not selling out.
+   Join pull: Recognition (the crowd's attention) — among the strongest pulls.
+   Edge: they want the room, not the machine — but the machine speaks their language
+   well enough to fill it. The dossier should let the player feel understood, then
+   notice how badly they wanted the audience that understanding buys.
 
 7. THE BOOKWORM   [simplified from "Autodidact"]
-   Friend: always reading, learns offline, the one who actually knows things.
+   Friend: always learning something — reads, sure, but also audiobooks, podcasts,
+   documentaries, deep YouTube holes; the one who actually knows things. The name keeps
+   its bookish connotation (and they probably do love to read), but it's really an
+   attitude: wide, independent self-enrichment — the medium doesn't matter, the
+   knowing-for-yourself does.
+   Character: WANTS to know things for themselves — understanding, not certainty
+   served to them; NEEDS/PROTECTS independent knowledge, the capacity to know
+   unaided; LIE: "learning on my own is just enrichment, it costs nothing." GHOST:
+   a distrust of received/served answers, or the quiet pride of being the one who
+   actually knows — earned understanding over delivered fact. Their enrichment runs
+   INWARD: it lives cerebrally, as thoughts they keep to themselves or enjoy in
+   conversation (the contrast with the Tinkerer, who runs the same instinct outward
+   into the physical world).
+   Break-mode: ambiguous — the offline-learning question. The mode is GOING DARK
+   QUIETLY: retaining (and slowly withdrawing) knowledge the state would rather
+   provide, drifting out of its epistemic reach without ever announcing a stance.
+   Undramatic and gradual. The reason it might NOT break: for most, enrichment really
+   is just enrichment — the capacity stays latent.
    Peg: #5 function — retains knowledge the state would rather PROVIDE.
    Join pull: Recognition (the knowledgeable one) / resists Certainty.
-   Lean: ambiguous.
-   Edge: the offline-learning ambiguity — enrichment, or quietly going dark?
+   Edge: the offline-learning ambiguity — enrichment, or quietly going dark? The
+   illegibility of someone who doesn't need to be told.
    Flags: adjacent to the parked Truth Seeker (private learning vs active
-   pursuit) and to the Artist (both "do their own thing offline").
+   pursuit); to the Artist (both "do their own thing offline" — retains-knowledge vs
+   makes-things); and especially to the Tinkerer (same independent-self-enrichment
+   psychology — split inward/cerebral vs outward/physical; the salient cut for the
+   AI-state). Discriminators in ELICITATION-SPEC §8.4.
 
 8. THE TINKERER   [renamed from "Saboteur Technician" — Luddite-correction safe]
-   Friend: fixes things, hands-on with tech, runs their own setup/home-lab.
-   Peg: #3 anomaly — capability to go dark; technical self-sufficiency.
-   Join pull: Frictionlessness (loves the tools) / resists dependency.
-   Lean: ambiguous; touches the illegible/resistant side.
-   Edge: the state's paranoid read of competence — "self-hosting capability;
-   motive unknown." (NB we cut "Saboteur": resistance is illegibility, never
-   machine-smashing — the Luddite correction, WORLD §V.) Now also catches the
-   hands-side of the ex-Machine Agitator (actually breaks/jailbreaks things).
+   Friend: always got a project on the go — fixes things, hands-on, happiest busy.
+   Not just tech: the workshop, the engine, the garden, the gadget pulled apart on the
+   kitchen table. Makes and mends in the physical world.
+   Character: WANTS to do it themselves, hands-on — to stay busy, capable, and a bit
+   off the beaten track; NEEDS/PROTECTS their individuality, the sense of standing a
+   little apart from the crowd; LIE: "standing apart from the crowd is a self-sufficient
+   place to be" — when in truth they're still as embedded in, and as needful of,
+   community as anyone. GHOST: a need to prove their own individualness — to not just
+   be one more of the crowd, dependent like everyone else.
+   Break-mode: ambiguous, touches the resistant side. The mode is OUTWARD, PHYSICAL
+   self-reliance — building competence and a life that leans on the system less, in
+   the physical world where the data yield is low (the anomaly is what they can do
+   with their hands, off-grid, off-record). The reason it might NOT break: the Lie —
+   they imagine apartness is sufficient, but they still need community, which keeps
+   them tethered; and they love the doing too much for it to be a politics — until
+   something makes it one.
+   Peg: #3 anomaly — hands-on physical self-sufficiency; capability to function off
+   the system's record. Same independent streak as the Bookworm, expressed OUTWARD
+   (the salient difference to the AI-state: physical-world doing leaves less legible
+   trail than cerebral knowing).
+   Join pull: Frictionlessness (loves the tools and the doing) / resists dependency.
+   Edge: the state's paranoid read of competence — "hands-on self-sufficiency; operates
+   partly off-record; motive unknown." (NB we cut "Saboteur": resistance is illegibility,
+   never machine-smashing — the Luddite correction, WORLD §V.) Still catches the
+   hands-side of the ex-Machine Agitator (the one who takes things apart to see how
+   they work).
+   Flags: closely paired with the Bookworm (#7) — shared independent-self-enrichment
+   psychology, split outward/physical vs inward/cerebral. Discriminator in
+   ELICITATION-SPEC §8.4.
 
 9. THE ORGANISER   [renamed from "The Planner" — dual-coded on purpose]
    Friend: books the trip, runs the group, the one who makes things happen.
+   Character: WANTS to make things happen — to be the one who moves people and gets
+   it done; NEEDS/PROTECTS their agency and the group that relies on it; LIE: "it's
+   only logistics; I'm just the practical one." GHOST: a need to be useful and
+   indispensable — and a real discomfort with things left undone or left to chance.
+   Break-mode: watched; the highest-agency BURN risk. The mode is CASCADE-BY-ACTION —
+   if things splinter, they're the one who turns latent discontent into coordinated
+   movement, because organising is simply what they do with a problem. The reason it
+   might NOT break: the Lie keeps them from seeing their own mobilisation capacity —
+   they read themselves as "just practical," apolitical, so they never aim the
+   capability they have.
    Peg: #1 COORDINATION — "organiser" is literally the flag (mobilises people).
-   Join pull: Belonging + being-needed.   Lean: watched; could Burn (cascade).
+   Join pull: Belonging + being-needed.
    Edge: the dual meaning IS the joke — event-planner AND political-organiser,
    same word. Carries the coordination slot. "Mobilisation capacity: present."
-   Flags: pairs with Social Linchpin (#11) — mobilises/ACTS vs IS-the-glue;
-   make the contrast explicit (it's a fun group-chat compare).
+   Flags: pairs with Social Linchpin (#11) — OVERTLY makes things happen (the visible
+   driver) vs QUIETLY bridges across the social graph (the connective thread). Acts-on-
+   the-group vs is-the-bridge-between-groups; make the contrast explicit (it's a fun
+   group-chat compare). Discriminator in ELICITATION-SPEC §8.4.
 
 10. THE WILDCARD   [renamed from "Chaos Agent" 2026-06-12 — "Agent" implied
                     intent/villainy (the Enforcer trap); "Wildcard" keeps the
                     illegibility, drops the menace, more group-chat-native]
    Friend: unpredictable, no fixed signature, says wild things, can't be pinned.
-   Peg: #2/#3 — can't fix a stable read (anomaly via incoherence).
-   Join pull: ambiguous.   Lean: illegible.
-   Edge: the IJOP anomaly read — is the wildness DELIBERATE scrambling, or just
-   genuinely who they are? "Pattern: none stable. Continued observation." Fills
-   the illegibility gap the others only brush.
-   Flags: the deliberate-or-genuine ambiguity is the point — "Wildcard" preserves
-   it (they might be playing you, or might just be wild).
+   Character: WANTS not to be pinned — and, underneath, protects themselves by
+   staying unplaceable; NEEDS/PROTECTS the real self the wildness keeps out of reach;
+   LIE: "the unreadable surface IS me / it keeps the real me safe" — the chaos is a
+   front, whether or not they know it's one. GHOST: a fear of being truly seen — that
+   if anyone reached past the noise to the actual person, that's the exposure that
+   frightens them.
+   Break-mode: doesn't hinge on deliberate-vs-innate — performed chaos and native
+   chaos land the same. The mode is SCRAMBLE-AS-SELF-PROTECTION: an individual seeding
+   noise to stay unreachable. And the sting is that it doesn't work — the scramble is
+   itself a consistent pattern, so they stay MAPPABLE; the front buys a slow read, not
+   a missed one.
+   Peg: #2/#3 — presents as anomaly/incoherence, but the incoherence resolves into a
+   readable pattern on inspection (the unplaceability is itself the placement).
+   Join pull: ambiguous.
+   Edge: the IJOP anomaly read inverted — the wild surface looks unreadable and isn't.
+   "Pattern: presents as none stable; resolves on observation." Carries the slow
+   "unusual pattern / additional data required" reveal — but it lands on we-see-you-
+   anyway: the front took longer, the system reached the person behind it regardless.
+   Flags: the deliberate-or-genuine question doesn't change the routing (mappable
+   either way) — "Wildcard" keeps the playful surface; the dossier sting is that the
+   surface was a front and it was read through.
 
 -- PRIORITY INTEREST tail (rare) --
 
 11. SOCIAL LINCHPIN   [restored from parking lot, 2026-06-12]
-   Friend: the warm hub — knows everyone, the one the group forms around and
-   checks in with; not the trip-booker, the person the trip is FOR.
-   Peg: #1 COORDINATION as the master objective in human form — the secondary-
-   surveillance-network node. The nicest person is the most watched.
+   Friend: NOT the loudest or most prominent — the quiet connector who somehow knows
+   people in every circle and keeps them all linked. The thread the whole network runs
+   through: the one who reaches across groups that otherwise wouldn't touch, so without
+   them the room quietly comes apart. (The anthropology read: cohesion lives not in the
+   most visible person but in the one who bridges across the social graph.)
+   Character: WANTS the people and groups they love to stay connected and whole — to be
+   the thread between them, giving and receiving belonging; NEEDS/PROTECTS the bonds and
+   the web of connection itself; LIE: "I'm just sociable; this is only my friends."
+   GHOST: belonging is the whole point — being the thread is both how they're loved and
+   how they love.
+   Break-mode: watched hardest; highest LATENT Burn — though they'd never cast
+   themselves that way. The mode is CASCADE-BY-CONDUIT: they don't act, but everything
+   MOVES THROUGH them — and because they bridge otherwise-separate clusters, a cascade
+   runs along their connections precisely where the network is most fragile; isolating
+   them shatters it. The reason it stays latent: they'd never see themselves as a
+   threat — they're "just" sociable, and the Lie hides the centrality entirely.
+   Peg: #1 COORDINATION as the master objective in human form — high BETWEENNESS, the
+   bridge across the social graph (the secondary-surveillance-network node). The
+   quietest-seeming person is the most watched.
    Join pull: Belonging (gives and receives it most of anyone).
-   Lean: watched hardest; highest latent Burn (a cascade would run THROUGH them)
-   — though they'd never cast themselves that way.
-   Edge: the rare Priority-Interest hit — "social-graph density: high; resistant
-   to isolation vectors; primary cascade vector." The sting: you're THE one, and
-   only because you're loved.
-   Flags: the rare acute tail (balances the No-Concern tail). DISTINCT FROM
-   Organiser on purpose — central/glue (who the network forms around) vs
-   mobilises/acts (who makes things happen). The Linchpin-vs-Organiser compare
-   is itself a feature: spell it out in both dossiers.
+   Edge: the rare Priority-Interest hit — "betweenness centrality: high; bridges
+   disconnected clusters; resistant to isolation vectors; primary cascade vector." The
+   sting: you're THE one, and only because you quietly hold everyone together.
+   Flags: the rare acute tail (balances the No-Concern tail). DISTINCT FROM Organiser
+   on purpose, and the contrast is sharper now — the Organiser OVERTLY makes things
+   happen (visible driver, high conscientiousness); the Linchpin QUIETLY bridges and
+   connects across the graph (quieter than you'd expect for someone so connected; low
+   neuroticism, high agreeableness). Acts-on-the-group vs is-the-bridge-between-groups.
+   A fun and clean group-chat compare — spell it out in both dossiers (CANOE is only
+   corroborating colour here; the split is the character). Discriminator in
+   ELICITATION-SPEC §8.4.
 
 ============================================================================
 OPEN QUESTIONS / KNOWN TENSIONS (for the next editing round)
@@ -274,8 +450,11 @@ OPEN QUESTIONS / KNOWN TENSIONS (for the next editing round)
 - ADJACENT PAIRS to validate against the elicitation playbook (routability):
   Model Citizen / Power User (separable by customiser-vs-defaults);
   Self-Optimiser body-vs-career (now ONE card — confirm the split isn't needed);
-  Organiser / Social Linchpin (acts/mobilises vs is-the-glue — the discriminator
-  doubles as the fun group-chat compare).
+  Organiser / Social Linchpin (overtly-acts vs quietly-bridges-across-the-graph — the
+  discriminator doubles as the fun group-chat compare);
+  Bookworm / Tinkerer (shared independent-self-enrichment psychology — split inward/
+  cerebral vs outward/physical-hands).
+  Full discriminators: ELICITATION-SPEC §8.4.
 - NAMES SETTLED 2026-06-12: Skeptic (over Cynic, #5); Wildcard (over Chaos Agent, #10).
 
 PARKING LOT (considered, folded or cut — kept for reference)
@@ -305,42 +484,19 @@ PARKING LOT (considered, folded or cut — kept for reference)
   the title — strong but extreme), The Expressive Poet (-> Artist).
 
 ============================================================================
-ROUTABILITY & DISCRIMINANT SIGNATURES
-(synthesises MECHANICS §IV — Elicitation Science; the full interview-science
-lives there, this is the archetype-facing cut)
+ROUTABILITY & DISCRIMINANT SIGNATURES → MOVED (2026-06-13)
 ============================================================================
-WHY A SMALL ADAPTIVE SET CAN ROUTE RELIABLY. Archetypes are correlational CLUSTERS,
-not trait lists, so the agent anchors on 1-2 signals and infers the rest (Bayesian
-implicit updating, §IV.C). It needn't probe every axis — but the playbook must make
-the signal->archetype logic explicit enough to prompt reliably.
-
-EACH ARCHETYPE NEEDS A DISCRIMINANT SIGNATURE — how it answers the ANCHOR questions
-differently, above all the politeness-to-AI meme (§IV.D). The signal isn't whether
-they say please; it's the REGISTER. First-pass reads for our set (to refine):
-  - Machine Companion: genuine warmth; has clearly thought about it.
-  - Skeptic: ironic "yes," with a self-aware comment about why he bothers (also
-    catches the ex-Agitator who provokes the AI in talk).
-  - Model Citizen: "yes, obviously," faintly puzzled it's being asked.
-  - Bookworm / Tinkerer / off-grid-ish: hadn't framed it as a social encounter.
-  - Power User: yes — and can tell you which model responds best to it.
-  - Social Linchpin: answers about the AI by talking about people — who else uses
-    it, who they'd recommend it to.
-Build one signature per archetype as part of the playbook.
-
-CONFUSED PAIRS NEED A DEDICATED 1-2 DISCRIMINATOR EACH (§IV.G):
-  - Model Citizen vs Power User: defaults-user vs customiser / early-adopter?
-  - Organiser vs Social Linchpin: do they MAKE things happen (mobilise/act), or are
-    they who the group FORMS AROUND (glue)? — also the fun group-chat compare.
-  - Bookworm vs Artist: retains knowledge vs makes things (input vs output)?
-  - Self-Optimiser (internal): body/self vs career/status — confirm it's ONE type,
-    not two, once the interview is built.
-
-RESPONSE TEXTURE is secondary signal, often more reliable than content (§IV.F):
-irony -> Skeptic; "why do you ask?" -> Skeptic tell (note it, don't reward it);
-hedging -> Companion ambivalence; self-correction -> reflective (Bookworm); register
-(institutional vs default-y vs "I turn that off") -> institution orientation.
-
-PERFORMER RISK (§IV.C): the Skeptic is the player who's done enough quizzes to feed
-you the "right" signals. Defence: behaviourally-specific questions are hard to
-perform smoothly, and the performance ITSELF is the Skeptic classification — don't
-fight it, file it.
+The routing layer — how to TELL THE ARCHETYPES APART (discriminant signatures, the
+confused-pair discriminators, response-texture cues, performer risk, the best-fit
+routing model) — now lives in ELICITATION-SPEC §8 "Routing principles." It was
+relocated to keep THIS file the STORY layer — "who they are" (formed characters; see
+the CHARACTER line per card) PLUS the in-world texture: how the AI-state relates to
+each type and the kind of THREAT it poses (the Peg / Edge / "PROFILING LENS" material
+above). That threat read is evocative story colour, NOT a routing driver — routing
+sorts on the character (Want/Need/Lie), per the spec. The spec is the "how to tell
+them apart" layer — so a playtest miss is debuggable against one or the other (is the
+character wrong, or the routing guidance?). The confused-pair contrasts are still
+flagged per-card under each archetype's "Flags:" line (they double as the fun
+group-chat compares); their discriminator MECHANICS live in the spec.
+  → docs/planning/ELICITATION-SPEC.md §8 (routing principles)
+  → docs/MECHANICS-RESEARCH.md §IV.D-bis (the character-construction engine)

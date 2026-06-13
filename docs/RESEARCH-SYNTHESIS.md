@@ -48,7 +48,7 @@ The Enmeshment is a **credible extrapolation, not a contrivance.** It takes the 
 
 - **Archetype set** — **LOCKED 2026-06-12 at 11 types** (see [archetypes.txt](../src/knowledge/archetypes.txt) — the source of truth; the archetype *names* in MECHANICS §II are superseded). Provisional axes + KUBARK/Big-Five mapping + "what the Enmeshment sees" notes were the input (MECHANICS §II); the *Knowing Participant* (ironic-but-legible) shipped as the **Skeptic**.
 - **Question bank** — design principle and example questions are set; Epic 1 writes the full tagged bank.
-- **Classification logic** — confidence-threshold mechanic is specified; Epic 1 defines the signal→archetype rules.
+- **Classification → routing logic** — folded into [ELICITATION-SPEC §8](planning/ELICITATION-SPEC.md) (2026-06-13): rigid signal→archetype *mapping* retired for **probabilistic best-fit** driven by a character-first engine (Want/Need/Lie + reverse-engineering, MECHANICS §IV.D-bis); one archetype → one dossier.
 - **Output / dossier spec** — the shareable-artefact requirements (name as identity claim, the "they got me" line, footnote as share hook) are set.
 - **instructions.md budget** — against a **verified** 8,000-char ceiling (guardrails ≥1,800).
 - **Tone** — bureaucratic deadpan warmth; references and anti-references confirmed.

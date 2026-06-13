@@ -8,7 +8,8 @@ prose stubbed) | Owns the EPIC-1-PLAN "Content architecture (E1→E2 bridge)" de
 > ceilings), and how the verdict is delivered. Grounded in the GPT-runtime findings in
 > [MECHANICS-RESEARCH.md §I "Platform capabilities & constraints"](../MECHANICS-RESEARCH.md).
 > This doc is a living bridge — the delivery model below is **decided**; the fuller skeleton and
-> split fill in as the elicitation spec, classification logic, and output spec lock in Epic 1.
+> split fill in as the elicitation + routing spec (ELICITATION-SPEC, incl. §8 routing principles)
+> and output spec lock in Epic 1.
 
 ---
 
@@ -41,11 +42,16 @@ each**, instructions **≤8,000 chars** with **≥1,800 reserved for guardrails*
 **uploaded** static `.txt` (RAG-indexed) — *not* live-linked to GitHub (MECHANICS §I, finding 4);
 the cost is manual re-upload on release, already in the ARCHITECTURE.md process.
 
+> **One artefact chain, no intermediate.** The full thinking lives in the planning docs
+> (ELICITATION-SPEC is the elicitation/routing "workings"); each uploaded `src/knowledge/*.txt` is a
+> **distilled, promptable cut** of it, authored in Epic 2 (the playbook is *built from* the spec, not
+> a copy). The agent never reads the spec — so depth there costs nothing against its token budget.
+
 | File | Role | Status |
 |---|---|---|
 | `lore-codex.txt` | Condensed canon for the narrator | exists (stub) |
-| `archetypes.txt` | The 11 archetypes: signal patterns, discriminant signatures, deep layer | exists (live source of truth) |
-| `question-bank.txt` → elicitation playbook | Anchor questions + question-type taxonomy + signal→archetype cues | exists (v0 stub) |
+| `archetypes.txt` | The 11 archetypes — **"who they are":** formed characters (Want/Need/Lie), deep layer (routing/discriminant signatures live in the playbook, not here — see ELICITATION-SPEC §8) | exists (live source of truth) |
+| `question-bank.txt` → elicitation + **routing** playbook | Anchor questions + question-type taxonomy + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | exists (v0 stub) |
 | `output-templates.txt` | Voiced dossier template + footnote/disclaimer | exists (stub) |
 | **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | **to add (Epic 2 authors contents; scheme below)** |
 
@@ -134,6 +140,8 @@ current project-page base: `https://nathmoore.github.io/the-enmeshment/files/<sl
 
 ## 5. Open / not yet locked
 - Full instructions.md skeleton wording + per-section char counts (Epic 2, once prose exists).
-- Complete signal→archetype mapping placement (its own deliverable in EPIC-1-PLAN).
+- ~~Complete signal→archetype mapping placement (its own deliverable in EPIC-1-PLAN).~~
+  **RESOLVED 2026-06-13:** folded into [ELICITATION-SPEC.md](ELICITATION-SPEC.md) §8 "Routing
+  principles" (reframed off rigid mapping → probabilistic best-fit; one archetype → one dossier).
 - *When to buy `enmeshed.xyz`* — defer to just before public launch (no blocker now).
 - Per-archetype share-card (OG) images — placeholder `ogImage` field already stubbed per file.
