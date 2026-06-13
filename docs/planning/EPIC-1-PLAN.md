@@ -105,8 +105,8 @@ Lock every design decision so Epic 2 is pure execution.
       `archetype-links.txt` URL map → 5 of 20 files) — against the 20-file limit and the
       8,000-char instructions ceiling (guardrails >= 1,800 reserved). Sanity-check it all
       plausibly fits; precise per-section char counts happen while writing in Epic 2.
-- [ ] GUARDRAILS.md v1.0: open questions resolved (incl. hard topic-boundaries
-      for an improvising interviewer — what it must never ask)
+- [x] GUARDRAILS.md v1.0: open questions resolved (incl. hard topic-boundaries
+      for an improvising interviewer — what it must never ask) → **done 2026-06-13**
 - [x] Licence split confirmed (MIT code / CC BY-SA lore) → **superseded: CC0 everything, 2026-06-13**
 - [ ] Release checklist + version tagging convention (ARCHITECTURE.md)
 - [ ] Decision log maintained (see DECISIONS.md — started in Epic 0)
