@@ -52,6 +52,16 @@ Lock every design decision so Epic 2 is pure execution.
       deliverable below.
 - [ ] Classification logic: signal -> archetype mapping rules, tie-breaks
       (must resolve from free-form answers, not fixed options)
+      - **Builds on [ELICITATION-SPEC.md](ELICITATION-SPEC.md)** (which deliberately
+        scoped the mapping *out*): the 3 anchors are the primary signal sources (esp.
+        the politeness *register* → per-archetype discriminant signatures); the stop
+        rule's "signal sufficient" condition *is* this deliverable's classification
+        threshold (shared boundary); and **session length is itself a weak signal** —
+        a fast (≈3) read leans legible (Model Citizen tail), a slow (≈6) read leans
+        illegible (Wildcard / "unusual pattern"). Discriminant signatures + confused-
+        pair discriminators are already scaffolded in
+        [archetypes.txt](../../src/knowledge/archetypes.txt) "Routability"; this
+        deliverable turns them into explicit, promptable mapping/tie-break rules.
 - [ ] Output spec: dossier wording, footnote disclaimer final text,
       share-card format
       - **Dossier-delivery model + link-out (DECIDED 2026-06-13):** agent paraphrases

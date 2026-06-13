@@ -64,11 +64,12 @@ budget plan already in [instructions.md](../../src/instructions.md) and EPIC-1-P
 architecture deliverable):
 
 1. **Persona & frame** — the intake-screener voice (the inference mechanism, not decoration).
-2. **Interview rules** — improvise ~3–6 oblique questions; anchor-question backbone; one
-   follow-up max per exchange.
-3. **Classification trigger / stop rule** — *when* to classify (minimum question count + "enough
-   signal" condition). Load-bearing because the runtime keeps no confidence variable (MECHANICS
-   §I, finding 1).
+2. **Interview rules** — improvise within a **~5-exchange** session (band 3–6; one *exchange* =
+   anchor probe + ≤1 follow-up); 3-anchor backbone; reveal timed by the story/experience floor,
+   not routing confidence. Full decisions: [ELICITATION-SPEC.md](ELICITATION-SPEC.md).
+3. **Classification trigger / stop rule** — *when* to classify (minimum exchange count + ~75%
+   dramatic floor + "enough signal" condition). Load-bearing because the runtime keeps no
+   confidence variable (MECHANICS §I, finding 1).
 4. **Guardrails block** — ≥1,800 chars; never-ask boundaries for an improvising interviewer.
 5. **Output handoff** — shift to dossier voice; voice the verdict from `output-templates.txt`;
    **then emit the archetype's exact URL from `archetype-links.txt` — never construct or guess a

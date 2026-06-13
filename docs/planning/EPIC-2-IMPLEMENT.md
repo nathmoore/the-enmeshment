@@ -13,7 +13,11 @@ Write everything, build the GPT, deploy privately for playtest.
 - [ ] **Elicitation-playbook knowledge file** (formerly "question-bank.txt" —
       renamed per the playbook reframe, DECISIONS 2026-06-12): full question-type
       taxonomy + examples + per-archetype discriminant signatures + accessibility
-      variants + signal tags. Built from MECHANICS §IV.
+      variants + signal tags. Built from MECHANICS §IV, **executing the locked
+      Plan-level decisions in [ELICITATION-SPEC.md](ELICITATION-SPEC.md)** (exchange-
+      length model + ~75% reveal floor, 3-anchor backbone, stop rule, technique
+      palette). The spec marks the fine details (exact wording, counts, technique
+      timing) as the author's to finalise — it fixes the shape, not the prose.
 - [ ] output-templates.txt finalised
 - [ ] **`archetype-links.txt` authored** (new knowledge file): the archetype → exact
       dossier-page URL map the GPT copies from (never guesses). Author against the final

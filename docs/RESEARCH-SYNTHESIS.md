@@ -9,7 +9,8 @@
 > Status: **v1.0, June 2026** — Epic 0 exit deliverable.
 > **Updated for Epic 1 (2026-06-12):** the in-fiction frame changed —
 > *defected profiler → charming intake screener in good standing*; the interview
-> is *adaptive* (improvised ~3–6 questions, no script); the paste-prompt mode was
+> is *adaptive* (improvised, no script; ~5 exchanges modal, band 3–6 — see
+> [ELICITATION-SPEC](planning/ELICITATION-SPEC.md)); the paste-prompt mode was
 > *cut*. The findings below all still hold — only the persona framing shifted. See
 > [DECISIONS.md](planning/DECISIONS.md) (2026-06-11 / 06-12). **If you're about to
 > lock something, jump to the [Deep-dive index](#deep-dive-index--where-the-grounding-lives)

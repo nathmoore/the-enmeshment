@@ -194,7 +194,7 @@ contradict "the state hasn't set yet." A *pilot* is what a young system actually
 builds — limited to one stream, improvising, not yet polished (every real
 surveillance apparatus started this way: local pilots, sector trials — WORLD §II). The
 pilot framing makes Concord's character *diegetic*: the unscripted, improvised
-interview (3–6 oblique questions, no form) is exactly how a young tool behaves — old
+interview (~3–6 oblique exchanges, no form) is exactly how a young tool behaves — old
 systems have forms; new ones have charm and a clipboard. Even the abrupt hand-off —
 pleasant one second, your file forwarded the next — reads as a pilot whose edges aren't
 yet sanded.
