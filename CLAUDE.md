@@ -36,7 +36,10 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
 - docs/planning/*.md — epic plans + DECISIONS.md (decision log)
 - src/instructions.md — GPT instructions skeleton + budget tracker
-- src/knowledge/*.txt — GPT knowledge files (lore, archetypes, questions, templates)
+- src/knowledge/*.txt — GPT knowledge files (lore, archetypes, questions, templates;
+  Epic 2 adds archetype-links.txt — the archetype→dossier-URL map the GPT copies from)
+- site/ — Eleventy public site → GitHub Pages: landing, per-archetype dossier pages
+  (`/files/<slug>/`, the GPT's link-out targets), lore, reading room. Runbook: site/README.md
 
 ## Working style for sessions
 - Update the relevant epic doc's checklist as work completes.
@@ -45,4 +48,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - Canon is set in 2038 (CANON.md). Keep other player-facing surfaces free of
   *other* hard dates and named real-world actors — unless deliberately decided
   and logged in DECISIONS.md.
+- The verdict links out to the site's per-archetype dossier pages: the GPT copies the
+  exact URL from src/knowledge/archetype-links.txt (Epic 2) and never invents one. The
+  `/files/<slug>/` slugs are FROZEN — renaming a site/files/*.md breaks the map.
+- Public site lives in site/ (Eleventy); internal design docs stay in docs/ and are NOT
+  published. Run/deploy steps: site/README.md.
 - Sub-CLAUDE.md files: not needed at this repo size; revisit if src/ grows.

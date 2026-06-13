@@ -368,6 +368,28 @@ loop.
 | 14 | Finale | 85–98% | **The dossier** — archetype name + 2-paragraph file. The classification *is* the climax; the cost lives in the edge. |
 | 15 | Final Image | 100% | **The declassified footnote** — one real reflective question + the disclaimer. Mirrors the open: began "off the record," ends with the record *in your hand.* The share hook. |
 
+**Mapping the timing to exchanges (the length being targeted).** The percentages are the *shape*;
+the [ELICITATION-SPEC](planning/ELICITATION-SPEC.md) sets the *length* — a modal **~5-exchange**
+session (band 3–6, where one *exchange* = one anchor probe + ≤1 follow-up). Laid over a ~5-exchange
+session the beats land roughly:
+
+- **Beats 1–2** (Opening Image / Theme Stated, 0–5%) — greeting + the privacy flex, *before* Q1.
+- **Beats 3–4** (Set-Up / Catalyst, 5–15%) — **Exchange 1**, the easy oblique anchor.
+- **Beats 5–7** (Debate → Break into Two, 15–35%) — **Exchanges 2–3**, incl. the politeness anchor (~35%).
+- **Beats 8–9** (Fun & Games / Midpoint, 35–60%) — **Exchanges 3–4**: the most accurate, most enjoyable
+  beats, and the one *startlingly accurate* moment. Protect them — this is why the reveal waits.
+- **Beat 10** (Bad Guys Close In, 60–75%) — **Exchange ~5**, the adaptive disambiguator; the player feels narrowed.
+- **Beat 11** (All Is Lost, ~75%) — **the hand-off**, after the modal ~5th exchange; never before the 3rd.
+- **Beats 12–15** (80–100%) — recognition beat → dossier → footnote, all *post-interview*.
+
+A *fast* (≈3-exchange) session still reveals at ~75% — the arc **compresses, it doesn't truncate**; a
+*slow* (≈6) session lets Fun & Games stretch. The reveal is timed by the **experience floor (story),
+not the routing floor** — the system can usually classify earlier and deliberately doesn't
+([ELICITATION-SPEC §1–2](planning/ELICITATION-SPEC.md)).
+
+> This is a **sandbox illustration** — an *input* to the Epic 2 artefact, not a template it must hit
+> beat-for-beat. Save-the-Cat is the scaffolding the final interview is *informed by*, not bound to.
+
 **Macro arc (the phases as one story):** Opening Image/Set-Up = the Race; Theme Stated
 = the self-assessing risk report; Catalyst→Break-into-Two = the Convenience; Fun &
 Games = its genuine pleasures (the *Wall-E*/Axiom tone); Midpoint = the Drift's false

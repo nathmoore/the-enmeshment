@@ -14,12 +14,23 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 │       ├── lore-codex.txt                            │
 │       ├── archetypes.txt                            │
 │       ├── question-bank.txt                         │
-│       └── output-templates.txt                      │
-├─────────────────────────────────────────────────────┤
-│  GitHub repo + Pages (the open kitchen)             │
-│  └── docs, lore, guardrails, conversation           │
+│       ├── output-templates.txt                      │
+│       └── archetype-links.txt  (archetype → URL)────┼──┐
+├─────────────────────────────────────────────────────┤  │ exact link
+│  GitHub repo (the open kitchen)                     │  │ (copied,
+│  ├── docs, lore, guardrails, conversation           │  │  not guessed)
+│  └── site/ → GitHub Pages (Eleventy)                │◄─┘
+│       ├── /                  landing + CTA          │
+│       ├── /files/<slug>/     11 dossier pages       │
+│       ├── /lore/             story background       │
+│       └── /reading-room/     research bibliographies│
 └─────────────────────────────────────────────────────┘
 ```
+
+The GPT delivers a paraphrased verdict in chat, then hands the player the **exact URL** of their
+archetype's dossier page — copied from `archetype-links.txt`, never constructed (see
+[CONTENT-ARCHITECTURE.md](planning/CONTENT-ARCHITECTURE.md) and MECHANICS §I "Platform
+capabilities & constraints").
 
 ### Design constraint that shapes everything
 The GPT instructions field is capped at **8,000 characters**. Therefore:
@@ -53,10 +64,28 @@ The repo is the source of truth. The live GPT is a **deployment target**.
 - TODO (Epic 2): lightweight release checklist + version tag convention (e.g. `gpt-v0.1`)
 - TODO: character-count check — keep a counter line at the top of `instructions.md`
 
-## 5. GitHub Pages (later)
+## 5. The public site (GitHub Pages)
 
-- Likely: `/docs` as Pages root or a `site/` folder; decision deferred to post-MVP
-- Purpose: lore wiki, design essays, "what relationship do we want with AI?" conversation hub
+**Locked 2026-06-13** (DECISIONS; [CONTENT-ARCHITECTURE.md](planning/CONTENT-ARCHITECTURE.md) §4):
+[Eleventy](https://www.11ty.dev/) static site in [`site/`](../site/), deployed to **GitHub Pages
+via the "GitHub Actions" source** — *not* the legacy root/`/docs` mode, so the internal design
+`docs/` is never published. The internal `docs/` stays the design layer; `site/` is the curated
+public face.
+
+- **Why it exists:** the GPT links each verdict to a per-archetype dossier page here (the
+  standardised, shareable "file Concord forwards"). Also hosts the landing page, lore, and the
+  research "reading room."
+- **Routes:** `/` · `/files/<slug>/` (×11, frozen slugs) · `/lore/` · `/reading-room/`.
+- **One template, 11 data files:** `site/_includes/dossier.njk` + `site/files/<slug>.md`. Per-page
+  OG/Twitter meta for share unfurls (the virality engine, MECHANICS §I). No third-party trackers.
+- **Deploy:** [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) — **manual-only**
+  (`workflow_dispatch`) until Pages is enabled with source "GitHub Actions"; then add the `push`
+  trigger (Epic 2/3).
+- **Status:** scaffold + stubs only. Page prose, styling, share images, lore/reading-room content
+  = Epic 2/3 (see [EPIC-2-IMPLEMENT.md](planning/EPIC-2-IMPLEMENT.md)).
+- **URL base:** `nathmoore/the-enmeshment` project page → `https://nathmoore.github.io/the-enmeshment/`
+  (`pathPrefix: "/the-enmeshment/"`). Planned upgrade to custom domain **`enmeshed.xyz`** (flip
+  `pathPrefix` to `/`; GitHub auto-redirects old links). See CONTENT-ARCHITECTURE §4–5.
 
 ## 6. Open questions (carry into Epic 1)
 
