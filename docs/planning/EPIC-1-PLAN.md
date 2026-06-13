@@ -74,13 +74,28 @@ Lock every design decision so Epic 2 is pure execution.
         discriminator; **session length is framing only**, not a routing signal;
       - the stop rule's "signal sufficient" condition *is* the routing threshold
         (shared boundary, ELICITATION-SPEC §4/§8.6).
-- [ ] Output spec: dossier wording, footnote disclaimer final text,
-      share-card format
+- [~] Output spec: the artefact's **design thinking** — STARTED 2026-06-13 →
+      [OUTPUT-SPEC.md](OUTPUT-SPEC.md) (parallel to ELICITATION-SPEC; lock the shape,
+      defer the prose). Locks: the **two output homes** (voiced in-chat verdict vs
+      standardised hosted page — debuggable like the elicitation two-homes); the
+      **dossier anatomy** against MECHANICS §I's 4 shareable-artefact requirements,
+      built to be **screenshotted** — the **fold** (classification + summary fit one
+      mobile screen), the **elevated-BuzzFeed × deadpan register** + **gesture-don't-
+      dissect** tone guard (TAS Lie/Ghost informs but never surfaces), the **"why the
+      system is worried" double-itch beat** (level-one friend-group fantasy × level-two
+      human–AI question), and a **below-fold substance layer**; the **"they got me"**
+      specificity-over-Barnum mechanic (spice-knob content stays in archetypes.txt); the
+      **declassified-footnote** + **fixed normative disclaimer** principles; the
+      **share-card** three-part anatomy; the **decline / under-18 / lore-explorer**
+      off-ramp. Final per-archetype prose, footnote questions, disclaimer wording, and
+      share-card images are **Epic 2** (OUTPUT-SPEC §9).
       - **Dossier-delivery model + link-out (DECIDED 2026-06-13):** agent paraphrases
         the verdict in-voice, then emits the archetype's **exact dossier-page URL**
         (copied from a new `archetype-links.txt` map, never guessed). Rationale +
         runtime grounding: [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §1 and
         [MECHANICS-RESEARCH §I "Platform capabilities & constraints"](../MECHANICS-RESEARCH.md).
+        The artefact's *design* (what the dossier must do) is [OUTPUT-SPEC.md](OUTPUT-SPEC.md);
+        CONTENT-ARCH owns the *plumbing*.
 - [~] **Content architecture (E1->E2 bridge):** STARTED — see
       [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) (delivery model locked; skeleton +
       file split stubbed, fill in as elicitation/classification/output specs land). Lock what

@@ -9,7 +9,10 @@ prose stubbed) | Owns the EPIC-1-PLAN "Content architecture (E1→E2 bridge)" de
 > [MECHANICS-RESEARCH.md §I "Platform capabilities & constraints"](../MECHANICS-RESEARCH.md).
 > This doc is a living bridge — the delivery model below is **decided**; the fuller skeleton and
 > split fill in as the elicitation + routing spec (ELICITATION-SPEC, incl. §8 routing principles)
-> and output spec lock in Epic 1.
+> and output spec lock in Epic 1. **Scope split:** this doc owns the **plumbing** (delivery,
+> hosting, file split, slugs); the *artefact's design* — what the dossier must do (anatomy, the
+> screenshot fold, register, the "they got me" mechanic, footnote/disclaimer, share-card, the
+> decline path) — is [OUTPUT-SPEC.md](OUTPUT-SPEC.md).
 
 ---
 
@@ -52,7 +55,7 @@ the cost is manual re-upload on release, already in the ARCHITECTURE.md process.
 | `lore-codex.txt` | Condensed canon for the narrator | exists (stub) |
 | `archetypes.txt` | The 11 archetypes — **"who they are":** formed characters (Want/Need/Lie), deep layer (routing/discriminant signatures live in the playbook, not here — see ELICITATION-SPEC §8) | exists (live source of truth) |
 | `question-bank.txt` → elicitation + **routing** playbook | Anchor questions + question-type taxonomy + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | exists (v0 stub) |
-| `output-templates.txt` | Voiced dossier template + footnote/disclaimer | exists (stub) |
+| `output-templates.txt` | Voiced dossier template + footnote/disclaimer — authored from the artefact design in [OUTPUT-SPEC.md](OUTPUT-SPEC.md) (anatomy/fold/register/"they got me"/footnote/disclaimer/share-card/decline) | exists (stub) |
 | **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | **to add (Epic 2 authors contents; scheme below)** |
 
 File count after adding the map: **5 of 20** — comfortable headroom.
