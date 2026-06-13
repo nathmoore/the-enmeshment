@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "The Enmeshment" }}</title>
+  <meta name="description" content="{{ description }}">
+
+  {# Open Graph / Twitter — the share-unfurl card IS the virality engine (MECHANICS §I).
+     Each dossier page sets its own title/description so a pasted link previews on-brand. #}
+  <meta property="og:site_name" content="The Enmeshment">
+  <meta property="og:title" content="{{ title or 'The Enmeshment' }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:type" content="website">
+  {% if ogImage %}<meta property="og:image" content="{{ ogImage }}">{% endif %}
+  <meta name="twitter:card" content="{{ 'summary_large_image' if ogImage else 'summary' }}">
+
+  {# TODO Epic 2/3: stylesheet — make the dossier read like a leaked file
+     (monospace, classification-form styling, screenshot-ready). No third-party
+     trackers — the privacy-respecting profiler practices what it preaches (GUARDRAILS). #}
+</head>
+<body>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer>
+    <p>The Enmeshment — a fiction, and a question about the human–AI relationship we want.
+       <a href="https://github.com/nathmoore/the-enmeshment">Open kitchen on GitHub</a>.</p>
+  </footer>
+</body>
+</html>

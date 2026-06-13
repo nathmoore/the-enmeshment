@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: "The Enmeshment — AI Resistance Profiler"
+description: "What would the AI classify you as? A speculative-fiction profiling game, played as a conversation."
+---
+<h1>The Enmeshment</h1>
+
+<p>{# TODO Epic 2/3: the hook (lore cold-open, ~3 sentences) + a "Play on ChatGPT" CTA. #}</p>
+
+<nav>
+  <ul>
+    <li><a href="{{ '/lore/' | url }}">The world</a></li>
+    <li><a href="{{ '/reading-room/' | url }}">Reading room</a></li>
+  </ul>
+</nav>
+
+<h2>The files</h2>
+<ul>
+{%- for f in collections.files | sort(false, false, "data.archetype") %}
+  <li><a href="{{ f.url | url }}">{{ f.data.archetype }}</a> — {{ f.data.status }}</li>
+{%- endfor %}
+</ul>

@@ -1,0 +1,13 @@
+{
+  "name": "the-enmeshment-site",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Public site for The Enmeshment — landing, per-archetype dossier files, lore, reading room. Built with Eleventy, deployed to GitHub Pages.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

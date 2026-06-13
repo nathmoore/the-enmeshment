@@ -1,0 +1,24 @@
+---
+layout: base.njk
+---
+{# Per-archetype dossier layout (chains to base.njk). One template, 11 data files.
+   Voiced prose is authored in Epic 2 (awaits archetypes.txt voice samples) — the page
+   body below is a placeholder. #}
+<article class="dossier">
+  <header>
+    <p class="kicker">PROFILING DIRECTORATE — UNOFFICIAL EXTRACT</p>
+    <h1>{{ archetype }}</h1>
+    <p class="status">File status: {{ status }}</p>
+  </header>
+
+  {{ content | safe }}
+
+  <hr>
+  <p class="footnote">{# TODO Epic 2: declassified footnote — one genuine reflective question tied to this archetype's deep layer #}</p>
+  <p class="disclaimer">This is fiction and play, not a real assessment.</p>
+
+  <nav class="dossier-links">
+    <a href="{{ '/lore/' | url }}">The world &rarr;</a>
+    <a href="https://github.com/nathmoore/the-enmeshment">Source repo &rarr;</a>
+  </nav>
+</article>
