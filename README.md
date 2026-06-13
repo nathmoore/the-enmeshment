@@ -44,7 +44,7 @@ This repo follows a **Research → Plan → Implement → Playtest** model. One 
 
 ## Licence
 
-Code and prompts: MIT (see [`LICENSE`](LICENSE)). Lore and narrative content: we intend CC BY-SA 4.0 — to be confirmed in Epic 1.
+[CC0 1.0 Universal](LICENSE) — dedicated to the public domain. No rights reserved.
 
 ## Contributing
 

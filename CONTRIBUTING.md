@@ -27,5 +27,5 @@ open — here's how to help.
 3. PRs: clear title, link the issue, note which docs you touched.
 
 ## Licence
-Code/prompts: MIT. Lore/narrative: CC BY-SA 4.0 (intended — see README).
-By contributing you agree your contribution is licensed accordingly.
+Everything in this repo is [CC0 1.0](LICENSE) — public domain, no rights reserved.
+By contributing you agree your contribution is dedicated to the public domain under CC0.

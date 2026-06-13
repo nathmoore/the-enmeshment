@@ -11,7 +11,10 @@ Lock every design decision so Epic 2 is pure execution.
 > Red Carbon story cross-reference.
 
 ## Deliverables checklist
-- [ ] Name decision (working title "The Enmeshment" — confirm or replace)
+- [x] Name decision (2026-06-13): game/brand name **"The Enmeshment"** confirmed;
+      GPT store title = **"The Enmeshment: AI Resistance Profile Quiz"** (brand colon
+      keyword-tail — brand survives sidebar truncation, tail carries the search
+      keywords). Store description drafted. See DECISIONS.md + CLAUDE.md.
 - [x] Archetype set locked: **11 types** (2026-06-12) — signal pattern + deep
       layer per type in archetypes.txt; voice samples drafted in Epic 2.
       Routability of adjacent pairs to be pressure-tested in Epic 2.
@@ -89,7 +92,7 @@ Lock every design decision so Epic 2 is pure execution.
       plausibly fits; precise per-section char counts happen while writing in Epic 2.
 - [ ] GUARDRAILS.md v1.0: open questions resolved (incl. hard topic-boundaries
       for an improvising interviewer — what it must never ask)
-- [ ] Licence split confirmed (MIT code / CC BY-SA lore)
+- [x] Licence split confirmed (MIT code / CC BY-SA lore) → **superseded: CC0 everything, 2026-06-13**
 - [ ] Release checklist + version tagging convention (ARCHITECTURE.md)
 - [ ] Decision log maintained (see DECISIONS.md — started in Epic 0)
 

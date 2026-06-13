@@ -1,10 +1,15 @@
 # CLAUDE.md — context for AI-assisted dev sessions
 
 ## What this is
-The Enmeshment (working title): a speculative-fiction profiling game shipped
+The Enmeshment: a speculative-fiction profiling game shipped
 as a ChatGPT GPT. An elevated BuzzFeed quiz — "what type of resistance would
 the AI classify you as?" — wrapped in a near-future scenario about
 government decision-making becoming enmeshed with AI.
+
+**Names (locked 2026-06-13, DECISIONS.md):** the game/brand is **"The Enmeshment"**
+(used for lore, share-card, result identity). The **GPT store listing title** is
+**"The Enmeshment: AI Resistance Profile Quiz"** — brand + keyword tail for
+discoverability (store discovery is search + sharing, not sidebar browsing).
 
 ## Prime directives
 1. The Bluey Principle: fun on level one, deep on level two ("what
