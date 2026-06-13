@@ -270,7 +270,7 @@ profiling). Locked principles:
   extends to the exit.
 - **No classification, no dossier, no footnote-on-a-person.** The lore-explorer path produces *world
   texture* (the scenario, the Directorate, the questions the game is really about) drawn from
-  player-safe canon (`/lore/`, CANON.md) — not a verdict. The player who declines still gets the
+  player-safe canon (`/scenario/`, CANON.md) — not a verdict. The player who declines still gets the
   level-two payload (the Bluey question, in general form) without being profiled.
 - **Warm, not punitive.** Declining is honoured in the Directorate's deadpan warmth; the off-ramp is a
   genuine alternative, not a consolation prize — consistent with the privacy-as-flex thesis (the

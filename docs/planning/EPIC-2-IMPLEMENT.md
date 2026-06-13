@@ -9,7 +9,23 @@ Write everything, build the GPT, deploy privately for playtest.
       player-safe canon (distilled from STORY-SANDBOX.md); condense + sync
       **lore-codex.txt**. Voice + scenario are upstream of dossiers, the
       instructions persona, and templates — write this first.
-- [ ] archetypes.txt: all voice samples written (2 paragraphs each) — **voicing each
+      *(Canon-lore-first slice done 2026-06-13: CANON §1–3 conflict-forward pass,
+      lore-codex.txt rewritten, instructions IDENTITY → Concord, site `/scenario/`
+      authored. See DECISIONS 2026-06-13.)*
+
+  > **Lore layering, surface budget & storytelling stance** (keep this honest as you
+  > author). **Three layers, narrowing:** STORY-SANDBOX.md = the writers' room
+  > (inspiration; may drift; NOT authoritative) → CANON.md = everything held true →
+  > lore-codex.txt = the condensed subset the GPT knows. **Surface budget:** the GPT
+  > voices almost none of it — it launches into the interview, treats the world as
+  > assumed-known, and reveals lore only minimally if pressed (the codex is grounding,
+  > not a script). **Storytelling stance:** story is driven by *conflict*, and every
+  > beat is tested by *do you want and need to know what happens next?* — so lead with
+  > the **reach** (the enmeshed system, already here, now reaching to profile people
+  > *ahead* of any coordination), not the inert "resistance hasn't formed yet" (that's
+  > backdrop that makes the reach eerie). Keep the player's job-automation premise
+  > **leaked, never foregrounded**.
+- [ ] archetypes.txt: all voice samples written (2 paragraphs each) — **voicing each6yuszxa
       archetype's locked CHARACTER essence** (Want / Need / Lie, already in archetypes.txt;
       grounded in [MECHANICS §IV.D-bis](../MECHANICS-RESEARCH.md)). This is the **"who they
       are"** layer; see the authoring-approach note below.
@@ -50,8 +66,8 @@ Write everything, build the GPT, deploy privately for playtest.
       exist (started 2026-06-13). To finish:
       - [ ] Author the **11 dossier pages** (`site/files/<slug>.md`) from the locked archetypes.txt
             voice samples (depends on the voice-samples item above) — the standardised, shareable
-            "file Concord forwards." Keep the short archetype framing here; full world on `/lore/`.
-      - [ ] Author `/lore/` (player-safe, from CANON.md) and `/reading-room/` (from the research
+            "file Concord forwards." Keep the short archetype framing here; full world on `/scenario/`.
+      - [ ] Author `/scenario/` (player-safe, from CANON.md) and `/reading-room/` (from the research
             bibliographies); write the landing page + "Play on ChatGPT" CTA.
       - [ ] Styling so the dossier reads like a leaked file (monospace, screenshot-ready); per-
             archetype OG **share-card images** (`ogImage`); no third-party trackers.

@@ -30,7 +30,7 @@ Day to day you only need `npm run serve`.
 |---|---|---|
 | `/` | `index.njk` | Landing — hook + "Play on ChatGPT" CTA |
 | `/files/<slug>/` | `files/<slug>.md` | The 11 dossier pages — the GPT's link targets |
-| `/lore/` | `lore.md` | Story background (player-safe, from CANON.md) |
+| `/scenario/` | `scenario.md` | Story background (player-safe, from CANON.md) |
 | `/reading-room/` | `reading-room.md` | Research bibliographies |
 
 - Shared layout: `_includes/base.njk` (OG/Twitter meta + footer).

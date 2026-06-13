@@ -113,11 +113,11 @@ content authored in Epic 2). Rationale and the alternatives weighed are in
 |---|---|---|
 | `/` | `site/index.njk` | Landing — hook + "Play on ChatGPT" CTA + nav |
 | `/files/<slug>/` | `site/files/<slug>.md` | The 11 dossier pages — **the GPT's link targets** |
-| `/lore/` | `site/lore.md` | Shared story background (player-safe, from CANON.md) |
+| `/scenario/` | `site/scenario.md` | Shared story background (player-safe, from CANON.md) |
 | `/reading-room/` | `site/reading-room.md` | Research bibliographies (the parked "Reading Room") |
 
-Story background is **shared on `/lore/`** (DRY); each dossier carries only a short
-archetype-specific framing + a link to `/lore/` — not the whole backstory on 11 pages. A link to
+Story background is **shared on `/scenario/`** (DRY); each dossier carries only a short
+archetype-specific framing + a link to `/scenario/` — not the whole backstory on 11 pages. A link to
 the repo sits in the global footer.
 
 **Slug scheme (FROZEN once published):** `…/files/<slug>/`, `<slug>` = lowercase-kebab archetype
@@ -128,7 +128,7 @@ changes its URL and breaks the map):
 `bookworm` · `tinkerer` · `organiser` · `wildcard` · `social-linchpin`
 
 **Still a future workstream (Epic 2/3), not blocking Epic 1:** authoring the dossier page prose
-(awaits archetypes.txt voice samples), the `/lore/` + `/reading-room/` content, styling, share-card
+(awaits archetypes.txt voice samples), the `/scenario/` + `/reading-room/` content, styling, share-card
 images, enabling Pages, and adding the workflow's `push` trigger. What Epic 1 needs is settled:
 the slug scheme + the instructions handoff rule (§3). Build/deploy steps live in
 [EPIC-2-IMPLEMENT.md](EPIC-2-IMPLEMENT.md); deploy mechanism in [ARCHITECTURE.md](../ARCHITECTURE.md) §5.

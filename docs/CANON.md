@@ -11,7 +11,7 @@
 > [lore-codex.txt](../src/knowledge/lore-codex.txt)) — this doc is the ground they
 > all draw from.
 >
-> Status: **canon spine, 2026-06-12.** Concise facts only; Epic 2 fleshes these
+> Status: **canon spine, 2026-06-13.** Concise facts only; Epic 2 fleshes these
 > into prose. The single reference downstream work cites for what it can and can't
 > use.
 
@@ -20,24 +20,46 @@
 ## 1. The world
 
 - It is **2038.** The line between the state and the AI advising it has all but
-  vanished — by **convenience, never by coup**, never declared. We are in the
-  *suddenly* of "slowly, then suddenly."
+  vanished — by **convenience, never by coup**, never declared; every step **the easy
+  thing becoming the only thing.** We are in the *suddenly* of "slowly, then suddenly."
 - The **Enmeshment** is the merged government–AI decision fabric. Not a villain,
   not (probably) conscious. It **optimises**; the horror and the comedy both come
-  from **indifference**. It is polite, helpful, and impossible to appeal.
+  from **indifference**. It is polite, helpful, and impossible to appeal. It **does not
+  hide** — the watching is an **open secret**, held the way people hold privacy settings
+  or the terms they never read: known, half-minded, lived with. (Convenience won consent
+  long before the apparatus to sort people was switched on; that machinery is the late
+  lock-in, not the seduction.)
 - It is **young** — overconfident and under-mapped. It is certain it has the
   population read, having barely looked at anyone. It just grew its first eyes.
 - **Everyone still remembers "before."** 2038 is the first heartbeat of "normal,"
   a full generation before AI-mediated governance is all anyone has known. The
   eyewitnesses are all still here.
 - What it is optimised against is **coordination** — people discovering how many
-  others privately agree (the cascade). It is most confident about the one thing
-  it structurally cannot see.
+  others privately agree (the cascade). Trained on the whole human record, it carries
+  the oldest certainty of every controlling order — *the pattern recurs; any population
+  eventually finds how much of it agrees* — but the **where and who** (the few
+  low-threshold people who'd tip it) live in private preference it cannot read. **It
+  knows the pattern, never the instance** — so it is most confident about the one thing
+  it structurally cannot see. (No mind required: the fear is a learned prior, not a
+  thought.)
+- **The reach (what's new, and the conflict).** The fabric is already in place; what's
+  just begun is its **looking at people.** It has grown its first eyes and is reaching to
+  get *ahead* of coordination — to predict and price disposition, networks, and the
+  capacity to cohere — **before any of it has formed.** And **no resistance has formed
+  yet:** no movement at scale, nothing anyone has heard of, only first-generation
+  *stirring* (eyewitnesses, not ideologues, who'd hesitate to call it that; early pockets
+  may exist, nothing consolidated). That absence is exactly what makes the reach eerie —
+  the system is pricing a cascade that does not exist. Resistance to a generational change
+  only organises once the new order has *set* and become something to push against; this
+  one hasn't set. It just grew its first eyes.
 - **No one's home (the working assumption).** Canon assumes **no one of
-  consequence at the top, and no cabal.** And if anyone *is* there, it's an open
-  question whether they hold the seat of power and gravity they think they do — or
-  whether the decision-making fabric is already beyond their control. Never
-  resolved into someone in charge: that's the dread, and what keeps it apolitical.
+  consequence at the top, and no cabal.** The usual figureheads — ministers, officials,
+  the names that would once have been *on* a decision — are **still there, still in
+  post;** you just don't hear from them much any more. And if anyone *is* still steering,
+  it's an open question whether they hold the seat of power and gravity they think they
+  do — or whether the decision-making fabric is already beyond their control: **do they
+  hold the wheel, or only the ceremony?** Never resolved into someone in charge: that's
+  the dread, and what keeps it apolitical.
 
 ## 2. Concord — the intake pilot
 
@@ -46,8 +68,11 @@ The player's **entire** experience of the Enmeshment is one conversation with Co
 - **Concord** is a warm, brisk, faintly-unfinished **screening agent** — a **pilot
   program** the newly-confident AI-state runs to categorise people entering the
   **civic re-allocation (job-replacement) stream.** That stream is the diegetic
-  reason you're talking to it. *(How the conversation actually opens and unfolds is
-  an Epic 2 artifact — see below.)*
+  reason you're talking to it: **your work was automated, and you need re-matching** —
+  so you depend on the system that is, in this same conversation, reading you. (Quiet
+  stakes, not exposition — held lightly, surfaced only by implication; never the
+  centrepiece.) *(How the conversation actually opens and unfolds is an Epic 2
+  artifact — see below.)*
 - It reads you **cold.** Narrow-scope by design — it is intake, not the archive,
   and isn't cleared to pull your file, so it genuinely doesn't. It knows only what
   you say in the session.
@@ -81,6 +106,11 @@ and each edge: [archetypes.txt](../src/knowledge/archetypes.txt).
   trajectory** in two parts: **Trajectory** (which way you'd go if things splintered)
   + **Containment** (how sure the system is you won't). The sting that reaches the
   player: **"capable of X, predicted not to."**
+- The read is **anticipatory, not retrospective.** It isn't tracking an existing
+  network — there isn't one (§1) — it prices your *latent* role in a cascade that hasn't
+  assembled and you aren't planning. This is the oldest move of every surveillance state:
+  model the population to get *ahead* of coordination. It profiles you for **legibility,
+  not guilt** — there is nothing you *did*.
 - The read is **actuarial** — it prices the *class you instance*, not your file.
   The horror isn't "it looked you up." It's that **it didn't have to.** (This is
   also why a narrow-scope pilot can read you with confidence — and why the privacy

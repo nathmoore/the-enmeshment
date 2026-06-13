@@ -22,7 +22,7 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 │  └── site/ → GitHub Pages (Eleventy)                │◄─┘
 │       ├── /                  landing + CTA          │
 │       ├── /files/<slug>/     11 dossier pages       │
-│       ├── /lore/             story background       │
+│       ├── /scenario/         story background       │
 │       └── /reading-room/     research bibliographies│
 └─────────────────────────────────────────────────────┘
 ```
@@ -75,7 +75,7 @@ public face.
 - **Why it exists:** the GPT links each verdict to a per-archetype dossier page here (the
   standardised, shareable "file Concord forwards"). Also hosts the landing page, lore, and the
   research "reading room."
-- **Routes:** `/` · `/files/<slug>/` (×11, frozen slugs) · `/lore/` · `/reading-room/`.
+- **Routes:** `/` · `/files/<slug>/` (×11, frozen slugs) · `/scenario/` · `/reading-room/`.
 - **One template, 11 data files:** `site/_includes/dossier.njk` + `site/files/<slug>.md`. Per-page
   OG/Twitter meta for share unfurls (the virality engine, MECHANICS §I). No third-party trackers.
 - **Deploy:** [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) — **manual-only**
