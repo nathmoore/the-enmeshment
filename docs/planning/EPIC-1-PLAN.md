@@ -1,5 +1,5 @@
 # Epic 1 — Plan
-Status: READY (Epic 0 core complete; awaits synthesis sign-off) | Exit gate: all specs locked & reviewed
+Status: **COMPLETE (2026-06-13)** | Exit gate: all specs locked & reviewed ✓
 
 ## Goal
 Lock every design decision so Epic 2 is pure execution.
@@ -108,15 +108,18 @@ Lock every design decision so Epic 2 is pure execution.
 - [x] GUARDRAILS.md v1.0: open questions resolved (incl. hard topic-boundaries
       for an improvising interviewer — what it must never ask) → **done 2026-06-13**
 - [x] Licence split confirmed (MIT code / CC BY-SA lore) → **superseded: CC0 everything, 2026-06-13**
-- [ ] Release checklist + version tagging convention (ARCHITECTURE.md)
-- [ ] Decision log maintained (see DECISIONS.md — started in Epic 0)
+- [~] Release checklist + version tagging convention — **deferred to Epic 2** (ARCHITECTURE.md §4; depends on authored instructions.md existing first)
+- [x] Decision log maintained (see DECISIONS.md — all carry-in decisions logged 2026-06-13)
 
-## Decisions to make (carry-ins)
-- Interview/elicitation-technique research top-up (small): seed the playbook —
+## Decisions to make (carry-ins) — all resolved 2026-06-13
+
+- ~~Interview/elicitation-technique research top-up (small): seed the playbook —
   oblique/projective/cognitive-interview techniques; KUBARK (WORLD §III) as the
-  in-world reference. May need a short Epic-0-style research pass.
-- One GPT or two? Faction second axis in v1?
-- GitHub Pages scope for launch (likely: README + lore only) — **now also a candidate host
-  for the per-archetype dossier pages** the link-out delivery model points to (one page per
-  archetype, slug scheme in [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4). Building the
-  pages is a **future workstream (likely Epic 2/3)** and does not block Epic 1.
+  in-world reference. May need a short Epic-0-style research pass.~~ **DONE:**
+  [ELICITATION-SPEC.md](ELICITATION-SPEC.md) — KUBARK, BEI, bracketing, and complex-reflection
+  spine all grounded; 3-anchor backbone + technique palette locked.
+- ~~One GPT or two? Faction second axis in v1?~~ **DECIDED 2026-06-13:** one GPT, no second axis.
+  See DECISIONS.md.
+- ~~GitHub Pages scope for launch~~ **DECIDED 2026-06-13:** Eleventy → GitHub Pages (Actions
+  source); 11 dossier pages at `/files/<slug>/`; scaffold + stubs built. Authoring the pages
+  is Epic 2/3. See DECISIONS.md + ARCHITECTURE.md §5.

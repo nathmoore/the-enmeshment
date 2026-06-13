@@ -1,6 +1,6 @@
 # Architecture
 
-> Status: **stub** — to be completed during Epic 1 (Plan)
+> Status: **COMPLETE (Epic 1, 2026-06-13)** — system shape, knowledge-file split, and hosting locked. Release checklist + per-section char budgets = Epic 2.
 
 ## 1. System overview
 
@@ -36,7 +36,7 @@ capabilities & constraints").
 The GPT instructions field is capped at **8,000 characters**. Therefore:
 - **Instructions** hold only: persona, game loop, guardrail enforcement, output format rules, and pointers to knowledge files.
 - **Knowledge files** hold all content: lore, archetype definitions, question bank, example outputs.
-- TODO (Epic 1): test how reliably the GPT retrieves from knowledge files vs. instructions, and decide what *must* live in instructions (guardrails certainly do).
+- **Settled (MECHANICS §I + CONTENT-ARCHITECTURE.md §2–3, 2026-06-13):** load-bearing, exact-wording content (guardrails, stop rule, persona, output-handoff rule) = instructions; all authored content (archetypes, questions, templates, URL map) = knowledge files.
 
 ## 2. The play mode
 
@@ -62,7 +62,7 @@ The repo is the source of truth. The live GPT is a **deployment target**.
 - `src/instructions.md` → manually pasted into GPT Builder on release
 - `src/knowledge/*.txt` → uploaded to GPT Builder on release
 - TODO (Epic 2): lightweight release checklist + version tag convention (e.g. `gpt-v0.1`)
-- TODO: character-count check — keep a counter line at the top of `instructions.md`
+- Character-count check: tracked via CLAUDE.md prime directive (re-run and update the budget line on each edit to `instructions.md`). Precise per-section counts = Epic 2 authoring.
 
 ## 5. The public site (GitHub Pages)
 
@@ -87,8 +87,8 @@ public face.
   (`pathPrefix: "/the-enmeshment/"`). Planned upgrade to custom domain **`enmeshed.xyz`** (flip
   `pathPrefix` to `/`; GitHub auto-redirects old links). See CONTENT-ARCHITECTURE §4–5.
 
-## 6. Open questions (carry into Epic 1)
+## 6. Deferred decisions
 
-- [ ] One GPT or two (game vs. lore-explorer)?
-- [ ] How do we make outputs shareable (copy-paste card format? image gen?)
-- [ ] Localisation / non-ChatGPT versions (Claude Project, Gem) — out of scope for MVP?
+- [x] **One GPT (MVP):** single intake-screener experience. No lore-explorer GPT in v1 (2026-06-13, DECISIONS.md).
+- [x] **Shareable output format:** locked in [OUTPUT-SPEC.md](planning/OUTPUT-SPEC.md) — share-card (name + one-liner + hook), built for screenshot; no image gen for v1. Execution = Epic 2.
+- [ ] Localisation / non-ChatGPT versions (Claude Project, Gem) — confirmed out of scope for MVP; revisit post-launch.

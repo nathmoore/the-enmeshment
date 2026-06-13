@@ -1,6 +1,6 @@
 # Game Design & Philosophy
 
-> Status: **stub** — core pillars locked, details developed in Epics 0–1
+> Status: **COMPLETE (Epic 1, 2026-06-13)** — pillars, archetype set, signals, and elicitation approach locked. Voice samples + authored knowledge files = Epic 2.
 
 ## 1. Design pillars
 
@@ -29,19 +29,9 @@ Target: **8–12 archetypes** at launch. Each needs:
 - The signal pattern that maps to it
 - Its "deep layer" — what real tension in human–AI relations it embodies
 
-Seed list (to be developed in `src/knowledge/archetypes.txt`):
+**Set locked at 11 (2026-06-12)** — full formed characters (Want/Need/Lie, signal pattern, deep layer, discriminant signatures) in [`src/knowledge/archetypes.txt`](../src/knowledge/archetypes.txt) (the source of truth). Routing discriminants and confused-pair logic in [ELICITATION-SPEC.md §8](planning/ELICITATION-SPEC.md). Frozen slugs: `model-citizen` · `power-user` · `self-optimiser` · `machine-companion` · `skeptic` · `artist` · `bookworm` · `tinkerer` · `organiser` · `wildcard` · `social-linchpin`.
 
-| Archetype | One-liner | Deep layer |
-|---|---|---|
-| The Conventional User | Compliant, comfortable, quietly indispensable to the system's legitimacy | Convenience as consent |
-| Off-Grid Capable | Would be fine. Knows which mushrooms. Owns a paper map. | Resilience & analogue skill loss |
-| The Renaissance Generalist | Knows a worrying amount about a worrying range of things | Generalism vs. automated expertise |
-| The Machine Diplomat | Says please. Negotiates with chatbots. The AI *likes* them. | Anthropomorphism & moral status of AI |
-| The Quiet Archivist | Backs things up. Keeps receipts. Remembers what the feed forgot. | Memory, records & who controls history |
-| The Network Weaver | Knows everyone; the human mesh network | Social capital that can't be automated |
-| *(4–6 more TBD)* | | |
-
-Design rule: **every archetype is a form of resistance** — including the Conventional User (the twist: the system needs them most, which is its own kind of leverage).
+Design rule: **every archetype is a form of resistance** — including the Model Citizen (the twist: the system needs their compliance most, which is its own kind of leverage).
 
 ## 4. Question & signal design
 
@@ -53,7 +43,7 @@ Signals we profile (persona-level only — see GUARDRAILS.md):
 - Digital usage *style* (not history): customiser vs. defaults-user, lurker vs. poster
 - Relationship-to-institutions disposition (rule-follower ↔ workaround-finder), kept apolitical
 
-TODO (Epic 1): build the elicitation playbook — oblique, open-ended question *types* (not fixed multiple-choice), interview techniques, and the signal each answer reveals. The agent improvises within it; see DECISIONS 2026-06-12.
+**Elicitation playbook built (Epic 1, 2026-06-13):** [ELICITATION-SPEC.md](planning/ELICITATION-SPEC.md) locks the interview model — 3-anchor backbone (behavioural / coordination / politeness meme), ~5-exchange modal length, technique palette (bracketing, BEI, complex-reflection spine), per-archetype discriminant signatures, and confused-pair discriminators. The agent improvises within it. Epic 2 distils this into the promptable `question-bank.txt`.
 
 ## 5. Tone references & anti-references
 
@@ -63,6 +53,6 @@ TODO (Epic 1): build the elicitation playbook — oblique, open-ended question *
 
 ## 6. Open design questions
 
-- [ ] Does the player get a "resistance cell assignment" (faction flavour) as a second axis?
-- [ ] Rarity/edge archetypes for delight ("we have… never seen this combination")?
-- [ ] Replayability: does answering as your *workplace self* vs *weekend self* change the result (it should)?
+- [x] Faction / second axis: **no** for v1 — single-axis intake-screener game (2026-06-13, DECISIONS.md). Could be a post-launch addition.
+- [ ] Rarity/edge archetypes for delight ("we have… never seen this combination")? — carry to Epic 2 playtest.
+- [ ] Replayability: does answering as your *workplace self* vs *weekend self* change the result (it should)? — carry to Epic 2 playtest.
