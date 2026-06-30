@@ -64,10 +64,11 @@ Write everything, build the GPT, deploy privately for playtest.
       disclaimer + share-card + lore-explorer opening now live in instructions (always in
       context) rather than a RAG'd knowledge file. Two-homes model (OUTPUT-SPEC §1) intact —
       home #1 just relocated from a knowledge file into instructions.
-- [ ] **`archetype-links.txt` authored** (new knowledge file): the archetype → exact
-      dossier-page URL map the GPT copies from (never guesses). Author against the final
-      URL base once `<org>`/domain is fixed. Slugs are frozen in
-      [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4.
+- [x] **`archetype-links.txt` authored** (new knowledge file): the archetype → exact
+      dossier-page URL map the GPT copies from (never guesses). Authored 2026-06-30 against the
+      project-page base locked in [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4
+      (`https://nathmoore.github.io/the-enmeshment/files/<slug>/`); re-author when `enmeshed.xyz`
+      goes live.
 - [ ] instructions.md written, char-counted, budget line updated — incl. the **`OUTPUT FORMAT`
       section** (verdict shape + footnote + verbatim disclaimer + share-card + lore-explorer mode,
       folded in from the retired output-templates.txt) and the **output-handoff rule**: voice the

@@ -1,0 +1,26 @@
+THE ENMESHMENT — ARCHETYPE LINKS (archetype -> exact dossier-page URL)
+================================================================
+Status: v1, 2026-06-30. Authored against the GitHub project-page base locked in
+CONTENT-ARCHITECTURE.md §4 (2026-06-13).
+
+[HOW TO USE]
+- At OUTPUT FORMAT / handoff (instructions.md), after voicing the verdict: copy the URL for the
+  matched archetype EXACTLY as written below. Never construct, guess, or modify a URL.
+- One archetype -> one URL. If the archetype name isn't an exact match below, do not invent a
+  link — fall back to the instructions.md no-link contingency.
+- URL base will change when enmeshed.xyz goes live (CONTENT-ARCHITECTURE.md §4) — this file is
+  the single source to re-author at that point; nothing else references the base directly.
+
+================================================================
+
+Model Citizen: https://nathmoore.github.io/the-enmeshment/files/model-citizen/
+Power User: https://nathmoore.github.io/the-enmeshment/files/power-user/
+Self-Optimiser: https://nathmoore.github.io/the-enmeshment/files/self-optimiser/
+Machine Companion: https://nathmoore.github.io/the-enmeshment/files/machine-companion/
+Skeptic: https://nathmoore.github.io/the-enmeshment/files/skeptic/
+Artist: https://nathmoore.github.io/the-enmeshment/files/artist/
+Bookworm: https://nathmoore.github.io/the-enmeshment/files/bookworm/
+Tinkerer: https://nathmoore.github.io/the-enmeshment/files/tinkerer/
+Organiser: https://nathmoore.github.io/the-enmeshment/files/organiser/
+Wildcard: https://nathmoore.github.io/the-enmeshment/files/wildcard/
+Social Linchpin: https://nathmoore.github.io/the-enmeshment/files/social-linchpin/

@@ -57,7 +57,7 @@ the cost is manual re-upload on release, already in the ARCHITECTURE.md process.
 | `archetypes.txt` | The 11 archetypes — **"who they are":** formed characters (Want/Need/Lie), deep layer (routing/discriminant signatures live in the playbook, not here — see ELICITATION-SPEC §8) | exists (live source of truth) |
 | `question-bank.txt` → elicitation + **routing** playbook | Anchor questions + question-type taxonomy + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | exists (v0 stub) |
 | ~~`output-templates.txt`~~ | **Folded into `instructions.md` `OUTPUT FORMAT` and deleted (2026-06-13).** The voiced verdict + footnote + verbatim disclaimer are thin and fire every session, so they live in always-in-context instructions, not RAG (DECISIONS 2026-06-13). | removed |
-| **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | **to add (Epic 2 authors contents; scheme below)** |
+| **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | exists (authored 2026-06-30) |
 
 File count after adding the map: **4 of 20** (lore-codex, archetypes, question-bank, archetype-links;
 output-templates folded into instructions) — comfortable headroom.
