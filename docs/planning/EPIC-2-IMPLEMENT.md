@@ -25,13 +25,14 @@ Write everything, build the GPT, deploy privately for playtest.
   > *ahead* of any coordination), not the inert "resistance hasn't formed yet" (that's
   > backdrop that makes the reach eerie). Keep the player's job-automation premise
   > **leaked, never foregrounded**.
-- [ ] **`archetype-dossiers.txt`: all voice samples written** (per archetype: P1 personality
+- [x] **`archetype-dossiers.txt`: all voice samples written** (per archetype: P1 personality
       read · ASSESSMENT trajectory verdict + one sting · FIELD NOTES) — **voicing each
       archetype's locked CHARACTER essence** (Want / Need / Lie, in archetypes.txt; grounded in
       [MECHANICS §IV.D-bis](../MECHANICS-RESEARCH.md)). Extracted to its own knowledge file
       (2026-06-13) so the voiced set is maintainable in one place; archetypes.txt stays the
       character/design layer. This is the **"who they are"** layer; see the authoring-approach
-      note below. *(v1 drafted — review/tune, then tick.)*
+      note below. *(v1 GOOD ENOUGH FOR PLAYTESTING, 2026-06-13 — the set reads as intended;
+      will keep tuning the prose against playtest results rather than blocking on it.)*
 - [ ] **Elicitation + routing playbook knowledge file** (formerly "question-bank.txt" —
       renamed per the playbook reframe, DECISIONS 2026-06-12): full question-type
       taxonomy + examples + per-archetype discriminant signatures + the confused-pair

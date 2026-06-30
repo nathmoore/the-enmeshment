@@ -69,11 +69,13 @@ principle (character vs routing, [ELICITATION-SPEC §8](ELICITATION-SPEC.md); th
 **Why two homes (the lock):** the warm in-chat moment wants to be *generated and variable*; the
 share artefact wants to be *standardised and design-controlled*. Splitting them gets both — and makes
 a miss **debuggable**: a verdict that feels wrong localises to either *"the voiced template/handoff is
-off"* (fix output-templates.txt) or *"the dossier page content is off"* (fix `site/files/<slug>.md`),
+off"* (fix the `OUTPUT FORMAT` in instructions.md) or *"the dossier page content is off"* (fix `site/files/<slug>.md`),
 never an ambiguous tangle. The two homes share **one canonical anatomy** (§2) and must stay in sync on
 the two load-bearing facts — the **archetype name** and the **spice-knob** — but render it at
-different fidelity: the page renders the anatomy in full; the in-chat verdict voices the name + the
-"they got me" beat and *previews* the rest, then links out rather than reciting it.
+different fidelity: the page renders the anatomy in full (both above-fold paragraphs P1+P2, plus the
+field-notes substance); the in-chat verdict voices the name + the **P1 "they got me" beat** and
+*previews* the rest in a **one-line tease** — P2's level-two read is **page-only**, not re-voiced in
+chat — then links out rather than reciting it.
 
 > **Plumbing is elsewhere.** *How* the verdict reaches the player — the paraphrase-then-link delivery
 > model, the `archetype-links.txt` copy-the-exact-URL rule, the Eleventy/Pages hosting, the frozen
