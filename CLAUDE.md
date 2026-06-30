@@ -41,7 +41,8 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
 - docs/planning/*.md — epic plans + DECISIONS.md (decision log)
 - src/instructions.md — GPT instructions skeleton + budget tracker
-- src/knowledge/*.txt — GPT knowledge files (lore, archetypes, questions, templates;
+- src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, question-bank,
+  archetype-dossiers — the player-facing voiced dossier prose, source for both output homes;
   Epic 2 adds archetype-links.txt — the archetype→dossier-URL map the GPT copies from)
 - site/ — Eleventy public site → GitHub Pages: landing, per-archetype dossier pages
   (`/files/<slug>/`, the GPT's link-out targets), lore, reading room. Runbook: site/README.md

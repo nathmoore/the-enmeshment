@@ -4,7 +4,10 @@ Status: Epic 1 brainstorm state, 2026-06-12. Supersedes the old 6-seed stub
 (Conventional User / Off-Grid / Renaissance Generalist / Machine Diplomat /
 Quiet Archivist / Network Weaver). NOT committed as canon — this is a state
 capture for editing rounds, and may be relocated to a planning doc or a fresh
-conversation. No voice samples yet (Epic 2; don't write them until the set locks).
+conversation. This doc is the CHARACTER + design layer ("who they are" + selection/coverage
+workings). The player-facing VOICE SAMPLES (dossier prose) now live in their own file:
+src/knowledge/archetype-dossiers.txt — authored from the CHARACTER lines here; edit the voice
+there. (Routing — how to tell them apart — lives in ELICITATION-SPEC §8. One engine, three homes.)
 
 THE FRAME (per DECISIONS 2026-06-11 / 06-12)
 --------------------------------------------
@@ -160,6 +163,12 @@ twin); Wildcard (the chaos is a self-protective FRONT over a fear of being truly
 still MAPPABLE: the slow read lands on "we see you anyway"); Social Linchpin (now the QUIET bridge
 across the social graph / high betweenness, vs the Organiser's OVERT mobilising — CANOE as
 corroborating colour). Spec §8.3/§8.4 synced in the same pass.
+Changelog 2026-06-13 (voice pass): drafted the player-facing voiced prose per archetype —
+P1 (personality read) · ASSESSMENT (the trajectory verdict: what they'd bring to a resistance +
+one sting) · FIELD NOTES (3 dossier bullets). Authored to the output-templates register and
+GUARDRAILS; flattering-with-an-edge, cold-legible, the sting varied across the set so it reads
+well as a group-chat compare. EXTRACTED to its own file — src/knowledge/archetype-dossiers.txt —
+so the voiced set is maintainable in one place (this doc stays the character/design layer).
 ============================================================================
 
 -- NO CONCERN tail (rare) --

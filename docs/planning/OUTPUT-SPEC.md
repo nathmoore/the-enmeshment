@@ -1,5 +1,23 @@
 # Output Spec — the dossier-as-artefact workings
 
+> **Epic 2 supersessions (2026-06-13) — read before the locked sections below.** Three calls made
+> during authoring revise specifics here (the *artefact design* still holds; what changed is *where
+> the in-chat home lives* and *two beats*):
+> 1. **The voiced in-chat home moved out of a knowledge file into `src/instructions.md` (`OUTPUT
+>    FORMAT`).** `output-templates.txt` was **authored then folded in and deleted** — the in-chat
+>    verdict is thin and must fire reliably every session, so it belongs in always-in-context
+>    instructions, not RAG. The **two-homes model (§1) is intact** — home #1 is just instructions
+>    now, not a `.txt`. Wherever §1/§2/§5/§6 say "output-templates.txt," read "instructions.md
+>    `OUTPUT FORMAT`."
+> 2. **The GPT-typed share-card (§6 copy/paste variant) is dropped.** The travelling artefact is the
+>    dossier **link's OG/unfurl card** (hosted-page `ogImage`, CONTENT-ARCH §4) + the screenshot
+>    itself. The GPT no longer types a text card. §6's three-part *anatomy* still informs the
+>    hosted-page card; the in-chat copy/paste variant is retired.
+> 3. **The decline / under-18 / lore-explorer off-ramp (§7) is retired.** GUARDRAILS §6 was reframed
+>    to **no separate age regime** (the universal data/fiction/retention guardrails already protect
+>    everyone; never-ask means age is never solicited). Plain *decline* is now ordinary
+>    edge-case courtesy, not a guarded mode. **§7 below is superseded** — see DECISIONS 2026-06-13.
+
 Status: **STARTED 2026-06-13.** Owns the EPIC-1-PLAN "Output spec" deliverable's *design thinking*
 (the artefact's shape), parallel to [ELICITATION-SPEC.md](ELICITATION-SPEC.md). The
 delivery/hosting *plumbing* is [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md)'s — this doc does
@@ -257,7 +275,11 @@ the share-card images are Epic 2** (§9; images already stubbed as `ogImage` per
 The card must stay in sync with the dossier on the name and the edge; the **disclaimer does not ride
 the card** (it lives on the dossier the card links to, §5).
 
-## 7. The decline / under-18 / lore-explorer path **[LOCKED principle, completed against GUARDRAILS]**
+## 7. The decline / under-18 / lore-explorer path **[SUPERSEDED 2026-06-13 — see top banner + DECISIONS]**
+
+> **Retired.** GUARDRAILS §6 was reframed to *no separate age regime*; there is no lore-explorer
+> mode. Plain decline is handled as ordinary edge-case courtesy in the instructions. The section
+> below is kept for the design-history record only.
 
 Not every session ends in a dossier. There is a **non-profiling off-ramp** — the
 output-templates.txt `[LORE-EXPLORER MODE OPENING]` TODO — entered when the player **declines

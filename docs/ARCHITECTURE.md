@@ -9,12 +9,12 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 ```
 ┌─────────────────────────────────────────────────────┐
 │  ChatGPT GPT (the product surface)                  │
-│  ├── instructions.md  (≤ 8,000 chars — the "engine")│
+│  ├── instructions.md  (≤ 8,000 chars — the "engine";│
+│  │                     holds the voiced verdict fmt)│
 │  └── knowledge files  (the "content cartridge")     │
 │       ├── lore-codex.txt                            │
 │       ├── archetypes.txt                            │
 │       ├── question-bank.txt                         │
-│       ├── output-templates.txt                      │
 │       └── archetype-links.txt  (archetype → URL)────┼──┐
 ├─────────────────────────────────────────────────────┤  │ exact link
 │  GitHub repo (the open kitchen)                     │  │ (copied,
@@ -36,7 +36,7 @@ capabilities & constraints").
 The GPT instructions field is capped at **8,000 characters**. Therefore:
 - **Instructions** hold only: persona, game loop, guardrail enforcement, output format rules, and pointers to knowledge files.
 - **Knowledge files** hold all content: lore, archetype definitions, question bank, example outputs.
-- **Settled (MECHANICS §I + CONTENT-ARCHITECTURE.md §2–3, 2026-06-13):** load-bearing, exact-wording content (guardrails, stop rule, persona, output-handoff rule) = instructions; all authored content (archetypes, questions, templates, URL map) = knowledge files.
+- **Settled (MECHANICS §I + CONTENT-ARCHITECTURE.md §2–3, 2026-06-13):** load-bearing, exact-wording or fires-every-session content (guardrails, stop rule, persona, **the voiced verdict format + verbatim disclaimer**, output-handoff rule) = instructions; bulk authored content (archetypes, questions, URL map) = knowledge files. *(The in-chat verdict template was folded from a knowledge file into instructions on 2026-06-13 — DECISIONS — for retrieval reliability; it's small and fires every session.)*
 
 ## 2. The play mode
 

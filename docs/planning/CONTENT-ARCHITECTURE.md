@@ -26,8 +26,9 @@ and then supplies the **exact URL** of that archetype's dossier page.
 **Why (from the runtime findings):**
 - **Verbatim-from-knowledge is unreliable** (models paraphrase; copyright filters can refuse) —
   and a recited file is *worse* play than a voiced verdict anyway. So the spoken verdict is
-  **generated within a voiced template** ([output-templates.txt](../../src/knowledge/output-templates.txt)),
-  not echoed from a file. (MECHANICS §I, finding 2.)
+  **generated within a voiced template** (the `OUTPUT FORMAT` section of
+  [instructions.md](../../src/instructions.md) — folded in from the retired `output-templates.txt`,
+  2026-06-13), not echoed from a file. (MECHANICS §I, finding 2.)
 - **The one thing that must be exact is the link** — and emitting a link is just text, needing
   **no Web Browsing and no Action**. Reliability depends on the agent **copying** the URL from an
   explicit map, never **guessing** a slug. (MECHANICS §I, finding 3.)
@@ -55,10 +56,11 @@ the cost is manual re-upload on release, already in the ARCHITECTURE.md process.
 | `lore-codex.txt` | Condensed canon for the narrator | exists (stub) |
 | `archetypes.txt` | The 11 archetypes — **"who they are":** formed characters (Want/Need/Lie), deep layer (routing/discriminant signatures live in the playbook, not here — see ELICITATION-SPEC §8) | exists (live source of truth) |
 | `question-bank.txt` → elicitation + **routing** playbook | Anchor questions + question-type taxonomy + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | exists (v0 stub) |
-| `output-templates.txt` | Voiced dossier template + footnote/disclaimer — authored from the artefact design in [OUTPUT-SPEC.md](OUTPUT-SPEC.md) (anatomy/fold/register/"they got me"/footnote/disclaimer/share-card/decline) | exists (stub) |
+| ~~`output-templates.txt`~~ | **Folded into `instructions.md` `OUTPUT FORMAT` and deleted (2026-06-13).** The voiced verdict + footnote + verbatim disclaimer are thin and fire every session, so they live in always-in-context instructions, not RAG (DECISIONS 2026-06-13). | removed |
 | **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | **to add (Epic 2 authors contents; scheme below)** |
 
-File count after adding the map: **5 of 20** — comfortable headroom.
+File count after adding the map: **4 of 20** (lore-codex, archetypes, question-bank, archetype-links;
+output-templates folded into instructions) — comfortable headroom.
 
 `archetype-links.txt` is deliberately its own tiny file (not folded into archetypes.txt) so the
 "copy the exact URL, never invent one" rule has a single unambiguous source the instructions can
@@ -80,9 +82,10 @@ architecture deliverable):
    dramatic floor + "enough signal" condition). Load-bearing because the runtime keeps no
    confidence variable (MECHANICS §I, finding 1).
 4. **Guardrails block** — ≥1,800 chars; never-ask boundaries for an improvising interviewer.
-5. **Output handoff** — shift to dossier voice; voice the verdict from `output-templates.txt`;
-   **then emit the archetype's exact URL from `archetype-links.txt` — never construct or guess a
-   link.** (The single most important reliability rule for the delivery model.)
+5. **Output format + handoff** — the `OUTPUT FORMAT` section *is* the voiced verdict template
+   (folded in from the retired `output-templates.txt`, 2026-06-13): shift to dossier voice, voice
+   the verdict, **then emit the archetype's exact URL from `archetype-links.txt` — never construct
+   or guess a link.** (The single most important reliability rule for the delivery model.)
 
 ---
 

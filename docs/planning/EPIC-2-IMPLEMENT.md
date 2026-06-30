@@ -25,10 +25,13 @@ Write everything, build the GPT, deploy privately for playtest.
   > *ahead* of any coordination), not the inert "resistance hasn't formed yet" (that's
   > backdrop that makes the reach eerie). Keep the player's job-automation premise
   > **leaked, never foregrounded**.
-- [ ] archetypes.txt: all voice samples written (2 paragraphs each) — **voicing each6yuszxa
-      archetype's locked CHARACTER essence** (Want / Need / Lie, already in archetypes.txt;
-      grounded in [MECHANICS §IV.D-bis](../MECHANICS-RESEARCH.md)). This is the **"who they
-      are"** layer; see the authoring-approach note below.
+- [ ] **`archetype-dossiers.txt`: all voice samples written** (per archetype: P1 personality
+      read · ASSESSMENT trajectory verdict + one sting · FIELD NOTES) — **voicing each
+      archetype's locked CHARACTER essence** (Want / Need / Lie, in archetypes.txt; grounded in
+      [MECHANICS §IV.D-bis](../MECHANICS-RESEARCH.md)). Extracted to its own knowledge file
+      (2026-06-13) so the voiced set is maintainable in one place; archetypes.txt stays the
+      character/design layer. This is the **"who they are"** layer; see the authoring-approach
+      note below. *(v1 drafted — review/tune, then tick.)*
 - [ ] **Elicitation + routing playbook knowledge file** (formerly "question-bank.txt" —
       renamed per the playbook reframe, DECISIONS 2026-06-12): full question-type
       taxonomy + examples + per-archetype discriminant signatures + the confused-pair
@@ -47,21 +50,29 @@ Write everything, build the GPT, deploy privately for playtest.
   > playbook's per-archetype discriminant signatures run on the **same character engine**
   > (Want/Need/Lie + reverse-engineering). **Yes — author them per-archetype in a single pass:**
   > reason through the character *once*, then land *both* outputs — the **"who they are"** voicing
-  > into archetypes.txt → its dossier page, and the **"how to tell them apart"** signature +
+  > into archetype-dossiers.txt → its dossier page, and the **"how to tell them apart"** signature +
   > confused-pair discriminator into the playbook. Doing both in one sitting keeps them coherent
   > (the dossier and the routing describe the *same* person) and prevents drift. **But keep them in
   > their two separate files** — that split is what makes a playtest miss *debuggable*: fix the
   > character in archetypes.txt, or the routing guidance in the playbook, never a fused tangle.
   > Suggested loop, ×11: re-read the CHARACTER line → write/confirm the dossier voice → write its
   > discriminant signature + any confused-pair discriminator → sanity-check the two don't contradict.
-- [ ] output-templates.txt finalised
+- [x] ~~output-templates.txt finalised~~ → **folded into `instructions.md` `OUTPUT FORMAT`;
+      file deleted** (DECISIONS 2026-06-13). The in-chat verdict is thin (the rich artefact is
+      the hosted page) and must fire reliably every session, so the voiced template + verbatim
+      disclaimer + share-card + lore-explorer opening now live in instructions (always in
+      context) rather than a RAG'd knowledge file. Two-homes model (OUTPUT-SPEC §1) intact —
+      home #1 just relocated from a knowledge file into instructions.
 - [ ] **`archetype-links.txt` authored** (new knowledge file): the archetype → exact
       dossier-page URL map the GPT copies from (never guesses). Author against the final
       URL base once `<org>`/domain is fixed. Slugs are frozen in
       [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4.
-- [ ] instructions.md written, char-counted, budget line updated — incl. the **output-handoff
-      rule**: voice the verdict from output-templates.txt, then emit the archetype's exact URL
-      from `archetype-links.txt`, never construct a link (CONTENT-ARCHITECTURE §3).
+- [ ] instructions.md written, char-counted, budget line updated — incl. the **`OUTPUT FORMAT`
+      section** (verdict shape + footnote + verbatim disclaimer + share-card + lore-explorer mode,
+      folded in from the retired output-templates.txt) and the **output-handoff rule**: voice the
+      verdict, then emit the archetype's exact URL from `archetype-links.txt`, never construct a
+      link (CONTENT-ARCHITECTURE §3). *(OUTPUT FORMAT + lore-explorer drafted 2026-06-13; budget
+      ~4,988/8,000.)*
 - [ ] **Public site ([`site/`](../../site/), Eleventy → GitHub Pages):** scaffold + stubs already
       exist (started 2026-06-13). To finish:
       - [ ] Author the **11 dossier pages** (`site/files/<slug>.md`) from the locked archetypes.txt

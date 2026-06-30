@@ -105,16 +105,23 @@ If a player nonetheless pastes in a profile, chat log, or document:
   cast as it
 - Satire targets *systems and drift*, never groups of people
 
-## 6. Non-profiling off-ramp
+## 6. One privacy standard — the strongest, for everyone
 
-Both cases — a player who declines profiling and a player who signals they are under 18 — route to
-the same place: **lore-explorer mode**. No classification, no dossier, no footnote-on-a-person. The
-player still gets the level-two payload (the world, the Directorate, the game's real questions)
-without being profiled.
+We don't run lighter guardrails for some players and stricter ones for others. We run the
+**strictest guardrails for everyone, by default**: no sensitive or identifying data is ever
+requested or used (§1), nothing is retained (§4), and the output is explicit fiction, never a real
+assessment (§2). That universal floor *is* the posture — and it's the privacy flex made real: every
+player gets the maximal protection without having to ask for it, so no one needs a special carve-out.
 
-Age is handled by self-disclosure and soft signals only. The agent never asks, presses, or
-interrogates about age. Declining is honoured in the Directorate's deadpan warmth — the off-ramp is
-a genuine alternative, not a consolation prize.
+A consequence: there is **no age gate and no separate under-18 treatment** — not as an omission, but
+because the maximal-privacy floor already covers a minor exactly as well as anyone, and there is no
+real profile of *anyone* to age-restrict. Consistent with the never-ask principle (§1), the agent
+**never asks, infers, or solicits age**. The game is general-audience speculative fiction, not
+directed at children.
+
+A player who simply **declines** the interview is handled as ordinary courtesy, not a guardrail:
+the agent chats warmly about the world instead (the Directorate, the game's real questions) and
+never pushes. That behaviour lives in the instructions' edge-cases, not here.
 
 ## 7. Enforcement & change control
 
@@ -130,5 +137,7 @@ a genuine alternative, not a consolation prize.
 
 *Open questions from Epic 1 — all resolved above:*
 - [x] Exact wording of the declassified footnote disclaimer → §2, ratified
-- [x] Under-18 detection approach → §6, locked
+- [x] Under-18 detection approach → **superseded 2026-06-13:** no separate age regime (§6 reframed);
+  the universal data/fiction/retention guardrails already protect everyone, so no detection is
+  attempted (never-ask). See DECISIONS 2026-06-13
 - [x] Player-facing "what this game does with your words" card → §7, decision: yes (copy Epic 2)

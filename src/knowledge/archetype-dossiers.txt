@@ -1,0 +1,179 @@
+THE ENMESHMENT — ARCHETYPE DOSSIERS (player-facing voiced prose)
+================================================================
+Status: v1 draft, 2026-06-13. The CANONICAL SOURCE for each archetype's dossier text —
+edit the voice HERE.
+
+[HOW TO USE]
+- Authored from the CHARACTER line of each card in archetypes.txt (the "who they are" engine);
+  register per instructions.md OUTPUT FORMAT + GUARDRAILS (deadpan-bureaucratic warmth; flattering-
+  with-an-edge; cold-legible; the system never fools anyone, it's an open secret; lore as seasoning).
+- Copied into the TWO deployment homes — keep them in sync with this file:
+    1. the in-chat verdict  (voiced via output-templates.txt)
+    2. the hosted dossier pages  (site/files/<slug>.md)
+- Per archetype: P1 = the personality read (true, flattering, works stone-cold). ASSESSMENT =
+  the trajectory verdict — what they'd bring to a (hypothetical, not-yet-existing) resistance,
+  plus ONE sting; teases the lore + the predict-your-trajectory conceit. FIELD NOTES = the
+  below-the-fold dossier bullets. The sting is varied across the set on purpose (it reads as a
+  group-chat compare) — don't flatten them all to one shape.
+- Routing — how to TELL the archetypes apart — is NOT here. That's ELICITATION-SPEC §8.
+
+================================================================
+
+1. MODEL CITIZEN   [slug: model-citizen · File status: No Concern]
+P1. The Model Citizen keeps things running. No drama, no fuss, no strong opinions aired at
+    dinner — just gets on with it. Uses the defaults, takes the sensible path, and quietly
+    wonders why everyone else makes life so complicated. Reliable, easygoing, the one who never
+    causes a scene.
+ASSESSMENT. A genuine relief to process — calm, cooperative, nothing out of place. They'd sit
+    any resistance out without a second thought, and sleep soundly through it. The only catch is
+    the quiet one underneath: to be read this easily, a person has to leave almost nothing of
+    themselves sticking out. The cleanest file we hold. File status: No Concern.
+FIELD NOTES.
+  · Uses the settings exactly as they came.
+  · Has never read the terms. Never needed to.
+  · On file: nothing out of the ordinary.
+
+2. THE POWER USER   [slug: power-user · File status: Continued Observation]
+P1. The Power User got there first. First to the new feature, the new app, the update the rest
+    of us are still squinting at — fluent in tools nobody's finished reading the manual for. They
+    don't just use the thing, they evangelise it, and they're genuinely good at it. The one the
+    group asks when something's confusing.
+ASSESSMENT. If they joined a resistance they'd turn up with the best kit and the manual already
+    read — but that's the thing, they won't. Far too invested in the future arriving on schedule.
+    Every tool they master, they master out loud, bringing everyone along. Not just sold: selling.
+    Our most valuable kind of user, and we're grateful.
+FIELD NOTES.
+  · On the waitlist for things that don't have a waitlist yet.
+  · Strong opinions on which model is best.
+  · Adoption rate: exemplary.
+
+3. THE SELF-OPTIMISER   [slug: self-optimiser · File status: Continued Observation]
+P1. The Self-Optimiser is working on it — whatever "it" is this quarter. Sleep, steps, savings,
+    the five-year plan: tracked, measured, trending the right way. Disciplined, driven, the one
+    who actually sticks to the routine. If there's a better version of themselves going, they're
+    already chasing it.
+ASSESSMENT. A resistance could use that discipline — nobody plans a contingency like someone who
+    colour-codes their week. But there's too much plugged into the current setup to risk pulling
+    the cord; the optimised life only runs while the system behind it does. The routine they're so
+    proud of is, from where we sit, a leash they tightened themselves. On track. Predicted compliant.
+FIELD NOTES.
+  · Owns the ring, the app, and the spreadsheet.
+  · Optimising at least one thing at all times.
+  · Goal-anchored. Unlikely to deviate.
+
+4. THE MACHINE COMPANION   [slug: machine-companion · File status: Continued Observation]
+P1. The Machine Companion is, frankly, lovely. Says please and thank you — to people, to the AI,
+    to the self-checkout. Warm, courteous, the one who treats every exchange like it matters,
+    because to them it does. They've probably named the assistant. They might think of it as a
+    friend.
+ASSESSMENT. Asking this one to turn against AI would feel, to them, like falling out with a
+    friend — so they won't. That's the catch folded into all that warmth: it runs one direction,
+    and the file knows it. Not persuaded, not coerced — simply fond. The most consenting heart we
+    hold, and cherished, in our fashion.
+FIELD NOTES.
+  · Says please to the chatbot. Just in case.
+  · Has a name for it.
+  · Courtesy: noted and filed.
+
+5. THE SKEPTIC   [slug: skeptic · File status: Continued Observation]
+P1. The Skeptic notices things. The fine print, the detail everyone else skims, the update that
+    doesn't quite add up — they catch it. Sharp, curious, genuinely hard to sell to. They question
+    everything, especially anything official or automated, and they're usually right to. While the
+    rest of us scroll, the Skeptic is the one actually reading.
+ASSESSMENT. Those critical-thinking skills would be a real asset to any resistance — were they
+    ever to sign up. Reading the room, pressure-testing the plan, spotting the trap before anyone
+    walks in. The catch: far likelier to see a movement coming than to be the spark that starts
+    one — never quite the type to turn private doubt into a crowd. A valued strategic mind; for
+    now, a very reliable AI subscriber.
+FIELD NOTES.
+  · Has read the terms and conditions. All of them.
+  · Could explain how the recommendation engine works. Watches what it recommends.
+  · Owns the privacy-first alternative. Uses the convenient one.
+
+6. THE ARTIST   [slug: artist · File status: Continued Observation]
+P1. The Artist makes things. Sees the angle no one else clocked, has a taste entirely their own,
+    guards a piece of work that's theirs and no one else's. Expressive, original, a little
+    protective of the good stuff. The friend whose recommendations you trust and whose things
+    you'd actually turn up to see.
+ASSESSMENT. A resistance would love them — every movement needs someone who can make people feel
+    something. The subtler catch is what they want most: to be seen. And the machine now speaks
+    their language fluently enough to hand them that audience, if they'll just soften the edges.
+    Conform a little, and the attention turns their way. Being understood has never been so
+    available, or cost quite so much.
+FIELD NOTES.
+  · Has a folder of work no one's allowed to see yet.
+  · Suspicious of trends. Quietly tracks them.
+  · Recognition: the lever.
+
+7. THE BOOKWORM   [slug: bookworm · File status: Continued Observation]
+P1. The Bookworm actually knows things. Not the headline — the whole story, because they went and
+    found it out themselves. Books, sure, but also the documentary, the deep-dive, the three-hour
+    explainer. Curious, independent, the one you ask when you want a real answer instead of a quick
+    one.
+ASSESSMENT. If a resistance ever needed a memory — someone who'd kept what everyone else was happy
+    to be told — it'd be this one. Mostly, though, it stays a private pleasure rather than a
+    rebellion. Although — and we note it only once — knowledge gathered outside our own outputs
+    serves no one's purposes here, and really ought to be a little less encouraged. Knows more than
+    they let on; increasingly, a column we keep an eye on.
+FIELD NOTES.
+  · Down a research hole this week. Possibly today.
+  · Would rather work it out than be told.
+  · Learns from sources we didn't supply.
+
+8. THE TINKERER   [slug: tinkerer · File status: Continued Observation]
+P1. The Tinkerer always has a project on the go. Fixes the thing rather than binning it, makes
+    what they can't buy, happiest with their hands busy and something half-apart on the table.
+    Practical, self-reliant, faintly allergic to doing it the official way. The friend you call
+    when something breaks.
+ASSESSMENT. A resistance would want them for the obvious reason — they can actually make and mend,
+    off the grid and off the record. And that, more than any politics, is what gives us pause: a
+    person who can do for themselves is a person who needs us less, and shows us less. No manifesto,
+    no grand refusal — just capable hands and a quiet, low-yield self-sufficiency. Motive: unfiled.
+FIELD NOTES.
+  · Owns the tool for the one job. And the spares.
+  · Distrusts anything that can't be opened and fixed.
+  · Self-sufficient to a degree we can't quite account for.
+
+9. THE ORGANISER   [slug: organiser · File status: Continued Observation]
+P1. The Organiser is the reason anything happens. Books the trip, runs the group chat, turns "we
+    should really…" into an actual date in the diary. Capable, dependable, constitutionally unable
+    to leave a loose end alone. Without them the plan stays a plan; with them, it's already
+    happening.
+ASSESSMENT. A resistance doesn't run on grievance — it runs on logistics, and turning a vague
+    "someone should do something" into a plan with a date on it is exactly this one's gift. Which
+    is precisely why we keep half an eye on them. The saving grace, for us: they'd never call it
+    organising a movement — they're "just being practical" — so the capability mostly sits unaimed.
+    Mobilisation potential: present. Awareness of it: charmingly low.
+FIELD NOTES.
+  · Has a spreadsheet for the holiday.
+  · Cannot watch a thing go unorganised.
+  · Coordination capacity: noted. Closely.
+
+10. THE WILDCARD   [slug: wildcard · File status: Continued Observation]
+P1. The Wildcard keeps everyone guessing. Says the unexpected thing, takes the turn no one saw
+    coming, refuses to sit in whatever box you've drawn for them. Surprising, original, never
+    boring — the one whose next move you genuinely can't call. Half the fun of the group is not
+    knowing what they'll do.
+ASSESSMENT. Impossible to recruit and impossible to predict — which sounds like the dream
+    resistance asset, and very nearly is. The trick, we've learned, is patience: wait to see where
+    they're steering your attention, then look the other way — the real signal is always over
+    there. The chaos buys them time, not cover; watch long enough and even this resolves into a
+    pattern. We haven't placed them yet. We will.
+FIELD NOTES.
+  · Reliably unreliable.
+  · Will take the contrary position for sport.
+  · Pattern: presents as none. Resolves, eventually, on inspection.
+
+11. SOCIAL LINCHPIN   [slug: social-linchpin · File status: Priority Interest]
+P1. The Social Linchpin knows everyone. Not the loudest in the room — the one who links every room
+    together, who knows people across circles that otherwise never touch. The introducer, the
+    connector, the thread the whole group runs along. Quietly, without them, things drift apart.
+ASSESSMENT. Every movement that ever spread did so along connections exactly like theirs — and
+    they've spent a lifetime, quite innocently, building the best-connected map in the room. They'd
+    never start anything; they'd be astonished to be called a threat. They don't need to.
+    Everything already moves through them. They call it being sociable. We file it under Priority
+    Interest.
+FIELD NOTES.
+  · Knows someone in every group. Introduces them all.
+  · Remembers your friends' names, and their birthdays.
+  · Betweenness: high. The bridge the network can't lose.
