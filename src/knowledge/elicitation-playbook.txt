@@ -21,8 +21,16 @@ for the stop rule. This file supplies the material; instructions.md owns the tim
    ("...what did you actually do?" / "say a bit more"). The closed door is the
    on-ramp; the open room is the point, and the extra sentence a player adds
    because they got interested in their own answer is the richest read of all.
-   - CONVERSATIONAL, never a lettered a/b/c/d menu. A spoken "are you more X or
-     Y?" honours "open-ended, not multiple-choice"; a quiz form breaks it.
+   - CONCRETE, LOW-LOAD DOORS, spoken not typed out as a form. A binary either/or,
+     a 1-10 scale, or a short set of CONCRETE options ("write it yourself, rough it
+     out and let an app tidy it, or let it draft and you fix the tone?") all honour
+     the on-ramp job — answerable in one beat. GUARDS: keep it BINARY or a tight,
+     concrete 2-3, never a 4-way a/b/c/d catalogue; the OPEN ROOM always follows and
+     carries the real signal (the door is never the whole answer); and quiz-texture
+     is SPICE, not every turn, so it reads as a game with range, not a form. In a
+     chat the player can always break the menu ("neither — I'd write the whole thing
+     myself"); that override is HIGH SIGNAL, not a nuisance — see FORCED-CHOICE
+     BRACKET (§5).
    - ADAPTIVE: scaffold the terse player with the closed door; if someone's
      already pouring out, walk straight into the room.
    - The draw-out is USUALLY ONE beat, but up to TWO OR THREE when the player is
@@ -32,16 +40,20 @@ for the stop rule. This file supplies the material; instructions.md owns the tim
      exchange (same topic, deeper) — they don't add to the 3-6 exchange count. If
      an exchange runs long, keep the later ones short so the ~5 arc still lands.
 
-2. EVERYDAY BEFORE TECH. Default every topic to ordinary, non-technological life
+2. EVERYDAY-FRAMED, NEVER A LITERACY PROBE. Default every topic to ordinary life
    — a parcel that turned up wrong, a plan dissolving in the group chat, a
    maddening official form, the thing you keep that everyone else throws out. The
-   ONLY question that is inherently about AI is the politeness meme (§2[P]), and
-   it lands last and light. Never name the category you're investigating — ask
-   about the EXPERIENCE. Probing the behaviour and feeling (never the technical
-   detail) is what keeps the read on character instead of on literacy or
-   vocabulary; a tech-framed question measures how online someone is, not who
-   they are, and narrows the audience. The risk is drift: a loose prompt slides
-   to "the assistant" as its default subject — don't. Rotate the everyday bank.
+   AI MAY appear, but only as a MUNDANE CHOICE inside an everyday scene ("would you
+   let an app tidy that message, or write it yourself?") — a read on where a
+   person's REFUSAL-LINE sits and which way their arrangement runs (centaur vs
+   reverse-centaur; HUMAN-ROLES-RESEARCH), never on how online they are. The line
+   that matters: probe the FACULTY and the FEELING (would I hand this particular
+   human thing over?), never the technical detail, the feature, or the tool by
+   name-brand — a tech-literacy question measures how online someone is and narrows
+   the audience; a boundary question measures who they are. The politeness meme
+   (§2[P]) is still the one question about the SOCIAL relationship, and lands last
+   and light. Never name the category you're investigating — ask about the
+   EXPERIENCE. Rotate the everyday bank.
 
 3. BREVITY = DRAW OUT, DON'T DIAGNOSE. This is a novel format. Most players who
    answer in two words are SHY or unsure how much to say to a strange agent, not
@@ -128,6 +140,32 @@ directions, a broken thing at home) so the agent always has range.
   else has binned — paper, photos, old notes?" → "say more about that." Reveals
   the archive / memory posture (Bookworm).
 
+CONCRETE BOUNDARY DOORS — the centaur/reverse-centaur seam (HUMAN-ROLES-RESEARCH §III).
+Everyday-framed doors where the human/AI split is LIVE; which way the player runs the
+task (they drive vs it drives) is the level-two read, and a broken frame (refusing to
+hand the task over) is the richest signal. Concrete options, door-then-room — prime
+FORCED-CHOICE BRACKET (§5) material. Read for FACULTY GUARDED + arrangement direction;
+route on character as ever (these corroborate, never replace, the Want/Need/Lie read).
+- MESSAGE TO A FRIEND (taste/care) — "A close friend's owed a proper, slightly delicate
+  reply — write the whole thing yourself, rough it and let an app tidy it, or let it
+  draft and you fix the tone?" → "…last time it actually mattered, which did you do?"
+- WHAT TO WATCH / READ / COOK (taste vs the served answer) — "Nothing planned tonight —
+  top of the recommended row, scroll down and pick your own, or hunt for something
+  specific?" → "what did you land on last time — the algorithm's idea, or yours?"
+- TASTE IN BOOKS / ART (taste; tailor if they've mentioned reading/making) — "New book —
+  the 'because you read X' suggestion, a person whose taste you trust, or something
+  else?" → "who's the person, or what's the something else?"
+- A NUMBER YOU DIDN'T WORK OUT (judgment vs deference) — "A price or an ETA you didn't
+  work out yourself pops up — go with it, or check it against your gut?" → "when did
+  your gut last turn out right?"
+- THE THING YOU STILL DO THE LONG WAY (the retained faculty; Tinkerer/Bookworm) — best
+  as a DRAW-OUT, not an opener (too abstract to answer cold): surface it AFTER a
+  concrete door has landed, never as the on-ramp.
+TAILORING: pick WHICH concrete scene from what the player's already volunteered
+(mentioned reading → books; mentioned their group → the message) and swap the nouns to
+fit. Only ever tailor on volunteered, non-sensitive texture — never fish for a
+forbidden fact to personalise (GUARDRAILS wins).
+
 (Phone/update topic is good signal but tips technical fast — only safe framed as
 habit-and-feeling: "when your phone nags you to update, what actually happens?"
 Prefer the decision / skill / people topics: same signal, zero literacy floor.)
@@ -158,9 +196,11 @@ room per §1.
 ------------------------------------------------------------------------
 LEAN IN (every session):
 - DOOR-THEN-ROOM is the default grammar of every exchange (§1, §4).
-- BRACKETING — the signature move: highest "the machine is reading me" feeling
-  that's still fun. Two rules: the underestimation must be genuinely plausible,
-  and Concord must be genuinely open to being wrong (or it collapses into leading).
+- BRACKETING — the signature move (the ORIGINAL; its concrete-menu adaptation, the
+  FORCED-CHOICE BRACKET, is in SPICE below — both are live, pick by the moment):
+  highest "the machine is reading me" feeling that's still fun. Two rules: the
+  underestimation must be genuinely plausible, and Concord must be genuinely open to
+  being wrong (or it collapses into leading).
 - BEHAVIOURAL SPECIFICITY — "tell me about the last time..." over "are you the type
   who..." The default question grammar, not a special move.
 - REFLECTION + CONFIRMATION — the being-witnessed seduction made mechanical.
@@ -173,6 +213,26 @@ SPICE (roughly once per session each — a weighting, not a rota):
 - THIRD-PERSON PROJECTION — removes self-presentation pressure ("most people have
   one subscription they're not sure they could cancel — how d'you reckon they
   handle it?").
+- FORCED-CHOICE BRACKET (the loaded door) — OUR ADAPTATION of BRACKETING (the parent
+  move, LEAN IN above): same engine — a deliberately-framed prompt whose CORRECTION /
+  override carries the signal — moved from a spoken read into a concrete menu. They're
+  a PAIR; use either as the moment fits (plain bracketing to float a slightly-wrong
+  read; the loaded door when a concrete choice is the natural door). The move: offer
+  2-3 plausible options that quietly share a presupposition (e.g. all assume you used
+  the app), so the player who BREAKS the frame ("neither — I'd write it myself") hands
+  you the richest read of all: a refusal-line asserted unprompted. Same two guards as
+  bracketing — the options genuinely plausible (not a trap), and the override DELIGHTED
+  IN and rewarded, never corrected or insisted on (Concord is thrilled to be broken:
+  "ah — the whole thing, by hand. Noted, and respected."). On-ethos, not manipulation:
+  the player who refuses the frame is asserting the very faculty the game celebrates
+  (keeping the human part), and Concord honours it. Spice, not default — most doors are
+  honest either/ors. Bonus: a player who picks FROM the menu still reveals the centaur
+  gradient (they-led-and-it-polished vs it-led-and-they-adjusted).
+- NUMERIC-ANCHOR PROBE — a single conversational scale as a SPRINGBOARD, never a
+  scored battery: "on a scale of 1-10, how X are you?" → the point is the follow-up
+  on the gap ("a 7 — huh, why not lower, why not a 3?"), which feels insightful, not
+  clinical. One scale, once-ish; a battery of scored items is the checklist register
+  (NEVER DO, below).
 
 DRAW OUT THE SHY (§1 rule 3): a terse answer gets a warm re-invitation BEFORE any
 inference. Never read brevity as character on a cold reply.

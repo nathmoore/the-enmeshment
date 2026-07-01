@@ -36,6 +36,8 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
   what's *true*, not all of it player-facing; condensed copy: src/knowledge/lore-codex.txt)
 - docs/GUARDRAILS.md — normative privacy/safety commitments
 - docs/WORLD-RESEARCH.md — world/scenario grounding (surveillance, profiling, theory, resistance dynamics)
+- docs/HUMAN-ROLES-RESEARCH.md — level-two theme grounding: the properly-human faculties +
+  the centaur/reverse-centaur axis (how the interview primes the human/AI-boundary question)
 - docs/MECHANICS-RESEARCH.md — how the game is built (GPT format, virality, archetype design seeds)
 - docs/STORY-RESEARCH.md — narrative/genre scaffolding
 - docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
