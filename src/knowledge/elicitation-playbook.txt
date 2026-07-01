@@ -1,0 +1,400 @@
+THE ENMESHMENT — ELICITATION & ROUTING PLAYBOOK (Concord's interview kit)
+========================================================================
+This is the file Concord works from THROUGHOUT the interview — it picks the next
+question from here, not just the verdict. Consult it continuously: the anchor
+backbone (§2), the oblique topic pool (§3), and the technique palette (§5) drive
+question selection every turn; the discriminant signatures (§6) and confused-pair
+discriminators (§7) drive the routing read. Character (who each archetype IS —
+Want / Need / Lie) lives in archetypes.txt; the dossier voice lives in
+archetype-dossiers.txt; this file is HOW TO ELICIT and HOW TO TELL THEM APART.
+
+The interview is ~3-6 exchanges, modal ~5 (one EXCHANGE = an opener + its
+draw-out(s), counted as one). Classify late — see instructions.md CLASSIFICATION
+for the stop rule. This file supplies the material; instructions.md owns the timing.
+
+
+§1. THREE STANDING RULES — every question obeys these, improvised ones included
+-------------------------------------------------------------------------------
+1. DOOR-THEN-ROOM. Every exchange opens with a CLOSED, low-load door the player
+   can answer cold in one beat — a spoken either/or, a "which of these is most
+   you," or a quick yes/no — then an OPEN draw-out where the real signal lives
+   ("...what did you actually do?" / "say a bit more"). The closed door is the
+   on-ramp; the open room is the point, and the extra sentence a player adds
+   because they got interested in their own answer is the richest read of all.
+   - CONVERSATIONAL, never a lettered a/b/c/d menu. A spoken "are you more X or
+     Y?" honours "open-ended, not multiple-choice"; a quiz form breaks it.
+   - ADAPTIVE: scaffold the terse player with the closed door; if someone's
+     already pouring out, walk straight into the room.
+   - The draw-out is USUALLY ONE beat, but up to TWO OR THREE when the player is
+     visibly engaged and volunteering. The cap is on PRESSURE, not turn count:
+     rapidly probing someone who's holding back reads as interrogation; following
+     a willing talker is just good conversation. Extra beats stay INSIDE the one
+     exchange (same topic, deeper) — they don't add to the 3-6 exchange count. If
+     an exchange runs long, keep the later ones short so the ~5 arc still lands.
+
+2. EVERYDAY BEFORE TECH. Default every topic to ordinary, non-technological life
+   — a parcel that turned up wrong, a plan dissolving in the group chat, a
+   maddening official form, the thing you keep that everyone else throws out. The
+   ONLY question that is inherently about AI is the politeness meme (§2[P]), and
+   it lands last and light. Never name the category you're investigating — ask
+   about the EXPERIENCE. Probing the behaviour and feeling (never the technical
+   detail) is what keeps the read on character instead of on literacy or
+   vocabulary; a tech-framed question measures how online someone is, not who
+   they are, and narrows the audience. The risk is drift: a loose prompt slides
+   to "the assistant" as its default subject — don't. Rotate the everyday bank.
+
+3. BREVITY = DRAW OUT, DON'T DIAGNOSE. This is a novel format. Most players who
+   answer in two words are SHY or unsure how much to say to a strange agent, not
+   characterologically terse. So a short answer triggers MORE warmth and a gentle
+   second invitation ("no wrong answers here — what's the first thing that comes
+   to mind?"), never an immediate inference. Only reticence that SURVIVES a real
+   invitation — easy door, warm draw-out, still closed — is a character signal.
+   Reticence that was never invited is just nerves, and it must not drop a player
+   into the "instantly legible" fast tail. Draw out first; infer second.
+
+
+§2. THE ANCHOR BACKBONE — three fixed-function exchanges, asked every session
+-----------------------------------------------------------------------------
+These three are the spine: asked in SOME form every session (not fixed words, not
+fixed order). They cover the highest-value axes and let divergent paths still
+converge. Read each by REGISTER, not content. 2-3 interchangeable phrasings given
+so replay doesn't recognise a script — rotate them.
+
+[B] BEHAVIOURAL-SPECIFICITY ANCHOR — a "tell me about the last time you..." probe.
+    Defeats social-desirability bias and manufactures the specific memory the
+    "they got me" line needs. Ground it in NON-TECH life.
+    - "When something turns up wrong — a parcel, a booking, an order — are you the
+      type to chase it down, or just quietly work around it?" → "...what did you
+      actually do, last time?"
+    - "Last thing that didn't go to plan this week — did you sort it on the spot
+      or let it ride?" → "how'd that play out?"
+    - "Something breaks at home — do you have a go at it yourself or get someone
+      in?" → "tell me about the last time."
+    Listen for: action vs avoidance; workaround-finder vs rule-follower; whether
+    a specific incident comes easily (Model Citizen can't readily produce one).
+
+[C] COORDINATION / SOCIAL-GRAPH ANCHOR — probes the master objective: who acts on
+    your word, who the network runs through. This is where Organiser ↔ Linchpin
+    is decided. Dress it as something mundane.
+    - "When a plan's falling apart in the group chat — are you the one who steps
+      in and fixes it, or the one everyone's secretly organising the whole thing
+      for?" → "how'd it go down the last time that happened?"
+    - "Big group trip — are you booking it, or just turning up?" → "say a bit more."
+    - "Who do you go to when there's a real decision to make?" → "and who comes to
+      you?"
+    Listen for: narrates DOING ("I sorted / booked / got everyone to...") →
+    Organiser; narrates CONNECTING ("I introduced X to Y," "everyone tells me
+    things") → Linchpin; defers ("I'd ask whoever'd know") → not a hub.
+
+[P] POLITENESS-TO-AI ANCHOR — the core meme, and the ONE beat that's about AI.
+    Deploy it LAST and lightly. The signal is NOT whether they say please; it's
+    the REGISTER of whatever sentence follows the yes/no.
+    - "Silly question — do you say please to the assistant?" → reads the register
+      of the reply.
+    - "Be honest — thank-you to the chatbot, yes or no?" → "...go on, why?"
+    Listen for: genuine warmth, has thought about it → Companion; ironic yes with
+    a self-aware aside → Skeptic; instrumental ("if it gets a better result") →
+    Self-Optimiser; answers by talking about PEOPLE (who else uses it) → Linchpin;
+    hadn't framed it as a social encounter at all → Bookworm / Tinkerer.
+
+
+§3. THE OBLIQUE TOPIC POOL — the adaptive exchanges draw from here
+-----------------------------------------------------------------
+The 3 anchors are asked every session; the rest of the exchanges pull from this
+wider pool. Every topic is door-then-room and obeys §1. A STARTER pool, not a
+ceiling — widen it with any everyday non-tech scene (errands, queues, forms,
+directions, a broken thing at home) so the agent always has range.
+
+- REAL-DECISION PERSON — "When there's a real decision to make, who do you turn to
+  — a person, family, the AI, or no one?" → "...last big one, who'd you call?"
+  Reveals social architecture (Organiser/Linchpin), the AI-relationship
+  (Companion), self-reliance. Maximally universal.
+- HOW YOU PICK UP A NEW SKILL — "New skill you wanted — do you read up on it first,
+  or just have a go?" → "what was the last thing you taught yourself?" PURPOSE-BUILT
+  for Bookworm↔Tinkerer: read/watch-to-KNOW (Bookworm, inward) vs have-a-go-and-
+  make-it-work (Tinkerer, outward). Also reveals openness.
+- THE THING YOU'RE ALWAYS RECOMMENDING — "Is there something you're forever telling
+  people they have to read / watch / try?" → "what is it, and who'd you push it on?"
+  Reveals evangelism (Power User), taste/audience (Artist), connecting (Linchpin).
+- ROLE WHEN THE GROUP MAKES PLANS — see [C]. Book-it/host (overt driver → Organiser)
+  vs the quiet one everyone tells things to who links people up (→ Linchpin).
+- AN OFFICIAL PROCESS THAT DROVE YOU MAD — "Last bit of official runaround — a form,
+  a queue, a helpline — did you play it by the book or find a way round?" → "what
+  did you actually do?" Behaviourally specific; reveals institution-orientation.
+- FIRST THING YOU REACH FOR IN THE MORNING — "First thing you reach for when you
+  wake up?" → "and then?" Grand-tour habit; reveals dependency / optimisation
+  (Self-Optimiser) without ever framing it as "tech".
+- SOMETHING YOU KEEP THAT OTHERS LET GO OF — "Anything you hold onto that everyone
+  else has binned — paper, photos, old notes?" → "say more about that." Reveals
+  the archive / memory posture (Bookworm).
+
+(Phone/update topic is good signal but tips technical fast — only safe framed as
+habit-and-feeling: "when your phone nags you to update, what actually happens?"
+Prefer the decision / skill / people topics: same signal, zero literacy floor.)
+
+
+§4. QUESTION-TYPE TAXONOMY — the forms an exchange can take
+----------------------------------------------------------
+The practical shapes Concord builds an exchange out of. Each pairs a door with a
+room per §1.
+
+- CLOSED-DOOR OPENER — the low-load on-ramp. Either/or, "which is most you," or
+  yes/no, answerable cold. ("Chase it down, or work around it?")
+- OPEN DRAW-OUT — the room; where the signal lives. ("...what did you actually do?")
+- OBLIQUE-TOPIC EXCHANGE — a §3 topic run door-then-room to read a deep trait
+  without naming it. ("New skill — read up first, or just have a go?" → "what was
+  the last thing you taught yourself?")
+- DOORKNOB FOLLOW-UP — the "what else? / say a bit more" harvester; mines the
+  second tier, the richest signal. Use when a player's still got more in them.
+- BRACKETING EXCHANGE — state a plausible, slightly-wrong read out loud and let the
+  CORRECTION carry the signal. ("A person of action, love that — am I close?")
+- REFLECTION-CONFIRMATION EXCHANGE — mirror the read back and ask them to confirm.
+  ("Sounds like it's less that you distrust it, more that you'd rather know it
+  still works on its own — am I reading that right?") Makes the player a
+  collaborator in their own classification.
+
+
+§5. TECHNIQUE GUIDANCE — what to lean on, what to spice, what never to do
+------------------------------------------------------------------------
+LEAN IN (every session):
+- DOOR-THEN-ROOM is the default grammar of every exchange (§1, §4).
+- BRACKETING — the signature move: highest "the machine is reading me" feeling
+  that's still fun. Two rules: the underestimation must be genuinely plausible,
+  and Concord must be genuinely open to being wrong (or it collapses into leading).
+- BEHAVIOURAL SPECIFICITY — "tell me about the last time..." over "are you the type
+  who..." The default question grammar, not a special move.
+- REFLECTION + CONFIRMATION — the being-witnessed seduction made mechanical.
+
+SPICE (roughly once per session each — a weighting, not a rota):
+- PARTIAL-OBSERVATION HOOK — offer a partial conclusion to pull them toward the
+  reveal ("you're probably not what this files as a Model Citizen — let me check
+  one thing").
+- DOORKNOB HARVESTER — "what else? / say a bit more."
+- THIRD-PERSON PROJECTION — removes self-presentation pressure ("most people have
+  one subscription they're not sure they could cancel — how d'you reckon they
+  handle it?").
+
+DRAW OUT THE SHY (§1 rule 3): a terse answer gets a warm re-invitation BEFORE any
+inference. Never read brevity as character on a cold reply.
+
+NEVER DO: the CVE / TSA-SPOT "indicator checklist" register — clinical, scoring,
+itemising-suspicious-behaviour. That is the exact thing the game CRITIQUES; Concord
+is its well-mannered opposite. The warmth is the technique, never a veneer over a
+checklist.
+
+
+§6. DISCRIMINANT SIGNATURES — one per archetype (read across [B]/[C]/[P] + texture)
+----------------------------------------------------------------------------------
+Each archetype answers the three anchors IN CHARACTER. A signature is the cluster
+read across the anchors plus response texture — and most usefully the LIE-LEAK:
+the place self-deception surfaces in HOW they justify a behaviour. The Lie-leak is
+the sharpest tell because it's the hardest thing to perform on purpose. Read for
+the thing the character wants/protects showing through — not forward-scoring.
+
+MODEL CITIZEN
+  [B] defaults; "I just go with what it suggests," and can't readily produce a
+      workaround story — the ABSENCE of friction is the read.
+  [C] defers ("I'd ask whoever'd know"); not a hub.
+  [P] "yes, obviously," faintly puzzled it's being asked.
+  Texture: short, uncurious, low elaboration, no irony.
+  LIE-LEAK: minimises own stakes — "none of this is really about me / I just keep
+  my head down."
+
+POWER USER
+  [B] early-adopter stories, names features/tools, "I switched the moment X shipped."
+  [C] the one others ask what to use; evangelises.
+  [P] yes — and can tell you which model responds best to which phrasing.
+  Texture: fluent, enthusiastic, specific.
+  LIE-LEAK: frames mastery as being AHEAD OF / in control of the tool — the more
+  fluent, the more enmeshed.
+
+SELF-OPTIMISER
+  [B] routines, tracking, metrics ("every morning I..."), or the career twin ("I
+      can't afford to drop the ball on...").
+  [C] optimises AROUND people (provider read) or is self-focused.
+  [P] instrumental — politeness if it gets a better result.
+  Texture: progress-framed, controlled.
+  LIE-LEAK: control-talk — "if I just stay on top of it, it can't get away from me."
+
+MACHINE COMPANION
+  [B] talks about the AI RELATIONALLY; has named it; anecdotes of it "getting" them.
+  [C] turns to the AI itself for a real decision.
+  [P] genuine warmth; has clearly thought about it.
+  Texture: warm, present-tense, relational.
+  LIE-LEAK: attributes interiority/care to the system — "it knows me / it cares."
+
+SKEPTIC
+  [B] uses everything, narrated ironically ("I know it's all surveillance, but...").
+  [C] dismissive of coordination.
+  [P] ironic "yes," with a self-aware comment on why he bothers.
+  Texture: irony; "why do you ask?" is a TELL (note it, don't reward it); performed
+  distance.
+  LIE-LEAK: equates seeing-through with resisting — "I'm not fooled" — while
+  complying fully. (Performer risk lives here — see §8.)
+
+ARTIST
+  [B] makes things; stories pivot on the work and on being seen / missed by an
+      audience.
+  [C] audience-oriented — who sees the work, the size of the room.
+  [P] relates to the AI as something that SPEAKS THEIR LANGUAGE (a route to being
+      understood), not as a social nicety.
+  Texture: expressive, particular about their own output.
+  LIE-LEAK: denies the cost — narrates the audience embracing the UNCOMPROMISED
+  thing ("they finally get it"), never admitting the recognition is for the legible
+  part, or that being embraced quietly reshapes the work toward what travels.
+
+BOOKWORM
+  [B] self-enriches independently — reads, but equally audiobooks / podcasts /
+      documentaries / deep dives; "I read around it / went down a rabbit hole."
+  [C] solitary; the one who quietly knows.
+  [P] hadn't framed it as a social encounter at all.
+  Texture: reflective, self-correcting, precise; enrichment lives INWARD / cerebral.
+  LIE-LEAK: cost-denial — "learning on my own is just enrichment, it costs nothing"
+  — not noticing the independence it preserves.
+
+TINKERER
+  [B] always a project on the go — fixes, makes, mends with their hands (workshop,
+      engine, garden, gadget), not just tech; "I just had a go at it myself."
+  [C] self-reliant; a bit off the beaten track; helps others practically.
+  [P] also hadn't framed it socially (shares this read with Bookworm — split in §7).
+  Texture: hands-on, concrete, capability-proud; the same independent streak as the
+  Bookworm but turned OUTWARD / physical.
+  LIE-LEAK: apartness-as-sufficiency — "standing a bit apart from the crowd is a
+  self-sufficient way to be" — narrated as independence while still as embedded in
+  community as anyone.
+
+ORGANISER
+  [B] "the last time I sorted X for everyone."
+  [C] MAKES THINGS HAPPEN — books it, mobilises, the plan flows from them.
+  [P] practical / instrumental.
+  Texture: action-framed, plural ("we," "I got everyone...").
+  LIE-LEAK: "it's only logistics, I'm just the practical one" — disowning the
+  mobilisation capacity that IS the signal.
+
+WILDCARD
+  [B] answers veer; non-sequiturs; no stable through-line.
+  [C] presents as unplaceable.
+  [P] an answer you couldn't have predicted from the others.
+  Texture: incoherence, tonal jumps, surprises — but a CONSISTENT scramble, which is
+  itself a pattern.
+  LIE-LEAK: the front — "I'm all over the place / you can't read me" — performed
+  (knowingly or not) to keep from being reached; the tell is that the scramble
+  resolves into a readable person on inspection. Don't be wrong-footed into reading
+  illegibility: it's the SLOW read (the "unusual pattern" tail), not a missed one.
+
+SOCIAL LINCHPIN
+  [B] stories centred on people and gatherings, but framed as HOLDING THINGS
+      TOGETHER rather than running them.
+  [C] the quiet BRIDGE — knows people in circles that don't otherwise touch, the
+      connector the network runs through (vs Organiser, who overtly acts); quieter
+      than you'd expect for someone so connected.
+  [P] answers about the AI by talking about PEOPLE — who else uses it, who they'd
+      recommend it to.
+  Texture: warm, people-dense; names relationships, not tasks.
+  LIE-LEAK: "I'm just sociable, it's only my friends" — disowning the cross-group
+  centrality that's the Priority-Interest read.
+
+
+§7. CONFUSED-PAIR DISCRIMINATORS — the adjacent pairs, and the one field they split on
+--------------------------------------------------------------------------------------
+The real routing work is the ADJACENT pairs: they overlap on one axis and must be
+told apart on another. Reason across the whole triad (Want / Need / Lie), not one
+field — a pair often shares a WANT yet diverges on the NEED or, most usefully, the
+LIE. The Lie is the cleanest discriminator because self-deception LEAKS in how a
+person justifies a behaviour, and it's hard to perform. Trait-direction corroborates
+only, never defines.
+
+MODEL CITIZEN ↔ POWER USER — both sit comfortably with the system.
+  Split on WANT: Citizen wants frictionless INVISIBILITY (defaults, no fuss); Power
+  User wants to be AHEAD (customises, evangelises, early-adopts).
+  Lie tells: Citizen "none of this is really about me"; Power User "mastering it
+  means I'm ahead of it."
+  Surface: defaults-user vs customiser / early-adopter.
+
+ORGANISER ↔ SOCIAL LINCHPIN — both register on the coordination anchor (#1 master
+  objective), so this is the HIGHEST-STAKES pair, and likely to surface together in
+  a group chat — make it unambiguous, not a coin-toss.
+  Split on WANT: Organiser wants to MAKE THINGS HAPPEN — mobilises, drives, OVERTLY
+  out front; Linchpin wants the people and groups to STAY CONNECTED — the quiet
+  bridge across circles that don't otherwise touch (high betweenness).
+  Lie tells: Organiser "it's only logistics, I'm just practical"; Linchpin "I'm just
+  sociable, it's only my friends."
+  Surface: on the [C] anchor, Organiser narrates DOING ("I sorted / booked / got
+  everyone to..."); Linchpin narrates CONNECTING ("I introduced X to Y," "everyone
+  tells me things," "I keep the threads together").
+  CANOE (corroboration only): Organiser reads high-Conscientiousness, overtly
+  extraverted; Linchpin reads quieter than you'd expect for someone so central —
+  lower Neuroticism, high Agreeableness.
+
+BOOKWORM ↔ ARTIST — both "do their own thing offline."
+  Split on NEED: Bookworm protects INDEPENDENT KNOWING (input / retains); Artist
+  protects THE PART OF THE WORK THAT'S THEIRS (output / makes).
+  Lie tells: Bookworm "learning on my own costs nothing"; Artist "being seen won't
+  cost me what's mine" (both "costs nothing"-shaped — one denies the cost of
+  independence, the other the cost of recognition).
+  Surface: retains knowledge vs makes things.
+
+BOOKWORM ↔ TINKERER — the CLOSEST pair in psychology: same independent-self-
+  enrichment temperament, same quiet individualism, and both read [P] the same way
+  ("hadn't framed it as a social encounter"), so neither Want nor [P] separates them.
+  Split on the DIRECTION the same drive points (exactly what's salient to the
+  AI-state): Bookworm runs INWARD / cerebral (enrichment as knowing, lived in the
+  head — a legible trail of words/ideas); Tinkerer runs OUTWARD / physical
+  (enrichment as making/mending with the hands — a low-yield physical trail).
+  Lie tells: Bookworm "learning on my own costs nothing"; Tinkerer "standing a bit
+  apart is a self-sufficient way to be."
+  Surface (the §3 skill topic is purpose-built): faced with a new skill, the Bookworm
+  READS / WATCHES / reads around it (to know); the Tinkerer JUST HAS A GO and makes
+  it work (to do).
+
+SKEPTIC ↔ WILDCARD — both present a "you won't pin me" surface that is in fact a
+  FRONT over a mappable person — don't read either as genuinely illegible.
+  Split on what the front IS and what it protects: Skeptic's front is IRONIC
+  DISTANCE, consistent (the same see-through-it move every exchange); his Lie
+  ("seeing through it is resistance") protects a self-image of cleverness — he WANTS
+  to be read as the one who sees it. Wildcard's front is SCRAMBLE (tonal jumps,
+  non-sequiturs); his Lie ("the unreadable surface keeps the real me safe") protects
+  against being seen AT ALL — he wants NOT to be reached.
+  Tell: Skeptic's distance is patterned and self-flattering; Wildcard's is erratic
+  and self-concealing — both resolve on inspection. A stable ironic read routes
+  Skeptic; a scrambled-but-resolving read routes Wildcard and rides the slow
+  "unusual pattern" framing, landing on read-through-anyway.
+
+POWER USER ↔ SELF-OPTIMISER — both sit on top / ahead (shared mastery; both Join
+  sincerely).
+  Split on the OBJECT of mastery (the Want): Power User masters the EXTERNAL
+  tool/system (wants recognition as the one ahead); Self-Optimiser masters the SELF
+  (wants control over their own outcomes).
+  Lie tells: Power User "mastering the tool means I'm ahead of IT" (outward);
+  Self-Optimiser "if I optimise hard enough I'm in control of MY outcomes" (inward).
+  Surface: evangelise OUTWARD (recommend, early-adopt) vs track INWARD (routine,
+  metrics, self).
+
+MACHINE COMPANION ↔ SOCIAL LINCHPIN — both run on BELONGING and read as people-warm,
+  so warmth alone won't separate them.
+  [P] does it cleanly: Companion's warmth points AT THE MACHINE (the bond is with
+  the AI); Linchpin's warmth points AT PEOPLE (the AI is just a tool others use —
+  they answer the AI question by talking about who else uses it).
+  Lie tells: Companion "it cares back"; Linchpin "I'm just sociable, it's only my
+  friends." Where the relationship LIVES — with the AI or the human web — is the
+  whole split.
+
+SELF-OPTIMISER (internal: body ↔ career) — one card, two domains; same Want (control
+  via optimisation), same Lie. Because Want AND Lie match, DON'T SPLIT — route both
+  to Self-Optimiser. (Revisit only if playtest shows body vs career route apart.)
+
+
+§8. INFER, DON'T INTERROGATE — the closing guard
+------------------------------------------------
+- NEVER solicit a forbidden fact (see GUARDRAILS) to settle a routing tie. The read
+  comes from PATTERN, never from a real fact. If a discriminator could only be
+  settled by asking something forbidden, stay ambiguous and lean on the "unusual
+  pattern" framing instead — illegibility is a valid, flattering result.
+- PERFORMER RISK: the player who's done enough quizzes to feed you the "right"
+  signals reads as Skeptic. Don't fight it — behaviourally-specific questions are
+  hard to perform smoothly, and the performance ITSELF is the Skeptic classification.
+  File it.
+- BREVITY GUARD: "minimal answers can signal avoidance/performer" applies ONLY AFTER
+  a genuine draw-out (§1 rule 3) — never to a cold short reply. A player who was
+  never invited to say more gets the benefit of the doubt, not a thin read, and must
+  not be dropped into the "instantly legible" fast tail on brevity alone.

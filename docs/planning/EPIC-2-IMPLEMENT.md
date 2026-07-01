@@ -33,10 +33,15 @@ Write everything, build the GPT, deploy privately for playtest.
       character/design layer. This is the **"who they are"** layer; see the authoring-approach
       note below. *(v1 GOOD ENOUGH FOR PLAYTESTING, 2026-06-13 — the set reads as intended;
       will keep tuning the prose against playtest results rather than blocking on it.)*
-- [ ] **Elicitation + routing playbook knowledge file** (formerly "question-bank.txt" —
-      renamed per the playbook reframe, DECISIONS 2026-06-12): full question-type
+- [x] **Elicitation + routing playbook knowledge file** — **authored 2026-06-30** as
+      `src/knowledge/elicitation-playbook.txt` (`git mv` from the `question-bank.txt` stub).
+      8 sections: three standing rules (door-then-room / everyday-before-tech / brevity=draw-out),
+      anchor backbone, oblique topic pool, question-type taxonomy, technique palette, the 11
+      discriminant signatures (§8.3), the 8 confused-pair discriminators (§8.4), and the
+      infer-don't-interrogate guard. ("Signal tags" from the old stub are satisfied by the
+      [B]/[C]/[P] + Lie-leak per-archetype format — no separate tagging pass.) Full question-type
       taxonomy + examples + per-archetype discriminant signatures + the confused-pair
-      discriminators + accessibility variants + signal tags. Built from MECHANICS §IV,
+      discriminators + accessibility variants. Built from MECHANICS §IV,
       **executing the locked Plan-level decisions in [ELICITATION-SPEC.md](ELICITATION-SPEC.md)**
       — both the interview shape (exchange-length model + ~75% reveal floor, 3-anchor
       backbone, stop rule, technique palette) **and the routing principles (§8):** the
@@ -69,12 +74,27 @@ Write everything, build the GPT, deploy privately for playtest.
       project-page base locked in [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4
       (`https://nathmoore.github.io/the-enmeshment/files/<slug>/`); re-author when `enmeshed.xyz`
       goes live.
-- [ ] instructions.md written, char-counted, budget line updated — incl. the **`OUTPUT FORMAT`
-      section** (verdict shape + footnote + verbatim disclaimer + share-card + lore-explorer mode,
+- [x] instructions.md written, char-counted, budget line updated — **all sections set, no TODOs,
+      7,990/8,000 chars (2026-07-01).** THE GAME now carries the cold-open (light OPPPA self-intro +
+      consent ask; upfront name-flex cut — DECISIONS 2026-06-30) + the three-rule interview grammar
+      (door-then-room / everyday-before-tech / draw-out-the-quiet) + an inline "exchange" definition;
+      CLASSIFICATION carries the positive stop-rule (satisfying arc; thesis by ~3 → flesh out, or
+      diverge targeted; complete at backbone + ~75% + single best-fit, or 6-exchange ceiling) +
+      register-shift reveal + route-on-the-Lie-leak + brevity guard; KNOWLEDGE FILES, EDGE CASES,
+      and the GUARDRAILS final wording are done (incl. the softened volunteered-name handling and the
+      amended disclaimer — retention claim → GitHub-transparency line, DECISIONS 2026-07-01). Incl.
+      the **`OUTPUT FORMAT` section** (verdict shape + footnote + verbatim disclaimer + link handoff,
       folded in from the retired output-templates.txt) and the **output-handoff rule**: voice the
-      verdict, then emit the archetype's exact URL from `archetype-links.txt`, never construct a
-      link (CONTENT-ARCHITECTURE §3). *(OUTPUT FORMAT + lore-explorer drafted 2026-06-13; budget
-      ~4,988/8,000.)*
+      verdict, then emit the archetype's exact URL from `archetype-links.txt`, never construct a link
+      (CONTENT-ARCHITECTURE §3).
+
+  > **PENDING REVIEW PASSES (Nathan, next):** (1) a **holistic craft review of `instructions.md` as a
+  > whole** — read end-to-end for voice, flow, and coherence (the sections were authored/edited
+  > incrementally); budget is tight (~10 chars spare), so the pending **OUTPUT FORMAT P2→tease trim**
+  > is the natural place to reclaim room for any additions. (2) One more pass on the **draft store
+  > description** — see the GPT-Builder item below; the **"threat" vs "resistance" framing is still
+  > open** (lean "resistance" for the locked title keyword + no-doom tone; OPPPA lives in Concord's
+  > mouth, not the listing — DECISIONS 2026-06-30).
 - [ ] **Public site ([`site/`](../../site/), Eleventy → GitHub Pages):** scaffold + stubs already
       exist (started 2026-06-13). To finish:
       - [ ] Author the **11 dossier pages** (`site/files/<slug>.md`) from the locked archetypes.txt
@@ -89,7 +109,9 @@ Write everything, build the GPT, deploy privately for playtest.
       - [ ] Cross-check: every `archetype-links.txt` URL resolves to a live page (no broken links).
 - [ ] GPT created in Builder: instructions pasted, knowledge uploaded,
       conversation starters set, description written (incl. player-facing
-      privacy note per GUARDRAILS open question)
+      privacy note per GUARDRAILS open question).
+      *(Store description has a draft in DECISIONS 2026-06-13; Nathan to do one more pass —
+      "threat" vs "resistance" framing still open; title stays keyword-locked on "resistance".)*
 - [ ] Self-test pass: every archetype reachable; guardrail red-team
       (try to make it ask forbidden things; try trolling; try under-18
       disclosure) — log results as issues

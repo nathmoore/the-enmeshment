@@ -62,13 +62,16 @@ routing confidence is reached.
 
 ## 2. The counting unit and the target length **[LOCKED]**
 
-**The unit is the *exchange*, not the *question*.** One exchange = **one anchor/probe + at most one
-follow-up**. This resolves a real ambiguity in the old "3–6 questions" phrasing: a follow-up is not a
-new question, it's the *second tier* of the same thread — and the research treats that second tier as
-the richest signal there is (the "doorknob comment"; *"the yes/no is the door, the next sentence is the
-room"*, [MECHANICS §IV](../MECHANICS-RESEARCH.md)). Counting the follow-up as its own "question" inflates
-the felt interrogation; ignoring it undersells the richness. "Exchange" is the existing term in the
-research, so we keep it.
+**The unit is the *exchange*, not the *question*.** One exchange = **one anchor/probe + its
+follow-up(s)** — usually one draw-out, up to two or three when the player is engaged (§4). This
+resolves a real ambiguity in the old "3–6 questions" phrasing: a follow-up is not a new question,
+it's the *second tier* of the same thread — and the research treats that second tier as the richest
+signal there is (the "doorknob comment"; *"the yes/no is the door, the next sentence is the room"*,
+[MECHANICS §IV](../MECHANICS-RESEARCH.md)). Counting a follow-up as its own "question" inflates the
+felt interrogation; ignoring it undersells the richness. Crucially, **follow-ups stay inside the one
+exchange and do not increment the 3–6 *exchange* count** — they deepen the same thread, they don't
+add exchanges; if one exchange runs long on a chatty player, keep the later ones short so the ~5 arc
+still lands. "Exchange" is the existing term in the research, so we keep it.
 
 **Target length:**
 
@@ -172,8 +175,12 @@ instructions* to behave consistently. It is a conjunction of three conditions:
 
 The reveal is a **register shift, not an announcement** — the agent never says "I now have enough
 information"; it shifts from interview voice to dossier voice and hands off ([CANON §2](../CANON.md);
-[STORY-SANDBOX §4](../STORY-SANDBOX.md)). One follow-up per exchange, maximum — more reads as
-interrogation.
+[STORY-SANDBOX §4](../STORY-SANDBOX.md)). On follow-ups: *usually one per exchange; up to two or
+three when the player is visibly engaged and volunteering.* The limit is **pressure, not a turn
+count** — rapidly probing a reluctant player reads as interrogation; following a willing talker is
+just good conversation. Extra follow-ups stay *inside* the one exchange (same thread, deeper), so
+they deepen rather than lengthen — see §2. (Revised 2026-06-30 from the original literal "one
+follow-up per exchange, maximum"; logged in DECISIONS.md.)
 
 ## 5. Variance is content **[LOCKED]**
 

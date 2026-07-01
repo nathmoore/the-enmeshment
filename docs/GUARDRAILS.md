@@ -76,7 +76,7 @@ all 11 archetypes, and must never be paraphrased away or cut for space:
 
 > *"This is a work of speculative fiction and a game. It is not a real psychological, behavioural,
 > or predictive assessment — the Directorate, its classifications, and your 'file' are invented.
-> Nothing here was recorded or retained."*
+> The whole game is open to inspect on GitHub."*
 
 The disclaimer does not ride the share-card; it lives on the dossier page the card links to.
 

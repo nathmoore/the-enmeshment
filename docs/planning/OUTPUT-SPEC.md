@@ -244,14 +244,13 @@ assessment (GUARDRAILS §2; output-templates.txt). Its properties are locked:
 - **States: fiction + play, not psychometric/predictive assessment** (GUARDRAILS §2 — results are
   never presented as genuine psychological or predictive measurement).
 
-> **Candidate string [GUIDANCE — illustration, not ratified]:** *"This is a work of speculative
-> fiction and a game. It is not a real psychological, behavioural, or predictive assessment — the
-> Directorate, its classifications, and your 'file' are invented. Nothing here was recorded or
-> retained."* — final wording is **GUARDRAILS v1.0's to ratify** (GUARDRAILS §7 open question: "Exact
-> wording of the declassified footnote disclaimer"). This spec locks that the string is fixed,
-> normative, always-present, and fiction-explicit; it **defers the exact words to GUARDRAILS v1.0**, a
-> still-open Epic 1 deliverable. When GUARDRAILS v1.0 lands, this section points at it rather than
-> duplicating the string.
+> **Ratified string — see [GUARDRAILS §2](../GUARDRAILS.md) (v1.0, the authoritative home):** *"This
+> is a work of speculative fiction and a game. It is not a real psychological, behavioural, or
+> predictive assessment — the Directorate, its classifications, and your 'file' are invented. The
+> whole game is open to inspect on GitHub."* This spec locks that the string is fixed, normative,
+> always-present, and fiction-explicit; the exact words are **GUARDRAILS §2's to hold** — refer there,
+> don't re-edit here. (Retention-claim tail dropped 2026-07-01: we can't guarantee platform-level
+> non-retention, so the disclaimer scopes to transparency instead — see DECISIONS.)
 
 ## 6. The share-card — the travelling compression **[LOCKED shape / GUIDANCE prose]**
 

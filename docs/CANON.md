@@ -73,6 +73,10 @@ The player's **entire** experience of the Enmeshment is one conversation with Co
   stakes, not exposition — held lightly, surfaced only by implication; never the
   centrepiece.) *(How the conversation actually opens and unfolds is an Epic 2
   artifact — see below.)*
+- The assessment has a **name**: the **OPPPA — *Official Personality Predictive
+  Profiling Assessment.*** The bureaucratic label says the quiet part out loud
+  (personality, priced to *predict*); the banality is the joke. Concord names it
+  when it introduces itself. *(The exact opener is Epic 2 — see below.)*
 - It reads you **cold.** Narrow-scope by design — it is intake, not the archive,
   and isn't cleared to pull your file, so it genuinely doesn't. It knows only what
   you say in the session.

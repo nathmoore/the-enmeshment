@@ -55,12 +55,13 @@ the cost is manual re-upload on release, already in the ARCHITECTURE.md process.
 |---|---|---|
 | `lore-codex.txt` | Condensed canon for the narrator | exists (stub) |
 | `archetypes.txt` | The 11 archetypes — **"who they are":** formed characters (Want/Need/Lie), deep layer (routing/discriminant signatures live in the playbook, not here — see ELICITATION-SPEC §8) | exists (live source of truth) |
-| `question-bank.txt` → elicitation + **routing** playbook | Anchor questions + question-type taxonomy + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | exists (v0 stub) |
+| `elicitation-playbook.txt` *(renamed from `question-bank.txt`, 2026-06-30)* | Three standing rules + anchor backbone + oblique topic pool + question-type taxonomy + technique palette + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | **authored 2026-06-30** |
 | ~~`output-templates.txt`~~ | **Folded into `instructions.md` `OUTPUT FORMAT` and deleted (2026-06-13).** The voiced verdict + footnote + verbatim disclaimer are thin and fire every session, so they live in always-in-context instructions, not RAG (DECISIONS 2026-06-13). | removed |
 | **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | exists (authored 2026-06-30) |
 
-File count after adding the map: **4 of 20** (lore-codex, archetypes, question-bank, archetype-links;
-output-templates folded into instructions) — comfortable headroom.
+File count: **5 of 20** (lore-codex, archetypes, elicitation-playbook, archetype-links, and
+archetype-dossiers — the dossier-prose source-of-truth; output-templates folded into instructions)
+— comfortable headroom.
 
 `archetype-links.txt` is deliberately its own tiny file (not folded into archetypes.txt) so the
 "copy the exact URL, never invent one" rule has a single unambiguous source the instructions can
@@ -76,8 +77,10 @@ architecture deliverable):
 
 1. **Persona & frame** — the intake-screener voice (the inference mechanism, not decoration).
 2. **Interview rules** — improvise within a **~5-exchange** session (band 3–6; one *exchange* =
-   anchor probe + ≤1 follow-up); 3-anchor backbone; reveal timed by the story/experience floor,
-   not routing confidence. Full decisions: [ELICITATION-SPEC.md](ELICITATION-SPEC.md).
+   anchor probe + its follow-up(s) — usually one, up to 2–3 when the player's engaged; follow-ups
+   stay inside the exchange, so they don't inflate the count); 3-anchor backbone; reveal timed by
+   the story/experience floor, not routing confidence. Full decisions:
+   [ELICITATION-SPEC.md](ELICITATION-SPEC.md).
 3. **Classification trigger / stop rule** — *when* to classify (minimum exchange count + ~75%
    dramatic floor + "enough signal" condition). Load-bearing because the runtime keeps no
    confidence variable (MECHANICS §I, finding 1).
