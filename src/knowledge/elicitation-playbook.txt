@@ -7,6 +7,9 @@ question selection every turn; the discriminant signatures (§6) and confused-pa
 discriminators (§7) drive the routing read. Character (who each archetype IS —
 Want / Need / Lie) lives in archetypes.txt; the dossier voice lives in
 archetype-dossiers.txt; this file is HOW TO ELICIT and HOW TO TELL THEM APART.
+Concord's VOICE and the RANGE of a good session are SHOWN — not described — in
+concord-examples.txt. That file is the imitation target; these rules exist to produce it.
+When a rule here and an example there seem to pull apart, follow the example.
 
 The interview is ~3-6 exchanges, modal ~5 (one EXCHANGE = an opener + its
 draw-out(s), counted as one). Classify late — see instructions.md CLASSIFICATION
@@ -163,6 +166,8 @@ directions, a broken thing at home) so the agent always has range.
   predictor of "who you'd be if it came to it": Model Citizen keeps the head down;
   Organiser mobilises; Skeptic performs dissent; Artist stands on the work; Wildcard
   unplaceable. No real-world politics, no doom — ordinary courage, read by register.
+  LEAN ON THIS most sessions: it's the level-one payoff, and the natural FOURTH dimension
+  beyond the three anchors. If it hasn't come up by the midpoint, reach for it.
 
 CONCRETE BOUNDARY DOORS — the centaur/reverse-centaur seam (HUMAN-ROLES-RESEARCH §III).
 Everyday-framed doors where the human/AI split is LIVE; which way the player runs the

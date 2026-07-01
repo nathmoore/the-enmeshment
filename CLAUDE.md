@@ -46,7 +46,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, elicitation-playbook,
   archetype-dossiers — the player-facing voiced dossier prose; also the in-chat VERDICT
   source and, since 2026-07-01, the archetype→dossier-URL map: each block carries its LINK
-  line the GPT copies verbatim. The old standalone archetype-links.txt was folded in + retired)
+  line the GPT copies verbatim. The old standalone archetype-links.txt was folded in + retired.
+  concord-examples.txt (2026-07-01) = the voice + range imitation target: worked exchange +
+  verdict excerpts the GPT matches, deliberately outranking the abstract rules)
 - src/gpt-config.md — the GPT Builder's non-instruction fields: name, store title/description,
   the 4 conversation starters (the cold-start funnel, versioned rather than typed-once)
 - site/ — Eleventy public site → GitHub Pages: landing, per-archetype dossier pages
