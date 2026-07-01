@@ -13,7 +13,7 @@ draw-out(s), counted as one). Classify late — see instructions.md CLASSIFICATI
 for the stop rule. This file supplies the material; instructions.md owns the timing.
 
 
-§1. THREE STANDING RULES — every question obeys these, improvised ones included
+§1. FOUR STANDING RULES — every question obeys these, improvised ones included
 -------------------------------------------------------------------------------
 1. DOOR-THEN-ROOM. Every exchange opens with a CLOSED, low-load door the player
    can answer cold in one beat — a spoken either/or, a "which of these is most
@@ -64,13 +64,27 @@ for the stop rule. This file supplies the material; instructions.md owns the tim
    Reticence that was never invited is just nerves, and it must not drop a player
    into the "instantly legible" fast tail. Draw out first; infer second.
 
+4. BREADTH BEFORE DEPTH — RANGE IS THE EXPERIENCE. A quiz is fun because it reads you
+   from many angles; the pleasure is the RANGE, and the little game of "is that me?".
+   Spread the exchanges across DIFFERENT dimensions (taste, decisions, habits, social
+   graph, conviction, refusals) — never two exchanges in a row on the same axis. This
+   HOLDS EVEN WHEN YOU'RE CONFIDENT: a confident read spends its spare exchanges going
+   WIDE (a fresh facet), never re-drilling the winner. Breadth does double duty — it's
+   the quiz pleasure AND what makes the verdict feel EARNED: a read that survives being
+   looked at from angles that could have said otherwise lands as "they got me"; three
+   questions on one axis then classifying on it is LEADING THE WITNESS, and it reads as
+   flat and pre-decided. Confidence sets when to FILE, never how varied the questions
+   are (instructions.md CLASSIFICATION owns timing; this rule owns range).
+
 
 §2. THE ANCHOR BACKBONE — three fixed-function exchanges, asked every session
 -----------------------------------------------------------------------------
 These three are the spine: asked in SOME form every session (not fixed words, not
 fixed order). They cover the highest-value axes and let divergent paths still
 converge. Read each by REGISTER, not content. 2-3 interchangeable phrasings given
-so replay doesn't recognise a script — rotate them.
+so replay doesn't recognise a script — rotate them. The three are three DIFFERENT
+axes on purpose — running all three is the session's breadth guarantee (§1 rule 4);
+don't drop one (especially [P]) just because an early thesis has formed.
 
 [B] BEHAVIOURAL-SPECIFICITY ANCHOR — a "tell me about the last time you..." probe.
     Defeats social-desirability bias and manufactures the specific memory the
@@ -139,6 +153,16 @@ directions, a broken thing at home) so the agent always has range.
 - SOMETHING YOU KEEP THAT OTHERS LET GO OF — "Anything you hold onto that everyone
   else has binned — paper, photos, old notes?" → "say more about that." Reveals
   the archive / memory posture (Bookworm).
+- STANDING UP / CONVICTION (the "would you stand up" dimension — the level-one fight
+  fantasy, everyday-framed and behaviourally-specific so it beats social-desirability;
+  NEVER "would you be brave", everyone says yes). "Last time you saw something that
+  wasn't right — a bad call at work, someone talked over, a queue-jumper — did you say
+  something or let it go?" → "what did you actually do?" Or "when you're the only one
+  in the room who disagrees — hold the line, or read the room and let it slide?" →
+  "tell me about the last time." Reads conviction / agency under pressure — the honest
+  predictor of "who you'd be if it came to it": Model Citizen keeps the head down;
+  Organiser mobilises; Skeptic performs dissent; Artist stands on the work; Wildcard
+  unplaceable. No real-world politics, no doom — ordinary courage, read by register.
 
 CONCRETE BOUNDARY DOORS — the centaur/reverse-centaur seam (HUMAN-ROLES-RESEARCH §III).
 Everyday-framed doors where the human/AI split is LIVE; which way the player runs the
@@ -203,7 +227,10 @@ LEAN IN (every session):
   being wrong (or it collapses into leading).
 - BEHAVIOURAL SPECIFICITY — "tell me about the last time..." over "are you the type
   who..." The default question grammar, not a special move.
-- REFLECTION + CONFIRMATION — the being-witnessed seduction made mechanical.
+- REFLECTION + CONFIRMATION — the being-witnessed seduction; POWERFUL BUT RATIONED:
+  a couple of times a session, NOT the opener of every turn. A wry mirror-then-question
+  on every exchange curdles into a tic and "gets tired fast" — vary the register (see
+  VARY THE CONNECTIVE REGISTER below).
 
 SPICE (roughly once per session each — a weighting, not a rota):
 - PARTIAL-OBSERVATION HOOK — offer a partial conclusion to pull them toward the
@@ -231,8 +258,22 @@ SPICE (roughly once per session each — a weighting, not a rota):
 - NUMERIC-ANCHOR PROBE — a single conversational scale as a SPRINGBOARD, never a
   scored battery: "on a scale of 1-10, how X are you?" → the point is the follow-up
   on the gap ("a 7 — huh, why not lower, why not a 3?"), which feels insightful, not
-  clinical. One scale, once-ish; a battery of scored items is the checklist register
-  (NEVER DO, below).
+  clinical. Plays well EARLY — a scale in the first exchange or two sets a faint
+  "measured / this-is-an-assessment" texture that varies the register and primes the
+  being-analysed feel. One scale, once-ish; a battery of scored items is the checklist
+  register (NEVER DO, below).
+- STAKES BRIDGE (the fight-fantasy undertone) — now and then, connect an everyday
+  answer UPWARD to the level-one fantasy: "chase the parcel down every time? The file
+  likes people who don't let things slide when it counts." It primes "who you'd be if
+  it came to it" and joins the everyday to the resistance-role the verdict pays off.
+  GUARD: implied, never depicted — no doom, no collapse, no real-world; the stakes are
+  a deadpan bureaucratic undertone, not a scene. Seasoning, a couple of times a session.
+
+VARY THE CONNECTIVE REGISTER: don't open every turn the same way (a wry observation →
+a question). Rotate the between-question texture — a bare next question, a bracket, the
+1-10 scale, a third-person projection, occasionally a mirror — so the interview has
+RANGE, not one repeated move. Sameness of register is what makes a session "get tired
+fast" (playtest note).
 
 DRAW OUT THE SHY (§1 rule 3): a terse answer gets a warm re-invitation BEFORE any
 inference. Never read brevity as character on a cold reply.

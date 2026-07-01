@@ -4,7 +4,7 @@
 
 ## 1. Design pillars
 
-1. **The Bluey Principle.** Fully enjoyable as a 5-minute shareable quiz; quietly pointing at a serious question: *what kind of human–AI relationship do we want?* If a design choice serves only one layer, rework it.
+1. **The Bluey Principle.** Two layers, always. **Level one (fun):** the *"who would you be if it ever came to it?"* fantasy — the elevated resistance-quiz thrill of finding out what you'd bring when it counts. **Level two (deep):** *what kind of human–AI relationship do we want?* If a design choice serves only one layer, rework it. (Balance is live-tuned: an early Epic-2 playtest ran level two rich but level one thin — see DECISIONS 2026-07-01, breadth + fight-fantasy pass.)
 2. **Dossier, not horoscope.** Outputs read like a leaked classification file from the Enmeshment — specific, wry, slightly unsettling in their accuracy. Never mean, never truly diagnostic.
 3. **The player is in on the joke.** The game *is* the meme ("I say please so the AI is nice to me later"). Tone: deadpan bureaucratic fiction with warmth underneath.
 4. **No doom, no utopia.** The scenario is drift, not apocalypse. Resistance archetypes are celebrations of human texture, not paranoid survivalism.
@@ -44,6 +44,8 @@ Signals we profile (persona-level only — see GUARDRAILS.md):
 - Relationship-to-institutions disposition (rule-follower ↔ workaround-finder), kept apolitical
 
 **Elicitation playbook built (Epic 1, 2026-06-13):** [ELICITATION-SPEC.md](planning/ELICITATION-SPEC.md) locks the interview model — 3-anchor backbone (behavioural / coordination / politeness meme), ~5-exchange modal length, technique palette (bracketing, BEI, complex-reflection spine), per-archetype discriminant signatures, and confused-pair discriminators. The agent improvises within it. Epic 2 distils this into the promptable `question-bank.txt`.
+
+**Breadth is the experience (Epic-2 playtest refinement, 2026-07-01).** The pleasure of a quiz is being read from *many* angles — so the interview deliberately spreads across DIFFERENT dimensions (taste, decisions, habits, social graph, **conviction / "would you stand up"**, refusals), never drilling one axis, *even when the classifier is already confident*. Breadth is both the fun **and** what makes the verdict feel *earned* rather than *led* (three questions on one axis then classifying on it is "leading the witness"). The **level-one** fight fantasy is carried as ordinary, everyday **courage** — behaviourally-specific ("the last time you spoke up"), never doom or survivalism (pillar 4 holds); the **level-two** theme rides the **centaur / reverse-centaur** axis (*which way does the arrangement run?* — see [HUMAN-ROLES-RESEARCH.md](HUMAN-ROLES-RESEARCH.md)). Both are invoked as *register* in the interview and paid off in the dossier. Mechanics: [`elicitation-playbook.txt`](../src/knowledge/elicitation-playbook.txt) §1 rule 4, §3, §5.
 
 ## 5. Tone references & anti-references
 
