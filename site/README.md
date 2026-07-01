@@ -9,9 +9,9 @@ secret) — keep it here even though you're the only audience.
 
 ## What this site is for
 The GPT gives a paraphrased verdict in chat, then hands the player the **exact URL** of their
-archetype's dossier page here — copied from `src/knowledge/archetype-links.txt`, never guessed.
-These pages are the standardised, shareable artefact. **The slugs are FROZEN:** renaming a file
-changes its URL and breaks that map.
+archetype's dossier page here — copied from the matched archetype's `LINK` line in
+`src/knowledge/archetype-dossiers.txt`, never guessed. These pages are the standardised,
+shareable artefact. **The slugs are FROZEN:** renaming a file changes its URL and breaks its LINK.
 
 ## Prerequisites
 - **Node.js 20+** (`node -v`). Eleventy 3 needs Node 18+.
@@ -44,7 +44,8 @@ The 11 frozen slugs: `model-citizen` · `power-user` · `self-optimiser` · `mac
 ## Add or edit a dossier page
 1. Edit `files/<slug>.md`. Front matter: `archetype`, `slug`, `status` (file tail), `title`,
    `description` (drives the share-unfurl card), optional `ogImage`.
-2. **Never rename a published file** — the filename is the URL (and the `archetype-links.txt` key).
+2. **Never rename a published file** — the filename is the URL (and the `LINK` line in
+   `archetype-dossiers.txt`).
 3. The body is the voiced dossier prose — authored in **Epic 2** from the `archetypes.txt` voice
    samples. Stubs currently hold a TODO placeholder.
 
@@ -56,8 +57,9 @@ The 11 frozen slugs: `model-citizen` · `power-user` · `self-optimiser` · `mac
 the `| url` filter, so they stay correct under this prefix.
 
 > **Later, when you buy `enmeshed.xyz`:** add it as the Pages custom domain (Settings → Pages →
-> Custom domain), flip `pathPrefix` to `"/"`, rebuild, and re-author `archetype-links.txt` with
-> the new base. GitHub auto-redirects the old `github.io` URLs, so already-shared links survive.
+> Custom domain), flip `pathPrefix` to `"/"`, rebuild, and re-author the 11 `LINK` lines in
+> `archetype-dossiers.txt` (single find/replace on the base). GitHub auto-redirects the old
+> `github.io` URLs, so already-shared links survive.
 
 **One-time setup:**
 1. Repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
@@ -66,8 +68,8 @@ the `| url` filter, so they stay correct under this prefix.
    renders.
 3. **Make it automatic:** uncomment the `push:` trigger block at the top of
    [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) (it filters to `site/**`).
-4. Author `src/knowledge/archetype-links.txt` with the absolute URLs
-   (`https://nathmoore.github.io/the-enmeshment/files/<slug>/`).
+4. Confirm the 11 `LINK` lines in `src/knowledge/archetype-dossiers.txt` hold the absolute URLs
+   (`https://nathmoore.github.io/the-enmeshment/files/<slug>/`) — already authored.
 
 **Routine commands cheat-sheet:**
 ```sh
@@ -83,9 +85,9 @@ gh run watch                                   # follow the latest workflow run
 more cheaply:
 - **Template breakage** → caught by `npm run build` (it errors and names the file). That *is* your
   check. (CI build-on-PR is optional; you build locally anyway.)
-- **Slug / link drift** between the 11 pages and `archetype-links.txt` → once that map exists, add a
-  tiny consistency check: the built `_site/files/*/` dirs must match the map's keys, and every map
-  URL must resolve. That's the failure mode worth guarding, not code style.
+- **Slug / link drift** between the 11 pages and the `LINK` lines in `archetype-dossiers.txt` → add a
+  tiny consistency check: the built `_site/files/*/` dirs must match the 11 `LINK` slugs, and every
+  `LINK` URL must resolve. That's the failure mode worth guarding, not code style.
 
 Optional niceties if you ever want them: **Prettier** (formatting — but its Nunjucks support is
 imperfect), **actionlint** (workflow YAML). Skip **markdownlint**/**eslint** — not worth the noise here.

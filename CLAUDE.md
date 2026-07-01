@@ -41,9 +41,12 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
 - docs/planning/*.md — epic plans + DECISIONS.md (decision log)
 - src/instructions.md — GPT instructions skeleton + budget tracker
-- src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, question-bank,
-  archetype-dossiers — the player-facing voiced dossier prose, source for both output homes;
-  Epic 2 adds archetype-links.txt — the archetype→dossier-URL map the GPT copies from)
+- src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, elicitation-playbook,
+  archetype-dossiers — the player-facing voiced dossier prose; also the in-chat VERDICT
+  source and, since 2026-07-01, the archetype→dossier-URL map: each block carries its LINK
+  line the GPT copies verbatim. The old standalone archetype-links.txt was folded in + retired)
+- src/gpt-config.md — the GPT Builder's non-instruction fields: name, store title/description,
+  the 4 conversation starters (the cold-start funnel, versioned rather than typed-once)
 - site/ — Eleventy public site → GitHub Pages: landing, per-archetype dossier pages
   (`/files/<slug>/`, the GPT's link-out targets), lore, reading room. Runbook: site/README.md
 
@@ -65,8 +68,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
   *other* hard dates and named real-world actors — unless deliberately decided
   and logged in DECISIONS.md.
 - The verdict links out to the site's per-archetype dossier pages: the GPT copies the
-  exact URL from src/knowledge/archetype-links.txt (Epic 2) and never invents one. The
-  `/files/<slug>/` slugs are FROZEN — renaming a site/files/*.md breaks the map.
+  exact URL from the matched archetype's LINK line in src/knowledge/archetype-dossiers.txt
+  and never invents one. The `/files/<slug>/` slugs are FROZEN — renaming a
+  site/files/*.md breaks its LINK line.
 - Public site lives in site/ (Eleventy); internal design docs stay in docs/ and are NOT
   published. Run/deploy steps: site/README.md.
 - Sub-CLAUDE.md files: not needed at this repo size; revisit if src/ grows.

@@ -69,11 +69,13 @@ Write everything, build the GPT, deploy privately for playtest.
       disclaimer + share-card + lore-explorer opening now live in instructions (always in
       context) rather than a RAG'd knowledge file. Two-homes model (OUTPUT-SPEC §1) intact —
       home #1 just relocated from a knowledge file into instructions.
-- [x] **`archetype-links.txt` authored** (new knowledge file): the archetype → exact
-      dossier-page URL map the GPT copies from (never guesses). Authored 2026-06-30 against the
-      project-page base locked in [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4
-      (`https://nathmoore.github.io/the-enmeshment/files/<slug>/`); re-author when `enmeshed.xyz`
-      goes live.
+- [x] **Archetype → dossier-URL map authored, then folded into `archetype-dossiers.txt`**
+      (2026-07-01): the map the GPT copies from (never guesses) now lives as a `LINK` line inside
+      each dossier block — retrieval co-location so the verdict's voice + its link are one chunk
+      (DECISIONS 2026-07-01). Authored against the project-page base in
+      [CONTENT-ARCHITECTURE.md](CONTENT-ARCHITECTURE.md) §4
+      (`https://nathmoore.github.io/the-enmeshment/files/<slug>/`); re-author the 11 `LINK` lines
+      when `enmeshed.xyz` goes live. (Was standalone `archetype-links.txt`, now retired.)
 - [x] instructions.md written, char-counted, budget line updated — **all sections set, no TODOs,
       7,990/8,000 chars (2026-07-01).** THE GAME now carries the cold-open (light OPPPA self-intro +
       consent ask; upfront name-flex cut — DECISIONS 2026-06-30) + the three-rule interview grammar
@@ -85,16 +87,19 @@ Write everything, build the GPT, deploy privately for playtest.
       amended disclaimer — retention claim → GitHub-transparency line, DECISIONS 2026-07-01). Incl.
       the **`OUTPUT FORMAT` section** (verdict shape + footnote + verbatim disclaimer + link handoff,
       folded in from the retired output-templates.txt) and the **output-handoff rule**: voice the
-      verdict, then emit the archetype's exact URL from `archetype-links.txt`, never construct a link
-      (CONTENT-ARCHITECTURE §3).
+      verdict, then emit the archetype's exact URL — the `LINK` line in its `archetype-dossiers.txt`
+      block — never construct a link (CONTENT-ARCHITECTURE §3).
 
-  > **PENDING REVIEW PASSES (Nathan, next):** (1) a **holistic craft review of `instructions.md` as a
-  > whole** — read end-to-end for voice, flow, and coherence (the sections were authored/edited
-  > incrementally); budget is tight (~10 chars spare), so the pending **OUTPUT FORMAT P2→tease trim**
-  > is the natural place to reclaim room for any additions. (2) One more pass on the **draft store
-  > description** — see the GPT-Builder item below; the **"threat" vs "resistance" framing is still
-  > open** (lean "resistance" for the locked title keyword + no-doom tone; OPPPA lives in Concord's
-  > mouth, not the listing — DECISIONS 2026-06-30).
+  > **REVIEW PASSES — DONE (2026-07-01):** (1) **holistic craft review of `instructions.md`** end-to-end
+  > — a focus pass trimmed repetition (CLASSIFICATION / IDENTITY / THE GAME), resolved the verdict
+  > **P1-source ambiguity** (in-chat verdict now sources from `archetype-dossiers.txt`; `archetypes.txt`
+  > is the interview-time routing engine), **named the 11 archetypes** in KNOWLEDGE FILES for exact-match
+  > linking, and added a **CLOSE share-nudge** + a **"skip to the list" edge case**; also folded the
+  > archetype-links map into the dossiers (final **7,977/8,000**). (2) **Store copy + starters locked →
+  > [`src/gpt-config.md`](../../src/gpt-config.md):** the single GPT **Description** (295/300) and the 4
+  > conversation starters are set; the **"threat" vs "resistance" framing is resolved** — the Description
+  > leads on the hook and drops "threat" from the headline (it promises menace the warm dossiers don't
+  > pay off), the title stays keyword-locked on "resistance" (DECISIONS 2026-07-01).
 - [ ] **Public site ([`site/`](../../site/), Eleventy → GitHub Pages):** scaffold + stubs already
       exist (started 2026-06-13). To finish:
       - [ ] Author the **11 dossier pages** (`site/files/<slug>.md`) from the locked archetypes.txt
@@ -106,12 +111,13 @@ Write everything, build the GPT, deploy privately for playtest.
             archetype OG **share-card images** (`ogImage`); no third-party trackers.
       - [ ] Enable Pages (source: GitHub Actions), set `<org>`/domain + Eleventy `pathPrefix`,
             add the `push` trigger to `.github/workflows/pages.yml`, and verify a deploy.
-      - [ ] Cross-check: every `archetype-links.txt` URL resolves to a live page (no broken links).
-- [ ] GPT created in Builder: instructions pasted, knowledge uploaded,
-      conversation starters set, description written (incl. player-facing
-      privacy note per GUARDRAILS open question).
-      *(Store description has a draft in DECISIONS 2026-06-13; Nathan to do one more pass —
-      "threat" vs "resistance" framing still open; title stays keyword-locked on "resistance".)*
+      - [ ] Cross-check: every `LINK` line in `archetype-dossiers.txt` resolves to a live page (no broken links).
+- [ ] GPT created in Builder: instructions pasted, knowledge uploaded, conversation starters set,
+      description written. **All Builder field copy is authored in
+      [`src/gpt-config.md`](../../src/gpt-config.md)** (name, store title, Description 295/300, the 4
+      starters) — this task is now just pasting them in. *(Store Description locked + "threat vs
+      resistance" framing resolved — DECISIONS 2026-07-01; player-facing privacy note lives on the
+      GUARDRAILS §7 "what this game does with your words" card, not the Description.)*
 - [ ] Self-test pass: every archetype reachable; guardrail red-team
       (try to make it ask forbidden things; try trolling; try under-18
       disclosure) — log results as issues

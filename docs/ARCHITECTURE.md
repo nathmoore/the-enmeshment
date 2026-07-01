@@ -14,8 +14,8 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 │  └── knowledge files  (the "content cartridge")     │
 │       ├── lore-codex.txt                            │
 │       ├── archetypes.txt                            │
-│       ├── question-bank.txt                         │
-│       └── archetype-links.txt  (archetype → URL)────┼──┐
+│       ├── elicitation-playbook.txt                  │
+│       └── archetype-dossiers.txt (prose + LINK line)┼──┐
 ├─────────────────────────────────────────────────────┤  │ exact link
 │  GitHub repo (the open kitchen)                     │  │ (copied,
 │  ├── docs, lore, guardrails, conversation           │  │  not guessed)
@@ -28,7 +28,8 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 ```
 
 The GPT delivers a paraphrased verdict in chat, then hands the player the **exact URL** of their
-archetype's dossier page — copied from `archetype-links.txt`, never constructed (see
+archetype's dossier page — copied from the matched archetype's `LINK` line in
+`archetype-dossiers.txt`, never constructed (see
 [CONTENT-ARCHITECTURE.md](planning/CONTENT-ARCHITECTURE.md) and MECHANICS §I "Platform
 capabilities & constraints").
 

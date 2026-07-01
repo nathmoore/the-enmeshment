@@ -1,7 +1,8 @@
 // Eleventy config for the public site.
 // Source of truth for the dossier-page URLs the GPT links to (see
 // docs/planning/CONTENT-ARCHITECTURE.md §4). Slugs are FROZEN once published —
-// changing a file name changes its URL and breaks archetype-links.txt.
+// changing a file name changes its URL and breaks its LINK line in
+// src/knowledge/archetype-dossiers.txt.
 module.exports = function (eleventyConfig) {
   // Passthrough for static assets (CSS/images) once they exist.
   // eleventyConfig.addPassthroughCopy("assets");

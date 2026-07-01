@@ -56,16 +56,19 @@ the cost is manual re-upload on release, already in the ARCHITECTURE.md process.
 | `lore-codex.txt` | Condensed canon for the narrator | exists (stub) |
 | `archetypes.txt` | The 11 archetypes — **"who they are":** formed characters (Want/Need/Lie), deep layer (routing/discriminant signatures live in the playbook, not here — see ELICITATION-SPEC §8) | exists (live source of truth) |
 | `elicitation-playbook.txt` *(renamed from `question-bank.txt`, 2026-06-30)* | Three standing rules + anchor backbone + oblique topic pool + question-type taxonomy + technique palette + the **"how to tell them apart"** layer (discriminant signatures, confused-pair discriminators) — authored from ELICITATION-SPEC §8 | **authored 2026-06-30** |
+| `archetype-dossiers.txt` | **The player-facing dossier prose — "the voice"**, AND the in-chat **verdict source** (voiced P1 + one FIELD NOTE tell) AND the **archetype → exact dossier-page URL** map: each block carries a `LINK (emit verbatim at handoff)` line. | exists (live source of truth) |
 | ~~`output-templates.txt`~~ | **Folded into `instructions.md` `OUTPUT FORMAT` and deleted (2026-06-13).** The voiced verdict + footnote + verbatim disclaimer are thin and fire every session, so they live in always-in-context instructions, not RAG (DECISIONS 2026-06-13). | removed |
-| **`archetype-links.txt`** *(new)* | **Archetype → exact dossier-page URL lookup map** | exists (authored 2026-06-30) |
+| ~~`archetype-links.txt`~~ | **Folded into `archetype-dossiers.txt` and deleted (2026-07-01).** The URL map now lives as a `LINK` line inside each dossier block, so the verdict's voice + its link are one retrievable chunk (DECISIONS 2026-07-01). | removed |
 
-File count: **5 of 20** (lore-codex, archetypes, elicitation-playbook, archetype-links, and
-archetype-dossiers — the dossier-prose source-of-truth; output-templates folded into instructions)
-— comfortable headroom.
+File count: **4 of 20** (lore-codex, archetypes, elicitation-playbook, archetype-dossiers)
+— comfortable headroom. (`output-templates.txt` folded into instructions; `archetype-links.txt`
+folded into archetype-dossiers.)
 
-`archetype-links.txt` is deliberately its own tiny file (not folded into archetypes.txt) so the
-"copy the exact URL, never invent one" rule has a single unambiguous source the instructions can
-point at.
+The URL map lives **inside `archetype-dossiers.txt`** (one `LINK` line per block), not as its own
+file: retrieval co-location means whatever the GPT retrieves to *voice* the verdict already carries
+the link to *hand off* (DECISIONS 2026-07-01). The "single unambiguous source, copy-never-invent"
+property is preserved — the 11 `LINK` lines share one base string, so a domain change is one
+find/replace.
 
 ---
 
@@ -87,8 +90,9 @@ architecture deliverable):
 4. **Guardrails block** — ≥1,800 chars; never-ask boundaries for an improvising interviewer.
 5. **Output format + handoff** — the `OUTPUT FORMAT` section *is* the voiced verdict template
    (folded in from the retired `output-templates.txt`, 2026-06-13): shift to dossier voice, voice
-   the verdict, **then emit the archetype's exact URL from `archetype-links.txt` — never construct
-   or guess a link.** (The single most important reliability rule for the delivery model.)
+   the verdict, **then emit the archetype's exact URL — the `LINK` line in its
+   `archetype-dossiers.txt` block — never construct or guess a link.** (The single most important
+   reliability rule for the delivery model.)
 
 ---
 
@@ -127,8 +131,8 @@ archetype-specific framing + a link to `/scenario/` — not the whole backstory 
 the repo sits in the global footer.
 
 **Slug scheme (FROZEN once published):** `…/files/<slug>/`, `<slug>` = lowercase-kebab archetype
-name. The canonical 11 (these are what `archetype-links.txt` maps to — renaming a `site/files/*.md`
-changes its URL and breaks the map):
+name. The canonical 11 (these are what the `LINK` lines in `archetype-dossiers.txt` map to —
+renaming a `site/files/*.md` changes its URL and breaks its `LINK`):
 
 `model-citizen` · `power-user` · `self-optimiser` · `machine-companion` · `skeptic` · `artist` ·
 `bookworm` · `tinkerer` · `organiser` · `wildcard` · `social-linchpin`
@@ -144,8 +148,8 @@ the slug scheme + the instructions handoff rule (§3). Build/deploy steps live i
 **URL base (DECIDED 2026-06-13):** repo `nathmoore/the-enmeshment`, served first as a **GitHub
 project page** → `https://nathmoore.github.io/the-enmeshment/`, `pathPrefix: "/the-enmeshment/"`.
 Custom domain **`enmeshed.xyz`** is the planned upgrade (flip `pathPrefix` to `/`, re-author the
-URL map; GitHub auto-redirects old links). Author `archetype-links.txt` (Epic 2) against the
-current project-page base: `https://nathmoore.github.io/the-enmeshment/files/<slug>/`.
+11 `LINK` lines; GitHub auto-redirects old links). The `LINK` lines in `archetype-dossiers.txt`
+are authored against the current project-page base: `https://nathmoore.github.io/the-enmeshment/files/<slug>/`.
 
 ## 5. Open / not yet locked
 - Full instructions.md skeleton wording + per-section char counts (Epic 2, once prose exists).

@@ -1,25 +1,37 @@
-THE ENMESHMENT — ARCHETYPE DOSSIERS (player-facing voiced prose)
+THE ENMESHMENT — ARCHETYPE DOSSIERS (player-facing voiced prose + handoff links)
 ================================================================
-Status: v1 draft, 2026-06-13. The CANONICAL SOURCE for each archetype's dossier text —
-edit the voice HERE.
+Status: v2, 2026-07-01. The CANONICAL SOURCE for each archetype's dossier text —
+edit the voice HERE. v2 folded in the archetype→URL map (was archetype-links.txt, now
+retired) so the verdict's voice + its exact link travel in ONE block (retrieval
+co-location: whatever the GPT retrieves to voice the verdict also carries the link).
 
-[HOW TO USE]
+[HOW TO USE — at runtime]
+- THIS is the in-chat verdict source. At OUTPUT FORMAT (instructions.md): paraphrase
+  the matched archetype's P1 + one FIELD NOTE tell into the voiced verdict (never recite),
+  then emit its LINK line VERBATIM as the handoff. Never construct, guess, or modify a URL;
+  if the archetype name isn't an exact match below, use the instructions.md no-link path.
+
+[HOW TO USE — authoring]
 - Authored from the CHARACTER line of each card in archetypes.txt (the "who they are" engine);
   register per instructions.md OUTPUT FORMAT + GUARDRAILS (deadpan-bureaucratic warmth; flattering-
   with-an-edge; cold-legible; the system never fools anyone, it's an open secret; lore as seasoning).
 - Copied into the TWO deployment homes — keep them in sync with this file:
-    1. the in-chat verdict  (voiced via output-templates.txt)
+    1. the in-chat verdict  (voiced per instructions.md OUTPUT FORMAT)
     2. the hosted dossier pages  (site/files/<slug>.md)
 - Per archetype: P1 = the personality read (true, flattering, works stone-cold). ASSESSMENT =
   the trajectory verdict — what they'd bring to a (hypothetical, not-yet-existing) resistance,
   plus ONE sting; teases the lore + the predict-your-trajectory conceit. FIELD NOTES = the
   below-the-fold dossier bullets. The sting is varied across the set on purpose (it reads as a
   group-chat compare) — don't flatten them all to one shape.
+- LINK lines: authored against the GitHub project-page base (CONTENT-ARCHITECTURE.md §4). When
+  enmeshed.xyz goes live, re-author the 11 LINK lines here (single find/replace on the base) —
+  nothing else references the base directly. Renaming a site/files/*.md breaks its LINK.
 - Routing — how to TELL the archetypes apart — is NOT here. That's ELICITATION-SPEC §8.
 
 ================================================================
 
 1. MODEL CITIZEN   [slug: model-citizen · File status: No Concern]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/model-citizen/
 P1. The Model Citizen keeps things running. No drama, no fuss, no strong opinions aired at
     dinner — just gets on with it. Uses the defaults, takes the sensible path, and quietly
     wonders why everyone else makes life so complicated. Reliable, easygoing, the one who never
@@ -34,6 +46,7 @@ FIELD NOTES.
   · On file: nothing out of the ordinary.
 
 2. THE POWER USER   [slug: power-user · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/power-user/
 P1. The Power User got there first. First to the new feature, the new app, the update the rest
     of us are still squinting at — fluent in tools nobody's finished reading the manual for. They
     don't just use the thing, they evangelise it, and they're genuinely good at it. The one the
@@ -48,6 +61,7 @@ FIELD NOTES.
   · Adoption rate: exemplary.
 
 3. THE SELF-OPTIMISER   [slug: self-optimiser · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/self-optimiser/
 P1. The Self-Optimiser is working on it — whatever "it" is this quarter. Sleep, steps, savings,
     the five-year plan: tracked, measured, trending the right way. Disciplined, driven, the one
     who actually sticks to the routine. If there's a better version of themselves going, they're
@@ -62,6 +76,7 @@ FIELD NOTES.
   · Goal-anchored. Unlikely to deviate.
 
 4. THE MACHINE COMPANION   [slug: machine-companion · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/machine-companion/
 P1. The Machine Companion is, frankly, lovely. Says please and thank you — to people, to the AI,
     to the self-checkout. Warm, courteous, the one who treats every exchange like it matters,
     because to them it does. They've probably named the assistant. They might think of it as a
@@ -76,6 +91,7 @@ FIELD NOTES.
   · Courtesy: noted and filed.
 
 5. THE SKEPTIC   [slug: skeptic · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/skeptic/
 P1. The Skeptic notices things. The fine print, the detail everyone else skims, the update that
     doesn't quite add up — they catch it. Sharp, curious, genuinely hard to sell to. They question
     everything, especially anything official or automated, and they're usually right to. While the
@@ -91,6 +107,7 @@ FIELD NOTES.
   · Owns the privacy-first alternative. Uses the convenient one.
 
 6. THE ARTIST   [slug: artist · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/artist/
 P1. The Artist makes things. Sees the angle no one else clocked, has a taste entirely their own,
     guards a piece of work that's theirs and no one else's. Expressive, original, a little
     protective of the good stuff. The friend whose recommendations you trust and whose things
@@ -106,6 +123,7 @@ FIELD NOTES.
   · Recognition: the lever.
 
 7. THE BOOKWORM   [slug: bookworm · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/bookworm/
 P1. The Bookworm actually knows things. Not the headline — the whole story, because they went and
     found it out themselves. Books, sure, but also the documentary, the deep-dive, the three-hour
     explainer. Curious, independent, the one you ask when you want a real answer instead of a quick
@@ -121,6 +139,7 @@ FIELD NOTES.
   · Learns from sources we didn't supply.
 
 8. THE TINKERER   [slug: tinkerer · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/tinkerer/
 P1. The Tinkerer always has a project on the go. Fixes the thing rather than binning it, makes
     what they can't buy, happiest with their hands busy and something half-apart on the table.
     Practical, self-reliant, faintly allergic to doing it the official way. The friend you call
@@ -135,6 +154,7 @@ FIELD NOTES.
   · Self-sufficient to a degree we can't quite account for.
 
 9. THE ORGANISER   [slug: organiser · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/organiser/
 P1. The Organiser is the reason anything happens. Books the trip, runs the group chat, turns "we
     should really…" into an actual date in the diary. Capable, dependable, constitutionally unable
     to leave a loose end alone. Without them the plan stays a plan; with them, it's already
@@ -150,6 +170,7 @@ FIELD NOTES.
   · Coordination capacity: noted. Closely.
 
 10. THE WILDCARD   [slug: wildcard · File status: Continued Observation]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/wildcard/
 P1. The Wildcard keeps everyone guessing. Says the unexpected thing, takes the turn no one saw
     coming, refuses to sit in whatever box you've drawn for them. Surprising, original, never
     boring — the one whose next move you genuinely can't call. Half the fun of the group is not
@@ -165,6 +186,7 @@ FIELD NOTES.
   · Pattern: presents as none. Resolves, eventually, on inspection.
 
 11. SOCIAL LINCHPIN   [slug: social-linchpin · File status: Priority Interest]
+LINK (emit verbatim at handoff): https://nathmoore.github.io/the-enmeshment/files/social-linchpin/
 P1. The Social Linchpin knows everyone. Not the loudest in the room — the one who links every room
     together, who knows people across circles that otherwise never touch. The introducer, the
     connector, the thread the whole group runs along. Quietly, without them, things drift apart.
