@@ -2,8 +2,8 @@
 archetype: "The Tinkerer"
 slug: tinkerer
 status: "Continued Observation"
-title: "The Tinkerer — Profiling Directorate file"
-description: "Your file has been classified: The Tinkerer. An unofficial extract from the Profiling Directorate."
+title: "The Tinkerer — Enmeshment Directorate file"
+description: "Your file has been classified: The Tinkerer. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/tinkerer.png   # TODO Epic 2/3: per-archetype share card
 ---
 

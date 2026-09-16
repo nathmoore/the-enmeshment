@@ -2,8 +2,8 @@
 archetype: "The Bookworm"
 slug: bookworm
 status: "Continued Observation"
-title: "The Bookworm — Profiling Directorate file"
-description: "Your file has been classified: The Bookworm. An unofficial extract from the Profiling Directorate."
+title: "The Bookworm — Enmeshment Directorate file"
+description: "Your file has been classified: The Bookworm. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/bookworm.png   # TODO Epic 2/3: per-archetype share card
 ---
 

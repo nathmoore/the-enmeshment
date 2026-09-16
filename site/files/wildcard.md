@@ -2,8 +2,8 @@
 archetype: "The Wildcard"
 slug: wildcard
 status: "Continued Observation"
-title: "The Wildcard — Profiling Directorate file"
-description: "Your file has been classified: The Wildcard. An unofficial extract from the Profiling Directorate."
+title: "The Wildcard — Enmeshment Directorate file"
+description: "Your file has been classified: The Wildcard. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/wildcard.png   # TODO Epic 2/3: per-archetype share card
 ---
 

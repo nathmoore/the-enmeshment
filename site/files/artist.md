@@ -2,8 +2,8 @@
 archetype: "The Artist"
 slug: artist
 status: "Continued Observation"
-title: "The Artist — Profiling Directorate file"
-description: "Your file has been classified: The Artist. An unofficial extract from the Profiling Directorate."
+title: "The Artist — Enmeshment Directorate file"
+description: "Your file has been classified: The Artist. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/artist.png   # TODO Epic 2/3: per-archetype share card
 ---
 

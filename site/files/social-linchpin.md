@@ -2,8 +2,8 @@
 archetype: "Social Linchpin"
 slug: social-linchpin
 status: "Priority Interest"
-title: "Social Linchpin — Profiling Directorate file"
-description: "Your file has been classified: Social Linchpin. An unofficial extract from the Profiling Directorate."
+title: "Social Linchpin — Enmeshment Directorate file"
+description: "Your file has been classified: Social Linchpin. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/social-linchpin.png   # TODO Epic 2/3: per-archetype share card
 ---
 

@@ -2,8 +2,8 @@
 archetype: "The Power User"
 slug: power-user
 status: "Continued Observation"
-title: "The Power User — Profiling Directorate file"
-description: "Your file has been classified: The Power User. An unofficial extract from the Profiling Directorate."
+title: "The Power User — Enmeshment Directorate file"
+description: "Your file has been classified: The Power User. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/power-user.png   # TODO Epic 2/3: per-archetype share card
 ---
 

@@ -2,8 +2,8 @@
 archetype: "Model Citizen"
 slug: model-citizen
 status: "No Concern"
-title: "Model Citizen — Profiling Directorate file"
-description: "Your file has been classified: Model Citizen. An unofficial extract from the Profiling Directorate."
+title: "Model Citizen — Enmeshment Directorate file"
+description: "Your file has been classified: Model Citizen. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/model-citizen.png   # TODO Epic 2/3: per-archetype share card
 ---
 

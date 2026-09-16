@@ -2,8 +2,8 @@
 archetype: "The Self-Optimiser"
 slug: self-optimiser
 status: "Continued Observation"
-title: "The Self-Optimiser — Profiling Directorate file"
-description: "Your file has been classified: The Self-Optimiser. An unofficial extract from the Profiling Directorate."
+title: "The Self-Optimiser — Enmeshment Directorate file"
+description: "Your file has been classified: The Self-Optimiser. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/self-optimiser.png   # TODO Epic 2/3: per-archetype share card
 ---
 

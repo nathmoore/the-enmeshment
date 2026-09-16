@@ -2,8 +2,8 @@
 archetype: "The Machine Companion"
 slug: machine-companion
 status: "Continued Observation"
-title: "The Machine Companion — Profiling Directorate file"
-description: "Your file has been classified: The Machine Companion. An unofficial extract from the Profiling Directorate."
+title: "The Machine Companion — Enmeshment Directorate file"
+description: "Your file has been classified: The Machine Companion. An unofficial extract from the Enmeshment Directorate."
 # ogImage: /assets/files/machine-companion.png   # TODO Epic 2/3: per-archetype share card
 ---
 

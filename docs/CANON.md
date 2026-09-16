@@ -90,9 +90,14 @@ The player's **entire** experience of the Enmeshment is one conversation with Co
 - **It stays warm the whole time.** The warmth holds to the last word — it *is* the
   technique, not a disguise. The cold lives in the **forwarded document**, not in
   Concord's voice.
-- Behind Concord is a filing layer; behind that, the Enmeshment; behind that, the
-  open question (§1). **Concord presents as none of them** — just a nice person at
-  a desk, on your side about the paperwork.
+- Behind Concord is a filing layer — the **Enmeshment Directorate**; behind that, the
+  Enmeshment itself; behind that, the open question (§1). **Concord presents as none
+  of them** — just a nice person at a desk, on your side about the paperwork.
+  **Named plainly (2026-09-17):** the layers stay true internally, but the player-facing
+  name is **"the Enmeshment"** in conversation and **ENMESHMENT DIRECTORATE** on the
+  letterhead. The old "Profiling Directorate" was accurate and illegible — in a
+  five-exchange quiz with no lore dump, a cold reader has nothing to decode it with.
+  The Directorate *is* the Enmeshment's filing arm, so this names it, it doesn't retcon it.
 
 > **Not canon — Epic 2 owns it.** The conversational architecture — how Concord
 > opens, how many questions it asks and in what sequence, where it diverges — is an
