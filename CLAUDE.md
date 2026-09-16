@@ -41,6 +41,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/MECHANICS-RESEARCH.md — how the game is built (GPT format, virality, archetype design seeds)
 - docs/STORY-RESEARCH.md — narrative/genre scaffolding
 - docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
+- docs/CONVERSATION-ARC-RESEARCH.md — LIVING design doc: the 3-act interview arc
+  (thesis → try-on-other-selves → converge) + aspirational/dinner-party domain glow-up;
+  drives instructions.md + elicitation-playbook.txt + concord-examples.txt
 - docs/planning/*.md — epic plans + DECISIONS.md (decision log)
 - src/instructions.md — GPT instructions skeleton + budget tracker
 - src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, elicitation-playbook,
