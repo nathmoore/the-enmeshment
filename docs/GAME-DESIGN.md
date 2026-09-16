@@ -2,6 +2,10 @@
 
 > Status: **COMPLETE (Epic 1, 2026-06-13)** — pillars, archetype set, signals, and elicitation approach locked. Voice samples + authored knowledge files = Epic 2.
 
+> **Why the project exists at all** — the stance on publishing the method, the limits of what
+> a game can claim, and why no real villain is named — is [WHY-THIS-EXISTS.md](WHY-THIS-EXISTS.md).
+> This doc is the *design*; that one is the *purpose*.
+
 ## 1. Design pillars
 
 1. **The Bluey Principle.** Two layers, always. **Level one (fun):** the *"who would you be if it ever came to it?"* fantasy — the elevated resistance-quiz thrill of finding out what you'd bring when it counts. **Level two (deep):** *what kind of human–AI relationship do we want?* If a design choice serves only one layer, rework it. (Balance is live-tuned: an early Epic-2 playtest ran level two rich but level one thin — see DECISIONS 2026-07-01, breadth + fight-fantasy pass.)

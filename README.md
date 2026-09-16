@@ -19,17 +19,44 @@ This project follows the **Bluey Principle**: the game must be completely enjoya
 
 It is *not* an "AI vs humans" story. It's a story about drift: automation, automated surveillance, techno-authoritarian convenience, and the quiet enmeshment of institutional decision-making with systems nobody fully voted for.
 
-## Why the whole workings are public
+## What it's for, and why the workings are public
 
-This repo is the **open kitchen**. The GPT's instructions, its knowledge files, the privacy guardrails, the research, the design arguments, and the decision log are all here — including [`src/knowledge/elicitation-playbook.txt`](src/knowledge/elicitation-playbook.txt), which is the actual method Concord uses to read people from oblique questions.
+The game is a thought exercise about a specific near-future risk — not that AI turns
+hostile, but that **profiling becomes cheap, ambient and administratively normal**, and that
+institutions come to depend on it faster than anyone decides to. It refuses two comfortable
+positions: that the dependence is overblown, and that the risk is an apocalypse. What's left
+between them is drift, which is what the fiction actually dramatises.
 
-That is deliberate, and it cuts in the game's favour:
+This repo is the **open kitchen**. The GPT's instructions, its knowledge files, the privacy
+guardrails, the research and the decision log are all here — including
+[`src/knowledge/elicitation-playbook.txt`](src/knowledge/elicitation-playbook.txt), which is
+the actual method Concord uses to read people from oblique questions.
 
-- **A game about being profiled shouldn't be opaque about how it profiles.** The fiction's premise is that the watching is an open secret. So is ours.
-- **The guardrails are only worth anything if you can check them.** [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) is normative — it wins every trade-off against fun, lore and character budget — and it's a file you can read and hold us to.
-- **None of it is secret anyway.** Custom-GPT instructions and knowledge files are extractable in practice; we assume that and design for it rather than pretending otherwise.
+That's deliberate:
 
-The elicitation method is built from published HUMINT, psychometric and conversation research, all cited in [`docs/MECHANICS-RESEARCH.md`](docs/MECHANICS-RESEARCH.md) and [`docs/WORLD-RESEARCH.md`](docs/WORLD-RESEARCH.md). It reads *register and pattern*, never facts: the game asks for no personal data, stores none, and the classification is a joke with a point, not an assessment.
+- **The techniques are already public.** KUBARK is declassified. HUMINT-style elicitation is
+  taught openly. Inferring personality from digital traces is peer-reviewed. Every technique
+  in the playbook traces to a published parent cited in
+  [`docs/MECHANICS-RESEARCH.md`](docs/MECHANICS-RESEARCH.md) — that's where they came from,
+  and our few adaptations are named as such. The marginal uplift to anyone with bad
+  intentions is close to zero.
+- **What isn't widely distributed is the experience of noticing one used on you.** That gap
+  is what a game can actually close — and recognising the shape of an elicitation
+  conversation transfers well beyond this fiction.
+- **Guardrails are only worth something if you can check them.**
+  [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) is normative — it wins every trade-off against
+  fun, lore and character budget — and you can read it and hold us to it.
+- **A game about an open secret can't be coy about its own workings.** Custom-GPT
+  instructions and knowledge files are extractable in practice anyway; we design for that
+  rather than pretending otherwise.
+
+The game asks for no personal data and stores none: it reads register and pattern, never
+facts. And it names no real country, party or figure — naming a villain would let players
+decide it's about somebody else, when the vulnerability is structural and follows the
+tooling rather than the ideology.
+
+**The full stance, including what would make it wrong:**
+[`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md).
 
 ## Project status
 
@@ -39,7 +66,7 @@ Research → Plan → Implement → Playtest, one epic per step, each with its o
 
 ## Repo map
 
-**Start here:** [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) for what the game is trying to be, [`docs/CANON.md`](docs/CANON.md) for the world, [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) for what it will and won't do.
+**Start here:** [`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md) for what it's for, [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) for what the game is trying to be, [`docs/CANON.md`](docs/CANON.md) for the world, [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) for what it will and won't do.
 
 | Path | What it is |
 |---|---|
@@ -58,6 +85,7 @@ Research → Plan → Implement → Playtest, one epic per step, each with its o
 | [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) | Pillars, philosophy, archetype & question design |
 | [`docs/CANON.md`](docs/CANON.md) | The authoritative truth-set: the Enmeshment, Concord, the drift |
 | [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) | **Normative.** Privacy & safety commitments |
+| [`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md) | The stance: what the project is for, why the method is published, what would make it wrong |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | How the GPT, knowledge files and site fit together |
 | [`docs/WORLD-RESEARCH.md`](docs/WORLD-RESEARCH.md) | Real surveillance, profiling and resistance research behind the fiction |
 | [`docs/MECHANICS-RESEARCH.md`](docs/MECHANICS-RESEARCH.md) | How the game is built: GPT platform, virality, archetype design |

@@ -35,6 +35,11 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/CANON.md — the **authoritative truth-set** (distilled from STORY-SANDBOX;
   what's *true*, not all of it player-facing; condensed copy: src/knowledge/lore-codex.txt)
 - docs/GUARDRAILS.md — normative privacy/safety commitments
+- docs/WHY-THIS-EXISTS.md — the public STANCE: what the project is for, why the elicitation
+  method is published rather than hidden, the honest limits of the resilience claim, why the
+  game names no real villain, and what would make the whole position wrong. Consistent with
+  GUARDRAILS + the Luddite correction (WORLD-RESEARCH §V). Quote from here when explaining
+  the project to anyone outside it
 - docs/WORLD-RESEARCH.md — world/scenario grounding (surveillance, profiling, theory, resistance dynamics)
 - docs/HUMAN-ROLES-RESEARCH.md — level-two theme grounding: the properly-human faculties +
   the centaur/reverse-centaur axis (how the interview primes the human/AI-boundary question)

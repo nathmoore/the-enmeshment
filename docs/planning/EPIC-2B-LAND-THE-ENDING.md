@@ -181,7 +181,11 @@ Independent of A and B. This is the track that actually fixes the flat ending.
 
 - [ ] `index.njk` hook (~3 sentences, lore cold-open) + a "Play on ChatGPT" CTA — currently an
       empty `<p>` with a TODO.
-- [ ] `/reading-room/` from the research bibliographies (451 chars, stub).
+- [ ] `/reading-room/` from the research bibliographies (451 chars, stub). **Also the
+      player-facing home for the stance** in [WHY-THIS-EXISTS.md](../WHY-THIS-EXISTS.md) —
+      a short, warm version of *what this is for and why the method is public*, sitting
+      above the curated reading list. The repo doc is for people who go looking; this is
+      for the player who just got filed and wants to know who made this and why.
 - [ ] `/scenario/` is **already authored** (4.2KB) — leave it.
 
 ### C6. Redeploy the GPT
