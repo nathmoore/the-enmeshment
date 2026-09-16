@@ -15,7 +15,8 @@ The Enmeshment is not an app. It's a **prompt-architecture product** with three 
 │       ├── lore-codex.txt                            │
 │       ├── archetypes.txt                            │
 │       ├── elicitation-playbook.txt                  │
-│       └── archetype-dossiers.txt (prose + LINK line)┼──┐
+│       ├── archetype-dossiers.txt (prose + LINK line)┼──┐
+│       └── concord-examples.txt (the voice to imitate)│  │
 ├─────────────────────────────────────────────────────┤  │ exact link
 │  GitHub repo (the open kitchen)                     │  │ (copied,
 │  ├── docs, lore, guardrails, conversation           │  │  not guessed)

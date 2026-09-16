@@ -1,8 +1,8 @@
 # site/ — The Enmeshment public site (runbook)
 
 Eleventy ([11ty](https://www.11ty.dev/)) static site → GitHub Pages. This is the personal ops
-runbook: every command to run it locally and every GitHub step to ship it. It's committed (not
-secret) — keep it here even though you're the only audience.
+runbook: every command to run it locally and every GitHub step to ship it. It's committed
+deliberately — the repo is the open kitchen, and the ops steps are part of the workings.
 
 **Locked decision + rationale:** [DECISIONS.md](../docs/planning/DECISIONS.md) (2026-06-13),
 [CONTENT-ARCHITECTURE.md](../docs/planning/CONTENT-ARCHITECTURE.md) §4, [ARCHITECTURE.md](../docs/ARCHITECTURE.md) §5.
