@@ -44,7 +44,11 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/CONVERSATION-ARC-RESEARCH.md — LIVING design doc: the 3-act interview arc
   (thesis → try-on-other-selves → converge) + aspirational/dinner-party domain glow-up;
   drives instructions.md + elicitation-playbook.txt + concord-examples.txt
-- docs/planning/*.md — epic plans + DECISIONS.md (decision log)
+- docs/planning/*.md — epic plans + DECISIONS.md (decision log). **EPIC-2B-LAND-THE-ENDING.md
+  is the ACTIVE epic**: Track A (Fable session — RAG audit + knowledge-file architecture, the
+  11 dossier-page ports, the 11 new declassified footnotes), Track B (can the ChatGPT
+  suggestion chips be *steered* into Concord's voice? — research, may return "no"), Track C
+  (push the repo, enable Pages, stylesheet, share cards, redeploy the GPT at v1.0)
 - src/instructions.md — GPT instructions skeleton + budget tracker
 - src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, elicitation-playbook,
   archetype-dossiers — the player-facing voiced dossier prose; also the in-chat VERDICT
