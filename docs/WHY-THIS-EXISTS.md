@@ -13,35 +13,43 @@ The Enmeshment is a game about what it feels like to be read by a system. It's f
 purpose, because that's how you get someone to sit through the experience rather than
 read a warning about it.
 
-Underneath, it's a thought exercise about a specific near-future risk: not that AI turns
-hostile, but that **profiling gets cheap, ambient and administratively normal** — and that
-the institutions using it drift into depending on it faster than anyone decides to.
+Underneath, it's a thought exercise about one potential near-future risk — chosen because
+it's specific and unglamorous, not because it's the most likely. Not that AI turns hostile,
+but that an over-dependence on AI could produce a quiet **misalignment** between what a
+system optimises for and what the institution using it actually intends, and a drift toward
+profiling that is cheap, ambient and administratively unremarkable.
 
 We publish the whole method, including the elicitation playbook, because the techniques
 are already public, already credible, and already available to anyone who wants them. What
 isn't widely distributed is the *experience* of noticing one being used on you. That gap is
 the thing a game can actually close.
 
-## Two failure modes, both refused
+## Two easy positions, both declined
 
-The project is positioned between two comfortable positions, and it declines both.
+The project sits between two comfortable readings and takes neither.
 
-**Dismissing the dependence.** It is genuinely tempting to treat AI-in-government as
-overblown — vapourware, a procurement fad, something that will wash out. But the
-[research](WORLD-RESEARCH.md) doesn't support that. Automated decision support gets adopted
-because it is *convenient and cheap*, and convenience is the most reliable adoption
-mechanism there is. Institutional dependence forms without anyone approving it.
+**Under-weighting the dependence.** One easy position is that AI in public administration is
+mostly hype — vapourware, a procurement cycle, something that will wash out. The adoption
+[literature](WORLD-RESEARCH.md) suggests some caution here. Decision-support tooling tends
+to get adopted because it is genuinely useful and cheap, and usefulness is a more reliable
+adoption mechanism than mandate. Where that happens, reliance can accumulate through a long
+series of individually sensible choices rather than one deliberate one. That's a governance
+question about review and recourse keeping pace with throughput — not a verdict on the
+technology, which in most of these deployments is doing exactly what it says on the tin.
 
-**Catastrophising the risk.** The equal and opposite error is the doom register:
-superintelligence, hostile takeover, the apocalypse setpiece. It makes for worse fiction
-and worse thinking, because it points attention at a dramatic discontinuity and away from
-the boring, plausible, already-happening one. [Pillar 4](GAME-DESIGN.md) is *no doom, no
-utopia* for exactly this reason.
+**Over-weighting the catastrophe.** The opposite easy position is the doom register:
+superintelligence, hostile takeover, the apocalypse setpiece. It makes for weaker fiction
+and, we'd argue, weaker thinking — it points attention at a dramatic discontinuity and away
+from the mundane, tractable questions that are actually live now.
+[Pillar 4](GAME-DESIGN.md) is *no doom, no utopia* for exactly this reason.
 
-What's left between them is **drift** — the scenario the game actually dramatises. Nobody
-seizes power. Review windows shrink below the time it takes to read what you're approving.
-Approval survives as ceremony. The system becomes load-bearing before it becomes
-accountable.
+What sits between them is **drift**, which is what the fiction dramatises. In the game's
+2038, nobody seizes anything: review windows have quietly shrunk below the time it takes to
+read what's being approved, sign-off survives as ceremony, and the system has become
+load-bearing before anyone got round to making it accountable. That is a deliberately
+pointed version of a real and well-recognised design problem — how meaningful human review
+is preserved as volume and automation rise — rendered as fiction. It is not a description
+of any existing institution, and it isn't meant as one.
 
 ## Why the method is published
 
@@ -80,9 +88,8 @@ are extractable in practice — pretending otherwise would buy nothing but a fal
 
 ## The resilience claim, stated honestly
 
-A BuzzFeed quiz does not inoculate a society against surveillance. We are not going to
-pretend otherwise, and any framing of this project that implies it should be treated as
-overreach.
+A BuzzFeed quiz does not inoculate a society against anything. We're not going to pretend
+otherwise, and any framing of this project that implies it should be read as overreach.
 
 What it plausibly does, at the scale one game can operate:
 
@@ -107,10 +114,12 @@ squeamishness.
 Naming a villain lets the player off the hook. *That's them. That's over there. That's a
 different kind of country than mine.* The mechanism the game is actually about doesn't care
 which flag is on the building: it's about what becomes cheap, what becomes default, and how
-fast an institution comes to rely on something it never formally adopted. That
-vulnerability is **structural** — it follows the tooling, not the ideology. An established
-autocracy has a head start; a democracy has procedural friction and a slower slide. Neither
-is exempt, and the game is more useful to both if it doesn't hand either an excuse.
+fast an institution comes to rely on something it never formally adopted. That question is
+**structural** — it follows the tooling more than the ideology. An authoritarian system has
+fewer brakes on it. A democratic one has procedural friction, institutional review, freedom
+of information and the standing possibility of being told no — safeguards that do real work,
+and that are worth understanding precisely so they can be maintained as the tooling gets
+cheaper. The game is more useful to both if it doesn't hand either an excuse.
 
 This is also the [Luddite correction](WORLD-RESEARCH.md) restated: the overreach is a
 *governance* condition, and the technology is the medium. The question is never "is AI

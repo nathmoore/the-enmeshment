@@ -21,11 +21,17 @@ It is *not* an "AI vs humans" story. It's a story about drift: automation, autom
 
 ## What it's for, and why the workings are public
 
-The game is a thought exercise about a specific near-future risk — not that AI turns
-hostile, but that **profiling becomes cheap, ambient and administratively normal**, and that
-institutions come to depend on it faster than anyone decides to. It refuses two comfortable
-positions: that the dependence is overblown, and that the risk is an apocalypse. What's left
-between them is drift, which is what the fiction actually dramatises.
+The game is a thought exercise about one potential near-future risk — chosen because it's
+specific and unglamorous, not because it's the most likely. Not that AI turns hostile, but
+that an over-dependence on AI could produce a quiet **misalignment** between what a system
+optimises for and what the institution using it actually intends, and a drift toward
+profiling that is cheap, ambient and administratively unremarkable.
+
+It takes neither of the two easy positions — that the dependence is mostly hype, or that the
+risk is an apocalypse. What sits between them is **drift**, which is what the fiction
+dramatises: a deliberately pointed version of a real design problem (how meaningful human
+review is preserved as volume and automation rise), not a description of any existing
+institution.
 
 This repo is the **open kitchen**. The GPT's instructions, its knowledge files, the privacy
 guardrails, the research and the decision log are all here — including
@@ -52,8 +58,8 @@ That's deliberate:
 
 The game asks for no personal data and stores none: it reads register and pattern, never
 facts. And it names no real country, party or figure — naming a villain would let players
-decide it's about somebody else, when the vulnerability is structural and follows the
-tooling rather than the ideology.
+decide it's about somebody else, when the question is structural and follows the tooling
+more than the ideology.
 
 **The full stance, including what would make it wrong:**
 [`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md).
