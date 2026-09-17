@@ -256,7 +256,10 @@ otherwise we're trimming a moving target):
 first logged here was a byte-vs-character miscount; see the instructions.md header),
 src/knowledge/elicitation-playbook.txt (new §0 arc + §3 aspirational domains + §5
 PROJECT-A-SELF), and src/knowledge/concord-examples.txt (restructured under ACT 1/2/3 +
-tightened verdict). Committed 2026-09-16. Follow-up (Appendix A) RAG-size audit still pending.
+tightened verdict). Committed 2026-09-16. **Follow-up (Appendix A) RAG-size audit DONE 2026-09-17** — see
+EPIC-2B-LAND-THE-ENDING A1 + DECISIONS 2026-09-17: archetypes.txt split (scaffolding →
+planning/ARCHETYPE-SET-DESIGN.md), playbook labelled + front-loaded (§00), structural chunk
+audit recorded; live retrieval check queued for the v1.0 redeploy smoke test.
 
 ---
 

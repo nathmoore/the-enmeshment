@@ -48,22 +48,49 @@ Authoring against a file you're about to restructure is how the two drift apart 
 
 ### A1. RAG audit + knowledge-file architecture
 
-- [ ] **Confirm the diagnosis empirically before restructuring.** The Appendix A audit was a
+- [x] **Confirm the diagnosis empirically before restructuring.** *(2026-09-17 — done as a
+      **structural chunk audit**, not a live retrieval test: this session can't drive the GPT.
+      Script: simulate file_search-style chunking (~800 tokens / 400 overlap, OpenAI's
+      documented defaults; custom-GPT retrieval is undocumented but built on the same stack)
+      and locate every load-bearing line. Findings at HEAD: the 11 LINK lines and the
+      examples file (WRONG-vs-RIGHT, THE INTERRUPTION, VERDICT) are fine — each sits within one
+      chunk of its own numbered/titled header. The problem is **volume + anonymity**: the
+      playbook made 24 chunks and archetypes.txt 22, so 46 of the ~63 chunks in the whole
+      knowledge base competed for the handful retrieved per turn, and rules mid-section
+      (STANDING UP was an outright orphan; RATION THE REACTION sat 3,169 chars from any header)
+      carried no section identity. The deeper point, which the restructure is built on: every-turn
+      *behavioural* rules (arc, breadth, ration) can't rely on retrieval at all — the model doesn't
+      query for a rule it doesn't know it needs — so they stay one-line in instructions.md (they
+      are), and the knowledge files are optimised as **lookups**: self-labelled chunks a routing
+      or topic query lands on. **A real retrieval test still belongs in C6's smoke test**: ask the
+      live GPT "what does §7 say about Organiser vs Linchpin?" and "give me the Tinkerer LINK" and
+      check it quotes, not guesses.)* The Appendix A audit was a
       *light* read, not a retrieval test. Establish which load-bearing lines actually surface
       when they're needed — the 3-act arc (playbook §0), the breadth rule (§1 r4), the `LINK`
       URLs, the WRONG-vs-RIGHT reflection, and the new THE INTERRUPTION section. **A rule that
       doesn't get retrieved is not a rule**, and we have been fixing behaviour by adding text to
       files that may never surface.
-- [ ] **Split `archetypes.txt`** (signed off in principle 2026-07-02; needs the maintainer's
-      final yes on *what ships*): `git mv`/split the maintainer scaffolding — changelogs,
+- [x] **Split `archetypes.txt`** (signed off in principle 2026-07-02; **done 2026-09-17** —
+      36.7KB → 24.8KB, scaffolding verbatim in `ARCHETYPE-SET-DESIGN.md`; maintainer veto
+      = revert one file. What was also stripped from the cards is listed in that doc's header): `git mv`/split the maintainer scaffolding — changelogs,
       selection + set criteria, open questions, parking lot, the MOVED note — out to
       `docs/planning/ARCHETYPE-SET-DESIGN.md`, leaving the shipped file as **framing (North Star
       / Profiling Lens / Spice / Rules) + the 11 cards only**. Standing principle: the
       shipped `.txt` files are **agent-facing** — maintainer scaffolding belongs in `docs/`.
-- [ ] **Restructure for retrieval, not for reading.** Front-load rules, tighten headers, put
-      load-bearing lines where chunking will find them. `elicitation-playbook.txt` at 38.8KB is
-      the main offender and was never audited.
-- [ ] **Re-verify the instructions budget** after any offload — offloading *to* a knowledge file
+- [x] **Restructure for retrieval, not for reading.** *(2026-09-17, Opus subagent under a
+      "move and label, never rewrite" brief, diff reviewed by Fable: new `§00 AT A GLANCE` block
+      (12 one-line rules, each with its § pointer) so the every-turn rules sit in chunk 0; 44
+      self-identifying labels — `§3 TOPIC —` / `§3 ACT-2 DOOR —` / `§3 BOUNDARY DOOR —` /
+      `§6 SIGNATURE —` / `§7 PAIR —` — so any chunk names itself; §3 split into §3a/b/c headers;
+      §4 folded into §5 as EXCHANGE SHAPES (stub keeps the numbering); maintainer meta + repo-doc
+      pointers stripped; he/his → they. 74/74 rules, phrasings, doors, signatures and pairs
+      verified present. Size went UP 39.4 → 41.4KB — the labels cost more than the dedupes saved;
+      cutting further means cutting substance, which is a maintainer call (candidates: the
+      "Reveals…" gloss lines on §3b/c doors; §6 Texture lines partly restated in §7 Surface).
+      Net knowledge base 111.7 → 102.1KB via the archetypes split.)* Front-load rules, tighten
+      headers, put load-bearing lines where chunking will find them.
+- [x] **Re-verify the instructions budget** *(7,975 / 8,000 confirmed in Python 2026-09-17 — this
+      shell's `wc -m` returns bytes, 8,084; Python line added to the header)* after any offload — offloading *to* a knowledge file
       only helps if the file is retrievable. Currently **7,975 / 8,000, 25 chars spare**, so
       there is no room to absorb anything back. Count in UTF-8 (see the instructions.md header —
       a bare `wc -m` under `LC_ALL=C` counts bytes and inflates by ~100).
@@ -74,35 +101,46 @@ Authoring against a file you're about to restructure is how the two drift apart 
 
 ### A2. The 11 dossier pages — port
 
-- [ ] Port each archetype's P1 + ASSESSMENT + FIELD NOTES from `archetype-dossiers.txt` into
-      `site/files/<slug>.md`. Delete the stale "awaits voice samples" TODO.
-- [ ] **Slugs are FROZEN** — renaming a `site/files/*.md` breaks its `LINK` line. Front matter
+- [x] Port each archetype's P1 + ASSESSMENT + FIELD NOTES from `archetype-dossiers.txt` into
+      `site/files/<slug>.md`. Delete the stale "awaits voice samples" TODO. *(2026-09-17 —
+      scripted port, headings Subject profile / Assessment / Field notes; site builds.)*
+- [x] **Slugs are FROZEN** — renaming a `site/files/*.md` breaks its `LINK` line. Front matter
       (`archetype`, `slug`, `status`) already exists and is correct; don't re-derive it.
-- [ ] Keep `archetype-dossiers.txt` as the canonical source and the page as the deployment home
-      (its own HOW TO USE — authoring note says: two homes, keep in sync).
+- [x] Keep `archetype-dossiers.txt` as the canonical source and the page as the deployment home
+      (its authoring note now records the port date + that the footnote lives on the page only).
 
 ### A3. The 11 declassified footnotes — **the new writing**
 
-- [ ] Author one genuine reflective human–AI question per archetype, tied to *that* archetype's
+- [x] Author one genuine reflective human–AI question per archetype *(2026-09-17; 53–82 words
+      each; in `footnote:` front matter)*, tied to *that* archetype's
       deep layer. This is where level two now lives, so it carries the Bluey Principle on its
       own: the page is the only surface left that does.
-- [ ] **Voice check:** the footnote is the one place the game may drop the deadpan and be
+- [x] **Voice check** *(done as a set-read; five openers re-varied to kill a shared
+      "X is a real skill" shape; no shared question — see A4)*: the footnote is the one place the game may drop the deadpan and be
       sincere — it is *below* the fiction, not inside it. But it must not become a lecture, and
       it must not read as a quiz result. Evaluate against
       [HUMAN-ROLES-RESEARCH](../HUMAN-ROLES-RESEARCH.md) (the centaur / reverse-centaur seam) and
       [GUARDRAILS §5](../GUARDRAILS.md) tone rules.
-- [ ] Wire it into [`dossier.njk`](../../site/_includes/dossier.njk) (front-matter field →
-      template; the placeholder `<p class="footnote">` is already there).
+- [x] Wire it into [`dossier.njk`](../../site/_includes/dossier.njk) (`footnote` front matter →
+      `<aside class="footnote">` with a kicker; renders on all 11).
 
 ### A4. Evaluation pass
 
-- [ ] Read the 11 pages end-to-end as a set. The **stings are varied on purpose** (it reads as a
+- [x] Read the 11 pages end-to-end as a set *(2026-09-17: stings intact — the port is verbatim;
+      the 11 questions are distinct: defaults you'd have chosen / how you'd know the tool changed /
+      which targets you set / what it gives that a person who could say no would / seeing→doing /
+      the softened work / worked-out vs handed / the "myself" in DIY / what you'd get moving /
+      what a reader would need to be / threads held by hand)*. The **stings are varied on purpose** (it reads as a
       group-chat compare) — check the port didn't flatten them, and that no two footnotes
       collapse into the same question.
 
 ---
 
-## Track B — the suggestion-chip experiment
+## Track B — the suggestion-chip experiment → **MOVED to Epic 3** (2026-09-17)
+
+> Deferred by the maintainer: it needs live sessions to run, Epic 3 has them, and the epic
+> ships without it (v0.9's absorb-and-re-ask stands meanwhile). Kept below for the design of
+> the experiment; the checklist entry now lives in [EPIC-3](EPIC-3-PLAYTEST.md).
 
 *Same session as Track A (it's a voice question, same as the footnotes), but tracked separately
 because **it is research, not authoring**, and it may return "can't be done."*
@@ -137,7 +175,8 @@ Independent of A and B. This is the track that actually fixes the flat ending.
 
 ### C1. Publish the repo — **decide before you push**
 
-- [ ] **DECISION NEEDED (log it):** going public publishes `docs/` too — STORY-SANDBOX, DECISIONS,
+- [x] **DECIDED — publish it all** (DECISIONS 2026-09-17, [WHY-THIS-EXISTS](../WHY-THIS-EXISTS.md)
+      §"Why the method is published", README): going public publishes `docs/` too — STORY-SANDBOX, DECISIONS,
       ELICITATION-SPEC, the elicitation playbook. That is *exactly how the profiling works*.
       [MECHANICS §III](../MECHANICS-RESEARCH.md) already assumes instructions + knowledge are
       publicly extractable, base.njk calls it the "open kitchen," and the disclaimer *promises*
@@ -159,18 +198,25 @@ Independent of A and B. This is the track that actually fixes the flat ending.
 
 ### C3. Styling — "reads like a leaked file"
 
-- [ ] There is **no stylesheet at all** — [`base.njk`](../../site/_includes/base.njk) has a TODO
+- [x] *(2026-09-17: `site/assets/css/site.css` — mono letterhead form, rubber-stamp status, the
+      footnote drops to sans as the "form stops here" signal; light/dark; verified no horizontal
+      scroll at 320px and zero third-party sub-resources in the built site. Mono is site-wide,
+      including the long-form scenario/reading-room pages — a one-line scope change if it reads
+      heavy.)* There ~~is **no stylesheet at all**~~ was no stylesheet — [`base.njk`](../../site/_includes/base.njk) has a TODO
       where the `<link>` should be. The dossier currently renders as unstyled Times-on-white,
       which is most of why the handoff feels thin.
-- [ ] **Gotcha:** `addPassthroughCopy("assets")` is **commented out** in
+- [x] **Gotcha (fixed):** `addPassthroughCopy("assets")` was **commented out** in
       [`.eleventy.js`](../../site/.eleventy.js). Uncomment it or the CSS silently won't deploy.
-- [ ] Target per the existing TODO: monospace, classification-form styling, screenshot-ready.
+- [x] Target per the existing TODO: monospace, classification-form styling, screenshot-ready.
       **No third-party trackers** — the privacy-respecting profiler practises what it preaches
       ([GUARDRAILS §4](../GUARDRAILS.md)).
 
 ### C4. The share loop
 
-- [ ] Per-archetype OG **share-card images** (`ogImage`). OG tags are wired in base.njk but
+- [x] Per-archetype OG **share-card images** (`ogImage`) *(2026-09-17: 11 × 1200×630 PNGs in
+      `site/assets/files/`, generator `site/tools/build-cards.py`; `ogImage` set on all 11;
+      base.njk emits absolute `og:image` + `og:url` from `_data/site.json`. **Unfurl still
+      unverified** — needs a live URL, so it's the exit-checklist item, not this one.)* OG tags are wired in base.njk but
       `ogImage` is unset on all 11, so a pasted link unfurls as a bare `summary` card rather than
       `summary_large_image`. DECISIONS (2026-06-13) dropped the in-chat share-card *because* "the
       dossier link's unfurl IS the travelling artefact" — so right now **the share loop does not
@@ -179,9 +225,12 @@ Independent of A and B. This is the track that actually fixes the flat ending.
 
 ### C5. Landing + reading room
 
-- [ ] `index.njk` hook (~3 sentences, lore cold-open) + a "Play on ChatGPT" CTA — currently an
-      empty `<p>` with a TODO.
-- [ ] `/reading-room/` from the research bibliographies (451 chars, stub). **Also the
+- [x] `index.njk` hook (~3 sentences, lore cold-open) + a "Play on ChatGPT" CTA *(2026-09-17.
+      **The CTA reads `site.gptUrl` from `site/_data/site.json`, which holds a PLACEHOLDER** —
+      the live GPT's share link isn't in the repo; paste it there at C6 or the button 404s.)*
+- [x] `/reading-room/` from the research bibliographies *(2026-09-17: the warm stance version —
+      what it's for / why the method is public / honest limits — above a curated 20-source list
+      in five groups; links only to sources the research docs hold primary URLs for)*. **Also the
       player-facing home for the stance** in [WHY-THIS-EXISTS.md](../WHY-THIS-EXISTS.md) —
       a short, warm version of *what this is for and why the method is public*, sitting
       above the curated reading list. The repo doc is for people who go looking; this is
@@ -222,6 +271,6 @@ Independent of A and B. This is the track that actually fixes the flat ending.
 - [ ] Share-unfurl verified by actually pasting a link into a chat app
 - [ ] Knowledge files restructured; retrieval of load-bearing rules verified
 - [ ] GPT redeployed at v1.0, smoke-tested, tagged `gpt-v0.1`
-- [ ] Chip-steering result logged in DECISIONS either way
+- [~] Chip-steering result logged in DECISIONS either way → moved to Epic 3 (not an exit gate)
 
 Then Epic 3 opens with a game whose ending lands.
