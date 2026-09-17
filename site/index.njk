@@ -16,14 +16,7 @@ which way you'd go if it ever came to it — and whether, honestly, you would.</
 — and the whole game is <a href="https://github.com/nathmoore/the-enmeshment">open to inspect on
 GitHub</a>.</p>
 
-<nav>
-  <ul>
-    <li><a href="{{ '/scenario/' | url }}">The scenario</a> — the near-future it takes as given</li>
-    <li><a href="{{ '/reading-room/' | url }}">Reading room</a> — who made this, why, and what it's built on</li>
-  </ul>
-</nav>
-
-<h2>The files</h2>
+<h2 id="files">The files</h2>
 <p>Eleven classifications. One of them is yours; the rest are your friends.</p>
 <ul class="files-list">
 {%- for f in collections.files | sort(false, false, "data.archetype") %}

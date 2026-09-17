@@ -37,6 +37,31 @@
   }
 }
 
+/* ---------- site nav (every page) ---------- */
+.site-nav {
+  max-width: 40rem;
+  margin: 0 auto 2rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem 1.5rem;
+  font-size: .8125rem;
+}
+.site-nav .brand {
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+}
+.site-nav nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+.site-nav nav a { text-decoration: none; color: var(--link); }
+.site-nav nav a:hover { text-decoration: underline; }
+.site-nav a[aria-current="page"] { color: var(--ink-soft); text-decoration: none; }
+
 /* ---------- page frame ---------- */
 * { box-sizing: border-box; }
 
@@ -192,6 +217,31 @@ hr {
   padding-top: 1rem;
   font-size: .8125rem;
 }
+
+/* the other ten files, at the foot of a dossier */
+.other-files {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+}
+.other-files ul {
+  list-style: none;
+  margin: .5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .5rem;
+  font-size: .8125rem;
+}
+.other-files li a {
+  display: inline-block;
+  padding: .15rem .55rem;
+  border: 1px solid var(--rule-hard);
+  border-radius: 2px;
+  text-decoration: none;
+  color: var(--ink);
+}
+.other-files li a:hover { background: var(--paper-form); text-decoration: underline; }
 
 /* ---------- landing ---------- */
 main > h1,

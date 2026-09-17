@@ -25,6 +25,16 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}">
 </head>
 <body>
+  {# Site-wide nav — every page can get home, to the files list, the scenario and the
+     reading room. aria-current marks the page you're on. #}
+  <header class="site-nav">
+    <a class="brand" href="{{ '/' | url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>The Enmeshment</a>
+    <nav aria-label="Site">
+      <a href="{{ '/#files' | url }}"{% if page.url.startsWith('/files/') %} aria-current="page"{% endif %}>The files</a>
+      <a href="{{ '/scenario/' | url }}"{% if page.url == '/scenario/' %} aria-current="page"{% endif %}>The scenario</a>
+      <a href="{{ '/reading-room/' | url }}"{% if page.url == '/reading-room/' %} aria-current="page"{% endif %}>Reading room</a>
+    </nav>
+  </header>
   <main>
     {{ content | safe }}
   </main>
