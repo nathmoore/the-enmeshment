@@ -1,4 +1,4 @@
-# The Enmeshment *(working title)*
+# The Enmeshment
 
 > *"I always say please and thank you to AI — so it's nice to me later."*
 > What if we took the meme seriously?
@@ -9,9 +9,9 @@
 
 Players answer a handful of oblique, in-character questions and receive a two-paragraph, dossier-style classification — a wry "leaked file" on who the Enmeshment predicts they'd be. (The archetype set is being re-cut in Epic 1.)
 
-## The Bluey Principle
+## The Game Principle
 
-This project follows the **Bluey Principle** (coined for [Red Carbon](https://redcarbon.net)): the game must be completely enjoyable on one level — a fun, shareable, elevated-BuzzFeed-quiz experience — while pointing toward deeper thought on another:
+This project's objective is to be be completely enjoyable on one level — a fun, shareable, elevated-BuzzFeed-quiz experience — while pointing toward deeper thought on another:
 
 **What kind of human–AI relationship do we actually want?**
 
