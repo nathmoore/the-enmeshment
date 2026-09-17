@@ -68,6 +68,9 @@
   Release checklist: count the block, update Budget line, tag release. COUNT IN UTF-8 —
   a bare `wc -m` under LC_ALL=C counts BYTES, and the em-dashes inflate it by ~100.
   Use: LC_ALL=en_US.UTF-8 awk '/^```text$/{f=1;next} /^```$/{f=0} f' src/instructions.md | wc -m
+  If that shell ignores the locale (some sandboxed shells do — 2026-09-17 it returned 8,084 =
+  bytes), count in Python, which is authoritative:
+  python3 -c "import re;s=open('src/instructions.md',encoding='utf-8').read();print(len(re.search(r'^\`\`\`text\n(.*?)^\`\`\`\n',s,re.S|re.M).group(1)))"
 -->
 
 ```text

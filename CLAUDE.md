@@ -49,7 +49,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/CONVERSATION-ARC-RESEARCH.md — LIVING design doc: the 3-act interview arc
   (thesis → try-on-other-selves → converge) + aspirational/dinner-party domain glow-up;
   drives instructions.md + elicitation-playbook.txt + concord-examples.txt
-- docs/planning/*.md — epic plans + DECISIONS.md (decision log). **EPIC-2B-LAND-THE-ENDING.md
+- docs/planning/*.md — epic plans + DECISIONS.md (decision log) + ARCHETYPE-SET-DESIGN.md (the
+  archetype set's design record — selection criteria, changelogs, parking lot — split out of the
+  shipped archetypes.txt on 2026-09-17; the .txt is agent-facing, cards + framing only). **EPIC-2B-LAND-THE-ENDING.md
   is the ACTIVE epic**: Track A (Fable session — RAG audit + knowledge-file architecture, the
   11 dossier-page ports, the 11 new declassified footnotes), Track B (can the ChatGPT
   suggestion chips be *steered* into Concord's voice? — research, may return "no"), Track C
@@ -64,7 +66,9 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - src/gpt-config.md — the GPT Builder's non-instruction fields: name, store title/description,
   the 4 conversation starters (the cold-start funnel, versioned rather than typed-once)
 - site/ — Eleventy public site → GitHub Pages: landing, per-archetype dossier pages
-  (`/files/<slug>/`, the GPT's link-out targets), lore, reading room. Runbook: site/README.md
+  (`/files/<slug>/`, the GPT's link-out targets; body ported from archetype-dossiers.txt, plus a
+  `footnote` front-matter field = the declassified footnote, level two's only home — authored on
+  the page, never in a knowledge file), lore, reading room. Runbook: site/README.md
 
 ## Working style for sessions
 - **Two layers — sort feedback to the right one.** Archetype work splits across two
