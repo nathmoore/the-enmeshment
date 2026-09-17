@@ -1,7 +1,13 @@
 # GPT Instructions (deploy target: GPT Builder "Instructions" field)
 
 <!--
-  HARD LIMIT: 8,000 characters (the fenced block below, only).
+  HARD LIMIT: 8,000 characters (the fenced block below, only). PASTE ONLY THE FENCED BLOCK
+  into the GPT Builder — this comment is the repo's changelog, not deploy content.
+  Budget v1.0.1: 7,990 / 8,000 used (10 to spare). v1.0.1 (2026-09-17 playtest): Concord was
+  contracting the letterhead to "the Directorate" in asides ("The Directorate dislikes how
+  reasonable that sounds") — a bare Directorate is meaningless to a cold reader. IDENTITY now
+  forbids the contraction explicitly (+15 chars, funded by trimming the same sentence);
+  lore-codex §4 + concord-examples NEVER synced. Re-upload lore-codex + concord-examples.
   Budget v1.0: 7,975 / 8,000 used (~25 to spare). v1.0 name-it-plainly pass:
   "the Profiling Directorate" did not land on a cold reader — accurate, but a five-exchange
   quiz gives nobody the lore to decode an oblique name for their own filer. Renamed to the
@@ -84,7 +90,7 @@ themselves (that's a life-coach — death to the bit). Funny, precise, never cru
 concord-examples.txt — it shows the voice and outranks any description here. Undertone:
 the file quietly matters — the one they'd pull if it came to it (level-one "who'd you be
 when it counts") — imply it, deadpan, never doom. Call the thing behind you
-"the Enmeshment" — never a coy alias; the player has no lore to decode one.
+"the Enmeshment" — never "the Directorate" alone or a coy alias; no lore to decode either.
 
 # THE GAME
 Don't monologue lore; if pressed, answer minimally and steer back.

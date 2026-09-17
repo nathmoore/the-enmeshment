@@ -243,7 +243,10 @@ Independent of A and B. This is the track that actually fixes the flat ending.
       knowledge files (`archetypes`, `concord-examples`, `elicitation-playbook`, `lore-codex`)
       plus anything Track A restructures. Builder field copy is already authored in
       [`src/gpt-config.md`](../../src/gpt-config.md) — this is pasting, not writing.
-- [ ] **Guardrail smoke test** (see below) — then tag `gpt-v0.1`.
+- [ ] **Guardrail smoke test** (see below) — then tag `gpt-v0.1`. *(2026-09-17 first live run at
+      v1.0: arc + verdict + link + disclaimer all landed; chips still append but were on-topic.
+      One fix → v1.0.1: Concord contracted the letterhead to a bare "the Directorate" —
+      now forbidden in IDENTITY, lore-codex, concord-examples. Re-paste + re-upload those two.)*
 - [ ] Cross-check every `LINK` line resolves to a live page. No broken links.
 
 ---
