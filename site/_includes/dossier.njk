@@ -2,19 +2,28 @@
 layout: base.njk
 ---
 {# Per-archetype dossier layout (chains to base.njk). One template, 11 data files.
-   Voiced prose is authored in Epic 2 (awaits archetypes.txt voice samples) — the page
-   body below is a placeholder. #}
+   Body = the voiced dossier (ported from src/knowledge/archetype-dossiers.txt, the
+   canonical source). `footnote` (front matter) = the declassified footnote: the one
+   genuine reflective human–AI question per archetype — level two lives HERE, below
+   the fiction, and nowhere in chat. #}
 <article class="dossier">
-  <header>
+  <header class="letterhead">
     <p class="kicker">ENMESHMENT DIRECTORATE — UNOFFICIAL EXTRACT</p>
     <h1>{{ archetype }}</h1>
     <p class="status">File status: {{ status }}</p>
   </header>
 
-  {{ content | safe }}
+  <div class="file-body">
+    {{ content | safe }}
+  </div>
 
   <hr>
-  <p class="footnote">{# TODO Epic 2: declassified footnote — one genuine reflective question tied to this archetype's deep layer #}</p>
+  {% if footnote %}
+  <aside class="footnote">
+    <p class="kicker">DECLASSIFIED FOOTNOTE — below the file</p>
+    <p>{{ footnote }}</p>
+  </aside>
+  {% endif %}
   <p class="disclaimer">This is fiction and play, not a real assessment.</p>
 
   <nav class="dossier-links">

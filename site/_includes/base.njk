@@ -7,17 +7,22 @@
   <meta name="description" content="{{ description }}">
 
   {# Open Graph / Twitter — the share-unfurl card IS the virality engine (MECHANICS §I).
-     Each dossier page sets its own title/description so a pasted link previews on-brand. #}
+     Each dossier page sets its own title/description so a pasted link previews on-brand.
+     og:image and og:url MUST be absolute; `site.url` (_data/site.json) + the `| url`
+     filter supplies the origin and the pathPrefix. #}
   <meta property="og:site_name" content="The Enmeshment">
   <meta property="og:title" content="{{ title or 'The Enmeshment' }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:type" content="website">
-  {% if ogImage %}<meta property="og:image" content="{{ ogImage }}">{% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url | url }}">
+  {% if ogImage %}<meta property="og:image" content="{{ site.url }}{{ ogImage | url }}">{% endif %}
   <meta name="twitter:card" content="{{ 'summary_large_image' if ogImage else 'summary' }}">
 
-  {# TODO Epic 2/3: stylesheet — make the dossier read like a leaked file
-     (monospace, classification-form styling, screenshot-ready). No third-party
-     trackers — the privacy-respecting profiler practices what it preaches (GUARDRAILS). #}
+  {# Stylesheet — the dossier reads like a leaked file (monospace, classification-form,
+     screenshot-ready). Self-hosted and system-font only: no webfonts, no CDN, no
+     analytics, no third-party requests at all. The privacy-respecting profiler
+     practises what it preaches (GUARDRAILS §4). #}
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}">
 </head>
 <body>
   <main>

@@ -5,18 +5,28 @@ description: "What would the AI classify you as? A speculative-fiction profiling
 ---
 <h1>The Enmeshment</h1>
 
-<p>{# TODO Epic 2/3: the hook (lore cold-open, ~3 sentences) + a "Play on ChatGPT" CTA. #}</p>
+<p class="hook">It's 2038, and nobody seized anything. Government just got quietly, helpfully
+enmeshed with the systems advising it — and now those systems have grown their first eyes.
+They'd like a word. A short, friendly one. Five questions or so, and then they'll tell you
+which way you'd go if it ever came to it — and whether, honestly, you would.</p>
+
+<p><a class="cta" href="{{ site.gptUrl }}">Play on ChatGPT &rarr;</a></p>
+
+<p class="small">It never asks your name. The read comes from how you answer, never from data
+— and the whole game is <a href="https://github.com/nathmoore/the-enmeshment">open to inspect on
+GitHub</a>.</p>
 
 <nav>
   <ul>
-    <li><a href="{{ '/scenario/' | url }}">The scenario</a></li>
-    <li><a href="{{ '/reading-room/' | url }}">Reading room</a></li>
+    <li><a href="{{ '/scenario/' | url }}">The scenario</a> — the near-future it takes as given</li>
+    <li><a href="{{ '/reading-room/' | url }}">Reading room</a> — who made this, why, and what it's built on</li>
   </ul>
 </nav>
 
 <h2>The files</h2>
-<ul>
+<p>Eleven classifications. One of them is yours; the rest are your friends.</p>
+<ul class="files-list">
 {%- for f in collections.files | sort(false, false, "data.archetype") %}
-  <li><a href="{{ f.url | url }}">{{ f.data.archetype }}</a> — {{ f.data.status }}</li>
+  <li><a href="{{ f.url | url }}">{{ f.data.archetype }}</a> <span class="status">{{ f.data.status }}</span></li>
 {%- endfor %}
 </ul>
