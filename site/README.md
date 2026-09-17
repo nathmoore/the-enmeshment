@@ -1,8 +1,8 @@
 # site/ — The Enmeshment public site (runbook)
 
 Eleventy ([11ty](https://www.11ty.dev/)) static site → GitHub Pages. This is the personal ops
-runbook: every command to run it locally and every GitHub step to ship it. It's committed (not
-secret) — keep it here even though you're the only audience.
+runbook: every command to run it locally and every GitHub step to ship it. It's committed
+deliberately — the repo is the open kitchen, and the ops steps are part of the workings.
 
 **Locked decision + rationale:** [DECISIONS.md](../docs/planning/DECISIONS.md) (2026-06-13),
 [CONTENT-ARCHITECTURE.md](../docs/planning/CONTENT-ARCHITECTURE.md) §4, [ARCHITECTURE.md](../docs/ARCHITECTURE.md) §5.
@@ -31,11 +31,18 @@ Day to day you only need `npm run serve`.
 | `/` | `index.njk` | Landing — hook + "Play on ChatGPT" CTA |
 | `/files/<slug>/` | `files/<slug>.md` | The 11 dossier pages — the GPT's link targets |
 | `/scenario/` | `scenario.md` | Story background (player-safe, from CANON.md) |
-| `/reading-room/` | `reading-room.md` | Research bibliographies |
+| `/reading-room/` | `reading-room.md` | The stance (warm version of docs/WHY-THIS-EXISTS.md) + curated reading |
 
+- Site-wide data: `_data/site.json` — `url` (absolute base for OG tags) and **`gptUrl` (the
+  "Play on ChatGPT" link; a placeholder until the live GPT's share URL is pasted in)**.
 - Shared layout: `_includes/base.njk` (OG/Twitter meta + footer).
 - Dossier layout (all 11): `_includes/dossier.njk`.
 - Collection defaults (layout + `/files/<slug>/` permalink): `files/files.11tydata.json`.
+- Stylesheet: `assets/css/site.css` (system fonts only — **no third-party requests, ever**;
+  `addPassthroughCopy("assets")` in `.eleventy.js` is what deploys it).
+- Share cards: `assets/files/<slug>.png` (1200×630, committed; each dossier's `ogImage`).
+  Regenerate after a name/status change with `python3 tools/build-cards.py` — it renders an
+  SVG per archetype via macOS `qlmanage` (square-thumbnail quirk handled inside the script).
 - `README.md` is kept out of the build via `.eleventyignore`.
 
 The 11 frozen slugs: `model-citizen` · `power-user` · `self-optimiser` · `machine-companion` ·
@@ -46,8 +53,10 @@ The 11 frozen slugs: `model-citizen` · `power-user` · `self-optimiser` · `mac
    `description` (drives the share-unfurl card), optional `ogImage`.
 2. **Never rename a published file** — the filename is the URL (and the `LINK` line in
    `archetype-dossiers.txt`).
-3. The body is the voiced dossier prose — authored in **Epic 2** from the `archetypes.txt` voice
-   samples. Stubs currently hold a TODO placeholder.
+3. The body is the voiced dossier prose, **ported from `src/knowledge/archetype-dossiers.txt`**
+   (the canonical source — edit the voice there, then re-port; keep the two homes in sync).
+   `footnote` (front matter) is the declassified footnote — the page's own reflective
+   human–AI question. It is authored **here only**, never in a GPT knowledge file.
 
 ## Ship it to GitHub Pages
 

@@ -1,0 +1,338 @@
+/* The Enmeshment — site stylesheet.
+   Look: a leaked classification-form extract. Monospace, ruled fields, a stamped
+   status. The declassified footnote deliberately DROPS the form styling — it is
+   below the fiction, the sincere part, so it is quieter and sans-serif.
+   No third-party requests of any kind: system font stacks only, no webfonts, no
+   CDN, no analytics, no external images (GUARDRAILS §4). */
+
+/* ---------- tokens ---------- */
+:root {
+  --paper:      #f4f1e9;
+  --paper-form: #fbf9f4;
+  --ink:        #1b1917;
+  --ink-soft:   #5d564c;
+  --rule:       #cdc5b4;
+  --rule-hard:  #9d9483;
+  --stamp:      #93392c;
+  --link:       #2f4f6f;
+  --shadow:     rgba(27, 25, 23, .10);
+
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+  --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:      #15171a;
+    --paper-form: #1b1e22;
+    --ink:        #e2ded5;
+    --ink-soft:   #9b958a;
+    --rule:       #343941;
+    --rule-hard:  #545b65;
+    --stamp:      #d97a65;
+    --link:       #8fb4d6;
+    --shadow:     rgba(0, 0, 0, .40);
+  }
+}
+
+/* ---------- page frame ---------- */
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 2.5rem 1rem 3rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+
+main {
+  max-width: 40rem;      /* ~640px — the screenshot/share unit */
+  margin: 0 auto;
+}
+
+a { color: var(--link); }
+a:hover { color: var(--stamp); }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.25rem 0;
+}
+
+/* ---------- the file: letterhead ---------- */
+.dossier {
+  background: var(--paper-form);
+  border: 1px solid var(--rule-hard);
+  box-shadow: 0 1px 0 var(--rule), 0 10px 28px -18px var(--shadow);
+  padding: 1.75rem 1.25rem 1.5rem;
+}
+
+.kicker {
+  margin: 0;
+  font-size: .6875rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.letterhead {
+  border-bottom: 3px double var(--rule-hard);
+  padding-bottom: 1.1rem;
+  margin-bottom: 1.75rem;
+}
+
+.letterhead .kicker {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: .5rem;
+}
+
+.dossier h1 {
+  font-family: var(--mono);
+  font-size: clamp(1.7rem, 7vw, 2.3rem);
+  line-height: 1.15;
+  letter-spacing: -.01em;
+  margin: 1.1rem 0 1.1rem;
+}
+
+/* status: a boxed field, stamped slightly off-square */
+.status {
+  display: inline-block;
+  margin: 0;
+  padding: .35rem .7rem;
+  border: 2px solid var(--stamp);
+  color: var(--stamp);
+  font-size: .75rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  transform: rotate(-1.25deg);
+  transform-origin: left center;
+}
+
+/* ---------- the file: form sections ---------- */
+.file-body h2 {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: .35rem;
+  margin: 2.25rem 0 1rem;
+}
+
+.file-body h2:first-of-type { margin-top: 0; }
+
+.file-body p { margin: 0 0 1.1rem; }
+
+/* field notes — ruled entries, like a form's continuation lines */
+.file-body ul {
+  list-style: none;
+  margin: 0 0 1.1rem;
+  padding: 0;
+}
+
+.file-body ul li {
+  border-bottom: 1px dotted var(--rule);
+  padding: .5rem 0 .5rem 1.6rem;
+  position: relative;
+}
+
+.file-body ul li::before {
+  content: "\2014";              /* em dash, as a filed-entry marker */
+  position: absolute;
+  left: 0;
+  color: var(--ink-soft);
+}
+
+.file-body ul li:last-child { border-bottom: 0; }
+
+/* ---------- below the file: the sincere part ---------- */
+.footnote {
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  border: 0;
+  background: none;
+  margin: 0 0 1.75rem;
+}
+
+.footnote .kicker {
+  font-family: var(--mono);
+  letter-spacing: .1em;
+  opacity: .8;
+  margin-bottom: .6rem;
+}
+
+.footnote p:not(.kicker) {
+  margin: 0;
+  color: var(--ink);
+}
+
+.disclaimer {
+  font-family: var(--sans);
+  font-size: .8125rem;
+  color: var(--ink-soft);
+  margin: 0 0 1.5rem;
+}
+
+.dossier-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+  font-size: .8125rem;
+}
+
+/* ---------- landing ---------- */
+main > h1,
+main > h2 {
+  font-family: var(--mono);
+}
+
+main > h1 {
+  font-size: clamp(1.8rem, 7vw, 2.4rem);
+  line-height: 1.15;
+  margin: 0 0 1.25rem;
+}
+
+main > h2 {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: .35rem;
+  margin: 2.5rem 0 1rem;
+}
+
+p.hook {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  border-left: 3px solid var(--rule-hard);
+  padding-left: 1rem;
+  margin: 0 0 1.75rem;
+}
+
+a.cta {
+  display: inline-block;
+  margin: .25rem 0 2rem;
+  padding: .7rem 1.2rem;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  background: var(--paper-form);
+  text-decoration: none;
+  font-size: .8125rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 var(--rule-hard);
+}
+
+a.cta:hover {
+  color: var(--paper-form);
+  background: var(--ink);
+  box-shadow: 2px 2px 0 var(--rule-hard);
+}
+
+ul.files-list {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+ul.files-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .25rem .75rem;
+  border-bottom: 1px dotted var(--rule);
+  padding: .6rem 0;
+}
+
+ul.files-list li a { text-decoration: none; }
+ul.files-list li a:hover { text-decoration: underline; }
+
+/* In the index listing the status is a filed-under tag, not a stamp — the rubber
+   stamp stays unique to the file page itself. */
+ul.files-list .status {
+  padding: 0;
+  border: 0;
+  transform: none;
+  font-size: .6875rem;
+  color: var(--ink-soft);
+}
+
+.small {
+  font-size: .875rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- plain markdown pages (scenario, reading room) ---------- */
+main > p,
+main > ul,
+main > ol,
+main > blockquote {
+  margin-bottom: 1.15rem;
+}
+
+main > ul,
+main > ol { padding-left: 1.3rem; }
+
+main > ul li,
+main > ol li { margin-bottom: .4rem; }
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 3px solid var(--rule-hard);
+  padding: .1rem 0 .1rem 1rem;
+  color: var(--ink-soft);
+}
+
+main > nav {
+  font-size: .8125rem;
+  margin-bottom: 2rem;
+}
+
+main > nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > nav li { margin-bottom: .4rem; }
+
+code, pre {
+  font-family: var(--mono);
+  font-size: .9em;
+}
+
+/* ---------- footer ---------- */
+body > footer {
+  max-width: 40rem;
+  margin: 2.5rem auto 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: .8125rem;
+  color: var(--ink-soft);
+}
+
+body > footer p { margin: 0; }
+
+/* ---------- wider viewports ---------- */
+@media (min-width: 40rem) {
+  body { padding: 3.5rem 1.5rem 4rem; }
+  .dossier { padding: 2.25rem 2rem 1.75rem; }
+}

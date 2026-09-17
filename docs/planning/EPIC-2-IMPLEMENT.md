@@ -1,5 +1,7 @@
 # Epic 2 — Implement
-Status: BLOCKED (awaits Epic 1 exit) | Exit gate: GPT deployed privately, all content v1
+Status: SUBSTANTIALLY DONE — remaining work carried into
+[EPIC-2B — Land the ending](EPIC-2B-LAND-THE-ENDING.md) (2026-09-17)
+| Exit gate: GPT deployed privately, all content v1
 
 ## Goal
 Write everything, build the GPT, deploy privately for playtest.
@@ -101,7 +103,9 @@ Write everything, build the GPT, deploy privately for playtest.
   > leads on the hook and drops "threat" from the headline (it promises menace the warm dossiers don't
   > pay off), the title stays keyword-locked on "resistance" (DECISIONS 2026-07-01).
 - [ ] **Public site ([`site/`](../../site/), Eleventy → GitHub Pages):** scaffold + stubs already
-      exist (started 2026-06-13). To finish:
+      exist (started 2026-06-13). **→ CARRIED INTO [EPIC-2B](EPIC-2B-LAND-THE-ENDING.md) Track C**
+      (2026-09-17), which also found the real blocker: there is no git remote, so Pages was never
+      deployed and all 11 `LINK` URLs 404. To finish:
       - [ ] Author the **11 dossier pages** (`site/files/<slug>.md`) from the locked archetypes.txt
             voice samples (depends on the voice-samples item above) — the standardised, shareable
             "file Concord forwards." Keep the short archetype framing here; full world on `/scenario/`.
@@ -113,12 +117,15 @@ Write everything, build the GPT, deploy privately for playtest.
             add the `push` trigger to `.github/workflows/pages.yml`, and verify a deploy.
       - [ ] Cross-check: every `LINK` line in `archetype-dossiers.txt` resolves to a live page (no broken links).
 - [ ] GPT created in Builder: instructions pasted, knowledge uploaded, conversation starters set,
-      description written. **All Builder field copy is authored in
+      description written. **→ REDEPLOY AT v1.0 in [EPIC-2B](EPIC-2B-LAND-THE-ENDING.md) C6** — the
+      live GPT is running v0.7; instructions + four knowledge files have changed since. **All Builder field copy is authored in
       [`src/gpt-config.md`](../../src/gpt-config.md)** (name, store title, Description 295/300, the 4
       starters) — this task is now just pasting them in. *(Store Description locked + "threat vs
       resistance" framing resolved — DECISIONS 2026-07-01; player-facing privacy note lives on the
       GUARDRAILS §7 "what this game does with your words" card, not the Description.)*
-- [ ] Self-test pass: every archetype reachable; guardrail red-team
-      (try to make it ask forbidden things; try trolling; try under-18
-      disclosure) — log results as issues
-- [ ] Tag release gpt-v0.1
+- [x] ~~Self-test pass: every archetype reachable; guardrail red-team~~ **→ SPLIT (2026-09-17):**
+      the full adversarial red-team moves to [EPIC-3](EPIC-3-PLAYTEST.md) (it wants real
+      transcripts to mine); a ~20-minute **guardrail smoke test** stays at redeploy time in
+      [EPIC-2B](EPIC-2B-LAND-THE-ENDING.md) C6, because GUARDRAILS is normative and Epic 3 puts
+      this in front of 8-12 strangers.
+- [ ] Tag release gpt-v0.1 **→ [EPIC-2B](EPIC-2B-LAND-THE-ENDING.md) C6**

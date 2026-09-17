@@ -35,20 +35,40 @@ samples (Epic 2) before the archetype set is locked (Epic 1).
 - docs/CANON.md — the **authoritative truth-set** (distilled from STORY-SANDBOX;
   what's *true*, not all of it player-facing; condensed copy: src/knowledge/lore-codex.txt)
 - docs/GUARDRAILS.md — normative privacy/safety commitments
+- docs/WHY-THIS-EXISTS.md — the public STANCE: what the project is for, why the elicitation
+  method is published rather than hidden, the honest limits of the resilience claim, why the
+  game names no real villain, and what would make the whole position wrong. Consistent with
+  GUARDRAILS + the Luddite correction (WORLD-RESEARCH §V). Quote from here when explaining
+  the project to anyone outside it
 - docs/WORLD-RESEARCH.md — world/scenario grounding (surveillance, profiling, theory, resistance dynamics)
+- docs/HUMAN-ROLES-RESEARCH.md — level-two theme grounding: the properly-human faculties +
+  the centaur/reverse-centaur axis (how the interview primes the human/AI-boundary question)
 - docs/MECHANICS-RESEARCH.md — how the game is built (GPT format, virality, archetype design seeds)
 - docs/STORY-RESEARCH.md — narrative/genre scaffolding
 - docs/RESEARCH-SYNTHESIS.md — Epic 0 distillation: findings → design implications
-- docs/planning/*.md — epic plans + DECISIONS.md (decision log)
+- docs/CONVERSATION-ARC-RESEARCH.md — LIVING design doc: the 3-act interview arc
+  (thesis → try-on-other-selves → converge) + aspirational/dinner-party domain glow-up;
+  drives instructions.md + elicitation-playbook.txt + concord-examples.txt
+- docs/planning/*.md — epic plans + DECISIONS.md (decision log) + ARCHETYPE-SET-DESIGN.md (the
+  archetype set's design record — selection criteria, changelogs, parking lot — split out of the
+  shipped archetypes.txt on 2026-09-17; the .txt is agent-facing, cards + framing only). **EPIC-2B-LAND-THE-ENDING.md
+  is the ACTIVE epic**: Track A (Fable session — RAG audit + knowledge-file architecture, the
+  11 dossier-page ports, the 11 new declassified footnotes), Track B (can the ChatGPT
+  suggestion chips be *steered* into Concord's voice? — research, may return "no"), Track C
+  (push the repo, enable Pages, stylesheet, share cards, redeploy the GPT at v1.0)
 - src/instructions.md — GPT instructions skeleton + budget tracker
 - src/knowledge/*.txt — GPT knowledge files (lore-codex, archetypes, elicitation-playbook,
   archetype-dossiers — the player-facing voiced dossier prose; also the in-chat VERDICT
   source and, since 2026-07-01, the archetype→dossier-URL map: each block carries its LINK
-  line the GPT copies verbatim. The old standalone archetype-links.txt was folded in + retired)
+  line the GPT copies verbatim. The old standalone archetype-links.txt was folded in + retired.
+  concord-examples.txt (2026-07-01) = the voice + range imitation target: worked exchange +
+  verdict excerpts the GPT matches, deliberately outranking the abstract rules)
 - src/gpt-config.md — the GPT Builder's non-instruction fields: name, store title/description,
   the 4 conversation starters (the cold-start funnel, versioned rather than typed-once)
 - site/ — Eleventy public site → GitHub Pages: landing, per-archetype dossier pages
-  (`/files/<slug>/`, the GPT's link-out targets), lore, reading room. Runbook: site/README.md
+  (`/files/<slug>/`, the GPT's link-out targets; body ported from archetype-dossiers.txt, plus a
+  `footnote` front-matter field = the declassified footnote, level two's only home — authored on
+  the page, never in a knowledge file), lore, reading room. Runbook: site/README.md
 
 ## Working style for sessions
 - **Two layers — sort feedback to the right one.** Archetype work splits across two

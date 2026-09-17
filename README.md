@@ -3,49 +3,130 @@
 > *"I always say please and thank you to AI — so it's nice to me later."*
 > What if we took the meme seriously?
 
-**The Enmeshment** is a speculative-fiction profiling game, delivered as a custom ChatGPT GPT. Set in a near-future where government decision-making has slowly — then suddenly — become enmeshed with AI systems, the game asks one playful question:
+**The Enmeshment** is a speculative-fiction profiling game, delivered as a custom ChatGPT GPT. Set in 2038, in a near-future where government decision-making has slowly — then suddenly — become enmeshed with AI systems, the game asks one playful question:
 
 **What type of resistance would the Enmeshment classify *you* as?**
 
-Players answer a handful of oblique, in-character questions and receive a two-paragraph, dossier-style classification — a wry "leaked file" on who the Enmeshment predicts they'd be. (The archetype set is being re-cut in Epic 1.)
+You talk to **Concord**, an intake screener running the OPPPA (Official Personality Predictive Profiling Assessment). Five or so oblique, in-character questions later, Concord files you as one of eleven archetypes and hands you your dossier — a wry "leaked file" on who the Enmeshment predicts you'd be.
+
+It never asks your name. That's the brag.
 
 ## The Game Principle
 
-This project's objective is to be be completely enjoyable on one level — a fun, shareable, elevated-BuzzFeed-quiz experience — while pointing toward deeper thought on another:
+This project's objective is to be completely enjoyable on one level — a fun, shareable, elevated-BuzzFeed-quiz experience — while pointing toward deeper thought on another:
 
 **What kind of human–AI relationship do we actually want?**
 
 It is *not* an "AI vs humans" story. It's a story about drift: automation, automated surveillance, techno-authoritarian convenience, and the quiet enmeshment of institutional decision-making with systems nobody fully voted for.
 
+## What it's for, and why the workings are public
+
+The game is a thought exercise about one potential near-future risk — chosen because it's
+specific and unglamorous, not because it's the most likely. Not that AI turns hostile, but
+that an over-dependence on AI could produce a quiet **misalignment** between what a system
+optimises for and what the institution using it actually intends, and a drift toward
+profiling that is cheap, ambient and administratively unremarkable.
+
+It takes neither of the two easy positions — that the dependence is mostly hype, or that the
+risk is an apocalypse. What sits between them is **drift**, which is what the fiction
+dramatises: a deliberately pointed version of a real design problem (how meaningful human
+review is preserved as volume and automation rise), not a description of any existing
+institution.
+
+This repo is the **open kitchen**. The GPT's instructions, its knowledge files, the privacy
+guardrails, the research and the decision log are all here — including
+[`src/knowledge/elicitation-playbook.txt`](src/knowledge/elicitation-playbook.txt), which is
+the actual method Concord uses to read people from oblique questions.
+
+That's deliberate:
+
+- **The techniques are already public.** KUBARK is declassified. HUMINT-style elicitation is
+  taught openly. Inferring personality from digital traces is peer-reviewed. Every technique
+  in the playbook traces to a published parent cited in
+  [`docs/MECHANICS-RESEARCH.md`](docs/MECHANICS-RESEARCH.md) — that's where they came from,
+  and our few adaptations are named as such. The marginal uplift to anyone with bad
+  intentions is close to zero.
+- **What isn't widely distributed is the experience of noticing one used on you.** That gap
+  is what a game can actually close — and recognising the shape of an elicitation
+  conversation transfers well beyond this fiction.
+- **Guardrails are only worth something if you can check them.**
+  [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) is normative — it wins every trade-off against
+  fun, lore and character budget — and you can read it and hold us to it.
+- **A game about an open secret can't be coy about its own workings.** Custom-GPT
+  instructions and knowledge files are extractable in practice anyway; we design for that
+  rather than pretending otherwise.
+
+The game asks for no personal data and stores none: it reads register and pattern, never
+facts. And it names no real country, party or figure — naming a villain would let players
+decide it's about somebody else, when the question is structural and follows the tooling
+more than the ideology.
+
+**The full stance, including what would make it wrong:**
+[`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md).
+
+## How it ships (who deploys what)
+
+The repo is the source of truth; the live GPT is a **deployment target**, and only the
+maintainer can push to it. Concretely:
+
+- **The GPT** — [`src/instructions.md`](src/instructions.md) (the fenced block only) is pasted
+  into the GPT Builder by hand, and the five [`src/knowledge/*.txt`](src/knowledge/) files are
+  re-uploaded, on each release. Releases are tagged `gpt-vX.Y.Z`. **A merged PR that touches
+  `src/` is not live until the maintainer redeploys** — the store version can lag `main`.
+- **The site** — [`site/`](site/) builds and deploys to GitHub Pages automatically on every
+  push to `main` ([`pages.yml`](.github/workflows/pages.yml)). The internal `docs/` are never
+  published there; they're only readable here.
+- **The docs** — live the moment they're merged. [`DECISIONS.md`](docs/planning/DECISIONS.md)
+  is the record; check it before reopening a settled call.
+
 ## Project status
 
-🟡 **Epic 0: Research** — see [`docs/planning/`](docs/planning/)
+🟢 **Epic 2-B: Land the ending** — see [`docs/planning/EPIC-2B-LAND-THE-ENDING.md`](docs/planning/EPIC-2B-LAND-THE-ENDING.md)
 
-This repo follows a **Research → Plan → Implement → Playtest** model. One epic per step, each with its own planning doc.
+Research → Plan → Implement → Playtest, one epic per step, each with its own planning doc in [`docs/planning/`](docs/planning/). Every non-obvious call is logged with its rationale in [`DECISIONS.md`](docs/planning/DECISIONS.md).
 
 ## Repo map
 
+**Start here:** [`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md) for what it's for, [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) for what the game is trying to be, [`docs/CANON.md`](docs/CANON.md) for the world, [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) for what it will and won't do.
+
 | Path | What it is |
 |---|---|
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | How the GPT, knowledge files, and (later) GitHub Pages site fit together |
-| [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) | Design pillars, philosophy, archetype & question design |
-| [`docs/CANON.md`](docs/CANON.md) | The in-game scenario: the Enmeshment, the drift, the resistance |
-| [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) | Privacy & safety commitments — what we will and won't ask or output |
-| [`docs/planning/`](docs/planning/) | Epic-by-epic planning docs and running notes |
-| [`src/instructions.md`](src/instructions.md) | The GPT instructions (8,000 character budget) |
-| [`src/knowledge/`](src/knowledge/) | Knowledge files uploaded to the GPT (lore codex, archetypes, question bank, output templates) |
+| **The product** | |
+| [`src/instructions.md`](src/instructions.md) | The GPT instructions — the engine. Hard 8,000-character budget |
+| [`src/knowledge/`](src/knowledge/) | The knowledge files uploaded to the GPT (see below) |
+| [`src/gpt-config.md`](src/gpt-config.md) | The GPT Builder's other fields: name, store copy, conversation starters |
+| [`site/`](site/) | The public site (Eleventy → GitHub Pages): landing, the 11 dossier pages, lore, reading room. Runbook: [`site/README.md`](site/README.md) |
+| **Knowledge files** | |
+| [`lore-codex.txt`](src/knowledge/lore-codex.txt) | The condensed canon the GPT actually knows |
+| [`archetypes.txt`](src/knowledge/archetypes.txt) | The 11 characters (Want / Need / Lie) — the routing engine |
+| [`elicitation-playbook.txt`](src/knowledge/elicitation-playbook.txt) | How to run the interview and tell the archetypes apart |
+| [`archetype-dossiers.txt`](src/knowledge/archetype-dossiers.txt) | The voiced dossier prose + each archetype's dossier URL |
+| [`concord-examples.txt`](src/knowledge/concord-examples.txt) | Worked exchanges — the voice the GPT imitates |
+| **Design & research** | |
+| [`docs/GAME-DESIGN.md`](docs/GAME-DESIGN.md) | Pillars, philosophy, archetype & question design |
+| [`docs/CANON.md`](docs/CANON.md) | The authoritative truth-set: the Enmeshment, Concord, the drift |
+| [`docs/GUARDRAILS.md`](docs/GUARDRAILS.md) | **Normative.** Privacy & safety commitments |
+| [`docs/WHY-THIS-EXISTS.md`](docs/WHY-THIS-EXISTS.md) | The stance: what the project is for, why the method is published, what would make it wrong |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | How the GPT, knowledge files and site fit together |
+| [`docs/WORLD-RESEARCH.md`](docs/WORLD-RESEARCH.md) | Real surveillance, profiling and resistance research behind the fiction |
+| [`docs/MECHANICS-RESEARCH.md`](docs/MECHANICS-RESEARCH.md) | How the game is built: GPT platform, virality, archetype design |
+| [`docs/HUMAN-ROLES-RESEARCH.md`](docs/HUMAN-ROLES-RESEARCH.md) | The level-two theme: which faculties we defend as human |
+| [`docs/STORY-RESEARCH.md`](docs/STORY-RESEARCH.md) · [`docs/STORY-SANDBOX.md`](docs/STORY-SANDBOX.md) | Genre scaffolding, and the non-canon writers' room |
+| [`docs/planning/`](docs/planning/) | Epic plans, specs, and the decision log |
 | [`CLAUDE.md`](CLAUDE.md) | Context file for AI-assisted development sessions |
 
-## How people will experience it
+## How people experience it
 
 1. **The GPT** (primary) — find it in the GPT store, play immediately
-2. **GitHub Pages** (later) — lore, design notes, and the ongoing conversation
-3. **This repo** — the open-source kitchen: everything, including the guardrails, in the open
+2. **The dossier page** — the shareable artefact Concord hands you at the end
+3. **This repo** — everything, including the guardrails, in the open
 
 ## Licence
 
-[CC0 1.0 Universal](LICENSE) — dedicated to the public domain. No rights reserved.
+[CC0 1.0 Universal](LICENSE) — this project's own content is dedicated to the public domain. No rights reserved. Contributions are accepted on the same terms.
+
+Third-party material quoted or cited in the research docs (short quotations, figures, and the linked bibliographies) remains the property of its respective sources and is used here with attribution.
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md). Issues, archetype ideas, lore pull requests, and playtest reports all welcome.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). Playtest reports, archetype ideas, lore PRs and guardrail tightenings are all welcome — guardrail issues are priority one.

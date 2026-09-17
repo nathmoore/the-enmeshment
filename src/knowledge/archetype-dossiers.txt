@@ -17,7 +17,10 @@ co-location: whatever the GPT retrieves to voice the verdict also carries the li
   with-an-edge; cold-legible; the system never fools anyone, it's an open secret; lore as seasoning).
 - Copied into the TWO deployment homes — keep them in sync with this file:
     1. the in-chat verdict  (voiced per instructions.md OUTPUT FORMAT)
-    2. the hosted dossier pages  (site/files/<slug>.md)
+    2. the hosted dossier pages  (site/files/<slug>.md — ported 2026-09-17; re-port after
+       any edit here). The page ALSO carries a declassified footnote (the reflective
+       human–AI question) authored in the page's front matter only — it is level two, below
+       the fiction, and deliberately NOT here or in any other knowledge file: never recite it.
 - Per archetype: P1 = the personality read (true, flattering, works stone-cold). ASSESSMENT =
   the trajectory verdict — what they'd bring to a (hypothetical, not-yet-existing) resistance,
   plus ONE sting; teases the lore + the predict-your-trajectory conceit. FIELD NOTES = the
@@ -26,7 +29,7 @@ co-location: whatever the GPT retrieves to voice the verdict also carries the li
 - LINK lines: authored against the GitHub project-page base (CONTENT-ARCHITECTURE.md §4). When
   enmeshed.xyz goes live, re-author the 11 LINK lines here (single find/replace on the base) —
   nothing else references the base directly. Renaming a site/files/*.md breaks its LINK.
-- Routing — how to TELL the archetypes apart — is NOT here. That's ELICITATION-SPEC §8.
+- Routing — how to TELL the archetypes apart — is NOT here. That's elicitation-playbook.txt §6–§7.
 
 ================================================================
 

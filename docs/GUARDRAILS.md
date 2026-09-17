@@ -75,7 +75,7 @@ both homes (the voiced in-chat verdict and the hosted dossier page). It is norma
 all 11 archetypes, and must never be paraphrased away or cut for space:
 
 > *"This is a work of speculative fiction and a game. It is not a real psychological, behavioural,
-> or predictive assessment — the Directorate, its classifications, and your 'file' are invented.
+> or predictive assessment — the Enmeshment, its classifications, and your 'file' are invented.
 > The whole game is open to inspect on GitHub."*
 
 The disclaimer does not ride the share-card; it lives on the dossier page the card links to.
@@ -120,7 +120,7 @@ real profile of *anyone* to age-restrict. Consistent with the never-ask principl
 directed at children.
 
 A player who simply **declines** the interview is handled as ordinary courtesy, not a guardrail:
-the agent chats warmly about the world instead (the Directorate, the game's real questions) and
+the agent chats warmly about the world instead (the Enmeshment, the game's real questions) and
 never pushes. That behaviour lives in the instructions' edge-cases, not here.
 
 ## 7. Enforcement & change control
